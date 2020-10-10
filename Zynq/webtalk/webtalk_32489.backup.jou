@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Thu Jun 18 10:39:08 2020
+# Process ID: 32489
+# Current directory: /work/xilinx/sd_workspace/zynq7015_20200416_sd/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /work/xilinx/sd_workspace/zynq7015_20200416_sd/webtalk/webtalk.log
+# Journal file: /work/xilinx/sd_workspace/zynq7015_20200416_sd/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

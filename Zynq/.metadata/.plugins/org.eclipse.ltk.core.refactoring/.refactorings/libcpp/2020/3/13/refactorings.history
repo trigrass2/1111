@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;libcpp/src/cpp_port.c&apos; to &apos;cpp_port.cc&apos;" description="Rename resource &apos;cpp_port.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cpp_port.c" name="cpp_port.cc" stamp="1585118726642" updateReferences="true"/>
+</session>

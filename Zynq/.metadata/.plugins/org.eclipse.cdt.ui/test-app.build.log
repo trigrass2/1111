@@ -1,0 +1,47 @@
+10:30:25 **** Incremental Build of configuration Debug for project test-app ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘temperature_and_humidity_test’:
+../src/helloworld.c:274:21: warning: unknown escape sequence: '\:'
+  p_humidity = fopen("/sys/bus/iio/devices/iio\:device1/in_humidityrelative_input","r");
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:285:24: warning: unknown escape sequence: '\:'
+  p_temperature = fopen("/sys/bus/iio/devices/iio\:device1/in_temp_input","r");
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c: In function ‘i2c_write’:
+../src/helloworld.c:336:15: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  i2cmsg.buf   = _buf;
+               ^
+../src/helloworld.c: In function ‘ttyUl_test’:
+../src/helloworld.c:463:9: warning: unused variable ‘i’ [-Wunused-variable]
+     int i;
+         ^
+../src/helloworld.c: In function ‘SPITrans_BAddr’:
+../src/helloworld.c:676:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = 0;
+      ^
+At top level:
+../src/helloworld.c:730:12: warning: ‘ad7913Write’ defined but not used [-Wunused-function]
+ static int ad7913Write(int SPIx, BYTE phy_no, BYTE addr, BYTE value)
+            ^~~~~~~~~~~
+../src/helloworld.c:606:13: warning: ‘delay’ defined but not used [-Wunused-variable]
+ static WORD delay;
+             ^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: test-app.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "test-app.elf"  ./src/helloworld.o   
+Finished building target: test-app.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size test-app.elf  |tee "test-app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8518	    536	     12	   9066	   236a	test-app.elf
+Finished building: test-app.elf.size
+ 
+
+10:30:25 Build Finished (took 821ms)
+

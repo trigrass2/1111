@@ -1,0 +1,69 @@
+12:40:21 **** Auto Build of configuration Debug for project zynqBM_bsp_xuartns550_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xuartns550_intr_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartns550_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../zynqBM_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/xuartns550_intr_example.d" -MT"src/xuartns550_intr_example.o" -o "src/xuartns550_intr_example.o" "../src/xuartns550_intr_example.c"
+In file included from ../src/xuartns550_intr_example.c:74:0:
+../../zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/xuartns550_intr_example.c: In function 'UartNs550IntrExample':
+../src/xuartns550_intr_example.c:313:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("recv msg len %d \r\n", TotalReceivedCount);
+    ^~~~~~
+../src/xuartns550_intr_example.c:313:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/xuartns550_intr_example.c:313:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/xuartns550_intr_example.c:320:18: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("t1 %08x t2 %08x t3 %08x t4 %08x \r\n",t1,t2,t3,t4);
+               ~~~^
+               %08lx
+../src/xuartns550_intr_example.c:320:26: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("t1 %08x t2 %08x t3 %08x t4 %08x \r\n",t1,t2,t3,t4);
+                       ~~~^
+                       %08lx
+../src/xuartns550_intr_example.c:320:34: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("t1 %08x t2 %08x t3 %08x t4 %08x \r\n",t1,t2,t3,t4);
+                               ~~~^
+                               %08lx
+../src/xuartns550_intr_example.c:320:42: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("t1 %08x t2 %08x t3 %08x t4 %08x \r\n",t1,t2,t3,t4);
+                                       ~~~^
+                                       %08lx
+../src/xuartns550_intr_example.c:321:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("1 %08x 2 %08x 3 %08x  \r\n",t2 - t1,t3 - t1,t4 -t1);
+              ~~~^                      ~~~~~~~
+              %08lx
+../src/xuartns550_intr_example.c:321:24: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("1 %08x 2 %08x 3 %08x  \r\n",t2 - t1,t3 - t1,t4 -t1);
+                     ~~~^                       ~~~~~~~
+                     %08lx
+../src/xuartns550_intr_example.c:321:31: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("1 %08x 2 %08x 3 %08x  \r\n",t2 - t1,t3 - t1,t4 -t1);
+                            ~~~^                        ~~~~~~
+                            %08lx
+../src/xuartns550_intr_example.c:325:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+    strsep
+../src/xuartns550_intr_example.c: In function 'UartNs550IntrHandler':
+../src/xuartns550_intr_example.c:394:5: warning: variable 'Errors' set but not used [-Wunused-but-set-variable]
+  u8 Errors;
+     ^~~~~~
+Finished building: ../src/xuartns550_intr_example.c
+ 
+Building target: zynqBM_bsp_xuartns550_intr_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../zynqBM_bsp/ps7_cortexa9_1/lib -o "zynqBM_bsp_xuartns550_intr_example_1.elf"  ./src/xuartns550_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynqBM_bsp_xuartns550_intr_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size zynqBM_bsp_xuartns550_intr_example_1.elf  |tee "zynqBM_bsp_xuartns550_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  91904	   3676	  23472	 119052	  1d10c	zynqBM_bsp_xuartns550_intr_example_1.elf
+Finished building: zynqBM_bsp_xuartns550_intr_example_1.elf.size
+ 
+
+12:40:21 Build Finished (took 785ms)
+

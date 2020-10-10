@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\xilinx\Zynq\fsbl\Debug\fsbl.elf
+	E:\xilinx\Zynq\fpgabit\TOP_ENTRY.bit
+	E:\xilinx\Zynq\fpgabit\u-boot.elf
+}

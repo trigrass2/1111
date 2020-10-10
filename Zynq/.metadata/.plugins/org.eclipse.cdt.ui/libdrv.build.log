@@ -1,0 +1,82 @@
+12:50:35 **** Incremental Build of configuration Debug for project libdrv ****
+make all 
+Building file: ../src/c_drv/hd_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_driver.d" -MT"src/c_drv/hd_driver.o" -o "src/c_drv/hd_driver.o" "../src/c_drv/hd_driver.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from ../src/c_drv/hd_driver.c:10:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_driver.c
+ 
+Building file: ../src/c_drv/hd_fpga.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_fpga.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_fpga.d" -MT"src/c_drv/hd_fpga.o" -o "src/c_drv/hd_fpga.o" "../src/c_drv/hd_fpga.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from ../src/c_drv/hd_fpga.c:11:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_fpga.c
+ 
+Building file: ../src/c_drv/hd_fpga_deal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_fpga_deal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_fpga_deal.d" -MT"src/c_drv/hd_fpga_deal.o" -o "src/c_drv/hd_fpga_deal.o" "../src/c_drv/hd_fpga_deal.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from ../src/c_drv/hd_fpga_deal.c:10:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_fpga_deal.c
+ 
+Building file: ../src/c_drv/hd_fpga_msg.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_fpga_msg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_fpga_msg.d" -MT"src/c_drv/hd_fpga_msg.o" -o "src/c_drv/hd_fpga_msg.o" "../src/c_drv/hd_fpga_msg.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from ../src/c_drv/hd_fpga_msg.c:10:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_fpga_msg.c
+ 
+Building file: ../src/c_drv/hd_fpga_test.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_fpga_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_fpga_test.d" -MT"src/c_drv/hd_fpga_test.o" -o "src/c_drv/hd_fpga_test.o" "../src/c_drv/hd_fpga_test.c"
+In file included from ../src/c_drv/hd_fpga_test.c:3:0:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_fpga_test.c
+ 
+Building file: ../src/c_drv/hd_isr.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/hd_isr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/hd_isr.d" -MT"src/c_drv/hd_isr.o" -o "src/c_drv/hd_isr.o" "../src/c_drv/hd_isr.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from ../src/c_drv/hd_isr.c:10:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_drv/hd_isr.c
+ 
+Building file: ../src/c_drv/os_memory.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/os_memory.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/os_memory.d" -MT"src/c_drv/os_memory.o" -o "src/c_drv/os_memory.o" "../src/c_drv/os_memory.c"
+Finished building: ../src/c_drv/os_memory.c
+ 
+Building file: ../src/c_drv/os_none.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -c -fmessage-length=0 -MT"src/c_drv/os_none.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/c_drv/os_none.d" -MT"src/c_drv/os_none.o" -o "src/c_drv/os_none.o" "../src/c_drv/os_none.c"
+Finished building: ../src/c_drv/os_none.c
+ 
+Building target: libdrvD.a
+Invoking: ARM v7 archiver
+arm-none-eabi-ar -r  "libdrvD.a"  ./src/c_drv/hd_driver.o ./src/c_drv/hd_fpga.o ./src/c_drv/hd_fpga_deal.o ./src/c_drv/hd_fpga_msg.o ./src/c_drv/hd_fpga_test.o ./src/c_drv/hd_isr.o ./src/c_drv/os_cpu_a.o ./src/c_drv/os_memory.o ./src/c_drv/os_none.o   
+Finished building target: libdrvD.a
+ 
+make --no-print-directory post-build
+cp libdrvD.a ../lib
+ 
+
+12:50:39 Build Finished (took 3s.879ms)
+

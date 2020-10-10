@@ -1,0 +1,6 @@
+1584872363837	Delete resource 'libbm/Debug'
+1585022763941	Delete resource 'libpub/Debug'
+1585022767248	Delete resource 'libpub/Release'
+1585034726652	Delete resource 'libpub/src/public/plt_pub_register.c'
+1585118636335	Delete resource 'libcpp/src/cpp_port.h'
+1585201864464	Delete resource 'libcpp/src/iComm/icomm_protocol.h'

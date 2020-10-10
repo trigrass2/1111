@@ -1,0 +1,31 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/product/mmi/mmi.c \
+../src/source/src/product/mmi/mmi_drv.c 
+
+O_SRCS += \
+../src/source/src/product/mmi/mmi.o \
+../src/source/src/product/mmi/mmi_drv.o 
+
+OBJS += \
+./src/source/src/product/mmi/mmi.o \
+./src/source/src/product/mmi/mmi_drv.o 
+
+C_DEPS += \
+./src/source/src/product/mmi/mmi.d \
+./src/source/src/product/mmi/mmi_drv.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/product/mmi/%.o: ../src/source/src/product/mmi/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

@@ -1,0 +1,42 @@
+10:00:13 **** Build of configuration Debug for project 16550_irq ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16550_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xuartns550_intr_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartns550_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16550_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartns550_intr_example.d" -MT"src/xuartns550_intr_example.o" -o "src/xuartns550_intr_example.o" "../src/xuartns550_intr_example.c"
+../src/xuartns550_intr_example.c: In function 'main':
+../src/xuartns550_intr_example.c:166:2: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+  init_platform();
+  ^~~~~~~~~~~~~
+../src/xuartns550_intr_example.c: In function 'UartNs550IntrExample':
+../src/xuartns550_intr_example.c:304:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("recv msg len %d \r\n", TotalReceivedCount);
+    ^~~~~~
+../src/xuartns550_intr_example.c:304:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/xuartns550_intr_example.c:304:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/xuartns550_intr_example.c: In function 'UartNs550IntrHandler':
+../src/xuartns550_intr_example.c:381:5: warning: variable 'Errors' set but not used [-Wunused-but-set-variable]
+  u8 Errors;
+     ^~~~~~
+Finished building: ../src/xuartns550_intr_example.c
+ 
+Building target: 16550_irq.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16550_test_bsp/ps7_cortexa9_0/lib -o "16550_irq.elf"  ./src/platform.o ./src/xuartns550_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: 16550_irq.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size 16550_irq.elf  |tee "16550_irq.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81224	   3584	  23680	 108488	  1a7c8	16550_irq.elf
+Finished building: 16550_irq.elf.size
+ 
+
+10:00:14 Build Finished (took 980ms)
+

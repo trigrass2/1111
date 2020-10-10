@@ -1,0 +1,71 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+LD_SRCS := 
+C_UPPER_SRCS := 
+CXX_SRCS := 
+OBJ_SRCS := 
+S_SRCS := 
+CC_SRCS := 
+C_SRCS := 
+CPP_SRCS := 
+S_UPPER_SRCS := 
+O_SRCS := 
+CC_DEPS := 
+EXECUTABLES := 
+OBJS := 
+C_UPPER_DEPS := 
+CXX_DEPS := 
+S_UPPER_DEPS := 
+C_DEPS := 
+CPP_DEPS := 
+ELFSIZE := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+src/source/src/bmlinux \
+src/source/src \
+src/source/src/product/mmi/extmmi \
+src/source/src/product/mmi \
+src/source/src/product/pb \
+src/source/src/product/protect \
+src/source/src/protocol/commtest \
+src/source/src/protocol/gb104 \
+src/source/src/protocol/maint \
+src/source/src/protocol/public/ecc \
+src/source/src/protocol/public \
+src/source/src/protocols/Irigb \
+src/source/src/protocols/NR103 \
+src/source/src/protocols/cdt \
+src/source/src/protocols/cy103 \
+src/source/src/protocols/dlq \
+src/source/src/protocols/extdisp \
+src/source/src/protocols/gb101 \
+src/source/src/protocols/gb103 \
+src/source/src/protocols/gb104sh \
+src/source/src/protocols/gps \
+src/source/src/protocols/gz \
+src/source/src/protocols/ipacs103 \
+src/source/src/protocols/mdcp \
+src/source/src/protocols/modbusm \
+src/source/src/protocols/modbusmNet \
+src/source/src/protocols/pn103m \
+src/source/src/protocols/sac103 \
+src/source/src/protocols/sf103netm \
+src/source/src/protocols/sntp \
+src/source/src/protocols/xj103 \
+src/source/src/system/bsp \
+src/source/src/system/comm \
+src/source/src/system/comm/lan \
+src/source/src/system/comm/serial \
+src/source/src/system/comm/serial/uart \
+src/source/src/system/common \
+src/source/src/system/myio \
+src/source/src/system/myio/yc \
+src/source/src/system/myio/yc/drv \
+src/source/src/system/myio/yk \
+src/source/src/system/myio/yx \
+src/source/src/system/os \
+src \
+

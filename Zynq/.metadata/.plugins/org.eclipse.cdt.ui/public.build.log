@@ -1,0 +1,101 @@
+15:47:07 **** Build of configuration Debug for project public ****
+make all 
+'Building file: ../src/public/base64.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/base64.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/base64.d" -MT"src/public/base64.o" -o "src/public/base64.o" "../src/public/base64.c"
+'Finished building: ../src/public/base64.c'
+' '
+'Building file: ../src/public/plt_Func.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_Func.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_Func.d" -MT"src/public/plt_Func.o" -o "src/public/plt_Func.o" "../src/public/plt_Func.c"
+'Finished building: ../src/public/plt_Func.c'
+' '
+'Building file: ../src/public/plt_Func_Crc32.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_Func_Crc32.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_Func_Crc32.d" -MT"src/public/plt_Func_Crc32.o" -o "src/public/plt_Func_Crc32.o" "../src/public/plt_Func_Crc32.c"
+'Finished building: ../src/public/plt_Func_Crc32.c'
+' '
+'Building file: ../src/public/plt_Time.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_Time.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_Time.d" -MT"src/public/plt_Time.o" -o "src/public/plt_Time.o" "../src/public/plt_Time.c"
+'Finished building: ../src/public/plt_Time.c'
+' '
+'Building file: ../src/public/plt_calc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_calc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_calc.d" -MT"src/public/plt_calc.o" -o "src/public/plt_calc.o" "../src/public/plt_calc.c"
+'Finished building: ../src/public/plt_calc.c'
+' '
+'Building file: ../src/public/plt_command.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_command.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_command.d" -MT"src/public/plt_command.o" -o "src/public/plt_command.o" "../src/public/plt_command.c"
+'Finished building: ../src/public/plt_command.c'
+' '
+'Building file: ../src/public/plt_command_exec.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_command_exec.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_command_exec.d" -MT"src/public/plt_command_exec.o" -o "src/public/plt_command_exec.o" "../src/public/plt_command_exec.c"
+'Finished building: ../src/public/plt_command_exec.c'
+' '
+'Building file: ../src/public/plt_func_register.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_func_register.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_func_register.d" -MT"src/public/plt_func_register.o" -o "src/public/plt_func_register.o" "../src/public/plt_func_register.c"
+'Finished building: ../src/public/plt_func_register.c'
+' '
+'Building file: ../src/public/plt_inner_data.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_inner_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_inner_data.d" -MT"src/public/plt_inner_data.o" -o "src/public/plt_inner_data.o" "../src/public/plt_inner_data.c"
+'Finished building: ../src/public/plt_inner_data.c'
+' '
+'Building file: ../src/public/plt_list.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_list.d" -MT"src/public/plt_list.o" -o "src/public/plt_list.o" "../src/public/plt_list.c"
+'Finished building: ../src/public/plt_list.c'
+' '
+'Building file: ../src/public/plt_pointtype.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_pointtype.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_pointtype.d" -MT"src/public/plt_pointtype.o" -o "src/public/plt_pointtype.o" "../src/public/plt_pointtype.c"
+'Finished building: ../src/public/plt_pointtype.c'
+' '
+'Building file: ../src/public/plt_setting.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_setting.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_setting.d" -MT"src/public/plt_setting.o" -o "src/public/plt_setting.o" "../src/public/plt_setting.c"
+'Finished building: ../src/public/plt_setting.c'
+' '
+'Building file: ../src/public/plt_shared_memory.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_shared_memory.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_shared_memory.d" -MT"src/public/plt_shared_memory.o" -o "src/public/plt_shared_memory.o" "../src/public/plt_shared_memory.c"
+'Finished building: ../src/public/plt_shared_memory.c'
+' '
+'Building file: ../src/public/plt_shell.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_shell.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_shell.d" -MT"src/public/plt_shell.o" -o "src/public/plt_shell.o" "../src/public/plt_shell.c"
+'Finished building: ../src/public/plt_shell.c'
+' '
+'Building file: ../src/public/plt_string_res.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_string_res.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_string_res.d" -MT"src/public/plt_string_res.o" -o "src/public/plt_string_res.o" "../src/public/plt_string_res.c"
+'Finished building: ../src/public/plt_string_res.c'
+' '
+'Building file: ../src/public/plt_trace.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_trace.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_trace.d" -MT"src/public/plt_trace.o" -o "src/public/plt_trace.o" "../src/public/plt_trace.c"
+'Finished building: ../src/public/plt_trace.c'
+' '
+'Building file: ../src/public/plt_var_register.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_var_register.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_var_register.d" -MT"src/public/plt_var_register.o" -o "src/public/plt_var_register.o" "../src/public/plt_var_register.c"
+'Finished building: ../src/public/plt_var_register.c'
+' '
+'Building file: ../src/public/plt_viewstring.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\public\src\h_config" -I"D:\Temp\zynq7015\public\src\h_Export" -I"D:\Temp\zynq7015\public\src\h_public" -c -fmessage-length=0 -MT"src/public/plt_viewstring.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/public/plt_viewstring.d" -MT"src/public/plt_viewstring.o" -o "src/public/plt_viewstring.o" "../src/public/plt_viewstring.c"
+'Finished building: ../src/public/plt_viewstring.c'
+' '
+'Building target: libpublic.a'
+'Invoking: ARM v7 archiver'
+arm-none-eabi-ar -r  "libpublic.a"  ./src/public/base64.o ./src/public/plt_Func.o ./src/public/plt_Func_Crc32.o ./src/public/plt_Time.o ./src/public/plt_calc.o ./src/public/plt_command.o ./src/public/plt_command_exec.o ./src/public/plt_func_register.o ./src/public/plt_inner_data.o ./src/public/plt_list.o ./src/public/plt_pointtype.o ./src/public/plt_setting.o ./src/public/plt_shared_memory.o ./src/public/plt_shell.o ./src/public/plt_string_res.o ./src/public/plt_trace.o ./src/public/plt_var_register.o ./src/public/plt_viewstring.o   
+arm-none-eabi-ar: creating libpublic.a
+'Finished building target: libpublic.a'
+' '
+
+15:47:15 Build Finished (took 7s.799ms)
+

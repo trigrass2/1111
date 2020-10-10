@@ -1,0 +1,21 @@
+18:13:47 **** Build of configuration Debug for project bmrun ****
+make all 
+Building file: ../src/bmrun.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bmrun.o" -MMD -MP -MF"src/bmrun.d" -MT"src/bmrun.o" -o "src/bmrun.o" "../src/bmrun.c"
+Finished building: ../src/bmrun.c
+ 
+Building target: bmrun.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "bmrun.elf"  ./src/bmrun.o   
+Finished building target: bmrun.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size bmrun.elf  |tee "bmrun.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4479	    348	      8	   4835	   12e3	bmrun.elf
+Finished building: bmrun.elf.size
+ 
+
+18:14:04 Build Finished (took 17s.227ms)
+

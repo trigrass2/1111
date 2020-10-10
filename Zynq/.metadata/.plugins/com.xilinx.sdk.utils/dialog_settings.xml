@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="E:\xilinx\Zynq\fpgabit" key="bootgen_files_selection"/>
+	<item value="/work/xilinx/sd_workspace/zynq7015_20200416_sd" key="com.xilinx.sdk.hw.ui.hwspec.last"/>
+	<item value="E:\xilinx\Zynq\zynqBM_bsp_xuartns550_intr_example_1\Debug" key="tcf_debug_app_selection"/>
+	<item value="E:\xilinx\Zynq\fpgabit" key="program_fpga_view_bit_bmm_browse_key"/>
+	<item value="E:\xilinx\Zynq原来备份\TOP_ENTRY_hw_platform" key="debug_files_selection"/>
+	<item value="E:\xilinx\Zynq\fpgabit" key="last_stored_selection"/>
+</section>

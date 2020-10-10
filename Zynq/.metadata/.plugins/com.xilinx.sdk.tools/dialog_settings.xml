@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="sd_hw_platform" key="programflash.hwplatform"/>
+	<item value="" key="sd_hw_platform-imgFile"/>
+	<item value="false" key="sd_hw_platform-blankCheck"/>
+	<item value="Auto Detect" key="sd_hw_platform-device"/>
+	<item value="Local" key="sd_hw_platform-target"/>
+	<item value="" key="sd_hw_platform-fsblFile"/>
+	<item value="false" key="sd_hw_platform-verifyFlash"/>
+	<item value="qspi-x4-single" key="sd_hw_platform-flashType"/>
+	<item value="" key="sd_hw_platform-offSet"/>
+</section>

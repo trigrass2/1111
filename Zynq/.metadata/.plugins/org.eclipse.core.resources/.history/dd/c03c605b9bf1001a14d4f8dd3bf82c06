@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/system/myio/yc/drv/ad7913.c \
+../src/source/src/system/myio/yc/drv/ade9078.c \
+../src/source/src/system/myio/yc/drv/att7022e.c 
+
+O_SRCS += \
+../src/source/src/system/myio/yc/drv/ad7913.o 
+
+OBJS += \
+./src/source/src/system/myio/yc/drv/ad7913.o \
+./src/source/src/system/myio/yc/drv/ade9078.o \
+./src/source/src/system/myio/yc/drv/att7022e.o 
+
+C_DEPS += \
+./src/source/src/system/myio/yc/drv/ad7913.d \
+./src/source/src/system/myio/yc/drv/ade9078.d \
+./src/source/src/system/myio/yc/drv/att7022e.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/system/myio/yc/drv/%.o: ../src/source/src/system/myio/yc/drv/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

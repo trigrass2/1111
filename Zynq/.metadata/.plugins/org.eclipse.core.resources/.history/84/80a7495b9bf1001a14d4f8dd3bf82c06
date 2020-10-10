@@ -1,0 +1,51 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/bmlinux/app_bmrun.c \
+../src/source/src/bmlinux/bmrun.c \
+../src/source/src/bmlinux/mu_inner_comm.c \
+../src/source/src/bmlinux/mu_inner_print.c \
+../src/source/src/bmlinux/plt_Time.c \
+../src/source/src/bmlinux/plt_shared_memory.c \
+../src/source/src/bmlinux/plt_trace.c 
+
+O_SRCS += \
+../src/source/src/bmlinux/app_bmrun.o \
+../src/source/src/bmlinux/bmrun.o \
+../src/source/src/bmlinux/mu_inner_comm.o \
+../src/source/src/bmlinux/mu_inner_print.o \
+../src/source/src/bmlinux/plt_Time.o \
+../src/source/src/bmlinux/plt_shared_memory.o \
+../src/source/src/bmlinux/plt_trace.o 
+
+OBJS += \
+./src/source/src/bmlinux/app_bmrun.o \
+./src/source/src/bmlinux/bmrun.o \
+./src/source/src/bmlinux/mu_inner_comm.o \
+./src/source/src/bmlinux/mu_inner_print.o \
+./src/source/src/bmlinux/plt_Time.o \
+./src/source/src/bmlinux/plt_shared_memory.o \
+./src/source/src/bmlinux/plt_trace.o 
+
+C_DEPS += \
+./src/source/src/bmlinux/app_bmrun.d \
+./src/source/src/bmlinux/bmrun.d \
+./src/source/src/bmlinux/mu_inner_comm.d \
+./src/source/src/bmlinux/mu_inner_print.d \
+./src/source/src/bmlinux/plt_Time.d \
+./src/source/src/bmlinux/plt_shared_memory.d \
+./src/source/src/bmlinux/plt_trace.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/bmlinux/%.o: ../src/source/src/bmlinux/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

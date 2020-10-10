@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;libpub/src/public/plt_point_rw.cc&apos; to &apos;plt_point_rw.c&apos;" description="Rename resource &apos;plt_point_rw.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/public/plt_point_rw.cc" name="plt_point_rw.c" stamp="1585022803918" updateReferences="true"/>
+</session>

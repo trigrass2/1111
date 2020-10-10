@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../src/source/src/protocols/dlq/DLQ.cpp 
+
+OBJS += \
+./src/source/src/protocols/dlq/DLQ.o 
+
+CPP_DEPS += \
+./src/source/src/protocols/dlq/DLQ.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/protocols/dlq/%.o: ../src/source/src/protocols/dlq/%.cpp
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

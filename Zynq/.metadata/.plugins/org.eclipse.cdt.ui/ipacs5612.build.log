@@ -1,0 +1,30 @@
+16:26:15 **** Clean-only build of configuration Debug for project ipacs5612 ****
+make clean 
+cd lib/os/static_lib && make clean
+make[1]: Entering directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/os/static_lib'
+rm -f ../../../../source/src/system/os/lib_lst.o ../../../../source/src/system/os/os_linux.o ../../../../source/src/system/os/clock.o ../../../../source/src/system/os/file.o ../../../../source/src/system/os/os.o  
+rm -f liblinux_os.a
+make[1]: Leaving directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/os/static_lib'
+cd lib/os/dynamic_lib && make clean
+make[1]: Entering directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/os/dynamic_lib'
+rm -f ../../../../source/src/system/os/lib_lst.o ../../../../source/src/system/os/os_linux.o ../../../../source/src/system/os/clock.o ../../../../source/src/system/os/file.o ../../../../source/src/system/os/os.o  
+rm -f liblinux_os.so
+make[1]: Leaving directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/os/dynamic_lib'
+cd lib/system/static_lib && make clean
+make[1]: Entering directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/system/static_lib'
+rm -f ../../../../source/src/system/comm/comm.o ../../../../source/src/system/comm/lan/tcp.o ../../../../source/src/system/comm/serial/serial.o ../../../../source/src/system/comm/serial/uart/uart.o ../../../../source/src/system/common/fapi.o ../../../../source/src/system/common/dbapi.o ../../../../source/src/system/common/para.o ../../../../source/src/system/common/dbfun.o ../../../../source/src/system/common/dbhis_ttu.o ../../../../source/src/system/common/dbhis.o ../../../../source/src/system/common/b2f.o ../../../../source/src/system/common/sys.o ../../../../source/src/system/common/dbfrz.o ../../../../source/src/system/bsp/i2c.o ../../../../source/src/system/bsp/nvram.o ../../../../source/src/system/bsp/spi.o ../../../../source/src/system/bsp/bsp.o  ../../../../source/src/system/myio/yx/di.o  ../../../../source/src/system/myio/yc/ai.o  ../../../../source/src/system/myio/yk/do.o 
+rm -f libsystem.a
+make[1]: Leaving directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/system/static_lib'
+cd lib/system/dynamic_lib && make clean
+make[1]: Entering directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/system/dynamic_lib'
+rm -f ../../../../source/src/system/comm/comm.o ../../../../source/src/system/comm/lan/tcp.o ../../../../source/src/system/comm/serial/serial.o ../../../../source/src/system/comm/serial/uart/uart.o ../../../../source/src/system/common/fapi.o ../../../../source/src/system/common/dbapi.o ../../../../source/src/system/common/para.o ../../../../source/src/system/common/dbfun.o ../../../../source/src/system/common/dbhis_ttu.o ../../../../source/src/system/common/dbhis.o ../../../../source/src/system/common/b2f.o ../../../../source/src/system/common/sys.o ../../../../source/src/system/common/dbfrz.o ../../../../source/src/system/bsp/i2c.o ../../../../source/src/system/bsp/nvram.o ../../../../source/src/system/bsp/spi.o ../../../../source/src/system/bsp/bsp.o  ../../../../source/src/system/myio/yx/di.o  ../../../../source/src/system/myio/yc/ai.o  ../../../../source/src/system/myio/yk/do.o 
+rm -f libsystem.so
+make[1]: Leaving directory 'E:/xilinx/Zynq/ipacs5612/src/make/lib/system/dynamic_lib'
+cd exe && make clean
+make[1]: Entering directory 'E:/xilinx/Zynq/ipacs5612/src/make/exe'
+rm -f ../../source/src/system/myio/myio.o ../../source/src/bmlinux/app_bmrun.o ../../source/src/bmlinux/plt_trace.o ../../source/src/bmlinux/plt_Time.o ../../source/src/bmlinux/mu_inner_comm.o ../../source/src/bmlinux/mu_inner_print.o ../../source/src/bmlinux/bmrun.o ../../source/src/bmlinux/plt_shared_memory.o ../../source/src/product/mmi/mmi_drv.o ../../source/src/product/mmi/mmi.o ../../source/src/product/protect/record.o ../../source/src/protocol/maint/maint.o  ../../source/src/protocol/public/pbase.o ../../source/src/protocol/public/pslave.o ../../source/src/protocol/public/pmaster.o ../../source/src/protocol/public/pcol.o ../../source/src/protocol/commtest/CTPri.o ../../source/src/protocol/commtest/CTSec.o  ../../source/src/protocol/gb104/gb104s.o  ../../source/src/system/myio/yx/yx.o  ../../source/src/system/myio/yc/yc.o ../../source/src/system/myio/yc/Extyc.o ../../source/src/system/myio/yc/drv/ad7913.o    ../../source/src/system/myio/yk/yk.o  ../../source/src/product/pb/pb.o  ../../source/src/main.o  ../../source/src/product/mmi/extmmi/extdisp.o ../../source/src/protocols/gb101/gb101m.o	../../source/src/protocols/gb101/gb101s.o	../../source/src/protocol/gb104/gb104m.o	../../source/src/protocols/modbusm/modbusm.o 
+rm -f jc
+make[1]: Leaving directory 'E:/xilinx/Zynq/ipacs5612/src/make/exe'
+
+16:26:17 Build Finished (took 2s.124ms)
+

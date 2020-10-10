@@ -1,0 +1,59 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/system/common/b2f.c \
+../src/source/src/system/common/dbapi.c \
+../src/source/src/system/common/dbfrz.c \
+../src/source/src/system/common/dbfun.c \
+../src/source/src/system/common/dbhis.c \
+../src/source/src/system/common/dbhis_ttu.c \
+../src/source/src/system/common/fapi.c \
+../src/source/src/system/common/para.c \
+../src/source/src/system/common/sys.c 
+
+O_SRCS += \
+../src/source/src/system/common/b2f.o \
+../src/source/src/system/common/dbapi.o \
+../src/source/src/system/common/dbfrz.o \
+../src/source/src/system/common/dbfun.o \
+../src/source/src/system/common/dbhis.o \
+../src/source/src/system/common/dbhis_ttu.o \
+../src/source/src/system/common/fapi.o \
+../src/source/src/system/common/para.o \
+../src/source/src/system/common/sys.o 
+
+OBJS += \
+./src/source/src/system/common/b2f.o \
+./src/source/src/system/common/dbapi.o \
+./src/source/src/system/common/dbfrz.o \
+./src/source/src/system/common/dbfun.o \
+./src/source/src/system/common/dbhis.o \
+./src/source/src/system/common/dbhis_ttu.o \
+./src/source/src/system/common/fapi.o \
+./src/source/src/system/common/para.o \
+./src/source/src/system/common/sys.o 
+
+C_DEPS += \
+./src/source/src/system/common/b2f.d \
+./src/source/src/system/common/dbapi.d \
+./src/source/src/system/common/dbfrz.d \
+./src/source/src/system/common/dbfun.d \
+./src/source/src/system/common/dbhis.d \
+./src/source/src/system/common/dbhis_ttu.d \
+./src/source/src/system/common/fapi.d \
+./src/source/src/system/common/para.d \
+./src/source/src/system/common/sys.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/system/common/%.o: ../src/source/src/system/common/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

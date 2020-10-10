@@ -1,0 +1,31 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/system/myio/yk/do.c \
+../src/source/src/system/myio/yk/yk.c 
+
+O_SRCS += \
+../src/source/src/system/myio/yk/do.o \
+../src/source/src/system/myio/yk/yk.o 
+
+OBJS += \
+./src/source/src/system/myio/yk/do.o \
+./src/source/src/system/myio/yk/yk.o 
+
+C_DEPS += \
+./src/source/src/system/myio/yk/do.d \
+./src/source/src/system/myio/yk/yk.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/system/myio/yk/%.o: ../src/source/src/system/myio/yk/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

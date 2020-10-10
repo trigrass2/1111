@@ -1,0 +1,29 @@
+13:34:51 **** Incremental Build of configuration Debug for project libcpp ****
+make all 
+'Building file: ../src/iComm_bm/icomm_bm_protocol.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_config" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_Export" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_public" -I"D:\SVN\Source\Berametal\zynq7015\libbm\src\h_baremetal" -c -fmessage-length=0 -MT"src/iComm_bm/icomm_bm_protocol.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"D:\SVN\Source\Berametal\zynq7015\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/iComm_bm/icomm_bm_protocol.d" -MT"src/iComm_bm/icomm_bm_protocol.o" -o "src/iComm_bm/icomm_bm_protocol.o" "../src/iComm_bm/icomm_bm_protocol.cc"
+'Finished building: ../src/iComm_bm/icomm_bm_protocol.cc'
+' '
+'Building file: ../src/iComm_bm/icomm_bm_send.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_config" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_Export" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_public" -I"D:\SVN\Source\Berametal\zynq7015\libbm\src\h_baremetal" -c -fmessage-length=0 -MT"src/iComm_bm/icomm_bm_send.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"D:\SVN\Source\Berametal\zynq7015\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/iComm_bm/icomm_bm_send.d" -MT"src/iComm_bm/icomm_bm_send.o" -o "src/iComm_bm/icomm_bm_send.o" "../src/iComm_bm/icomm_bm_send.cc"
+'Finished building: ../src/iComm_bm/icomm_bm_send.cc'
+' '
+'Building file: ../src/cpp_port.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_config" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_Export" -I"D:\SVN\Source\Berametal\zynq7015\libpub\src\h_public" -I"D:\SVN\Source\Berametal\zynq7015\libbm\src\h_baremetal" -c -fmessage-length=0 -MT"src/cpp_port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"D:\SVN\Source\Berametal\zynq7015\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/cpp_port.d" -MT"src/cpp_port.o" -o "src/cpp_port.o" "../src/cpp_port.cc"
+'Finished building: ../src/cpp_port.cc'
+' '
+'Building target: libcppD.a'
+'Invoking: ARM v7 archiver'
+arm-none-eabi-ar -r  "libcppD.a"  ./src/iComm_bm/icomm_bm_protocol.o ./src/iComm_bm/icomm_bm_send.o  ./src/iComm/icomm_class_base.o ./src/iComm/icomm_config.o  ./src/cpp_port.o   
+'Finished building target: libcppD.a'
+' '
+make --no-print-directory post-build
+copy /y libcppD.a ..\\lib
+已复制         1 个文件。
+' '
+
+13:34:52 Build Finished (took 1s.428ms)
+

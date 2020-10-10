@@ -1,0 +1,307 @@
+16:03:08 **** Build of configuration Debug for project bootstrap ****
+make all 
+(cd ../libraries/libboard_sam9xx5-ek/build/gcc && make CHIP=sam9g15 DYN=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+--- Cleaning sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\libboard_sam9g15_ek_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\libboard_sam9g15_ek_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+--- Making sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15_ek files debug_sam9xx5  ../../lib Windows_NT gcc  board_cstartup_iar.s board_cstartup_keil.s  
+-------------------------
+*../../source/hamming.c ../../source/dbgu_console.c ../../source/dmad.c ../../source/board_lowlevel.c ../../source/syscalls.c ../../source/math.c ../../source/trace.c ../../source/board_memories.c ../../source/dma_hardware_interface.c
+-------------------------
+*hamming.o dbgu_console.o dmad.o board_lowlevel.o syscalls.o math.o trace.o board_memories.o dma_hardware_interface.o
+-------------------------
+*debug_sam9xx5/hamming.o debug_sam9xx5/dbgu_console.o debug_sam9xx5/dmad.o debug_sam9xx5/board_lowlevel.o debug_sam9xx5/syscalls.o debug_sam9xx5/math.o debug_sam9xx5/trace.o debug_sam9xx5/board_memories.o debug_sam9xx5/dma_hardware_interface.o
+-------------------------
+*
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libboard_sam9g15_ek_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15_ek files release_sam9xx5  ../../lib Windows_NT gcc  board_cstartup_iar.s board_cstartup_keil.s  
+-------------------------
+*../../source/hamming.c ../../source/dbgu_console.c ../../source/dmad.c ../../source/board_lowlevel.c ../../source/syscalls.c ../../source/math.c ../../source/trace.c ../../source/board_memories.c ../../source/dma_hardware_interface.c
+-------------------------
+*hamming.o dbgu_console.o dmad.o board_lowlevel.o syscalls.o math.o trace.o board_memories.o dma_hardware_interface.o
+-------------------------
+*release_sam9xx5/hamming.o release_sam9xx5/dbgu_console.o release_sam9xx5/dmad.o release_sam9xx5/board_lowlevel.o release_sam9xx5/syscalls.o release_sam9xx5/math.o release_sam9xx5/trace.o release_sam9xx5/board_memories.o release_sam9xx5/dma_hardware_interface.o
+-------------------------
+*
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libboard_sam9g15_ek_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libboard_sam9xx5-ek/build/gcc'
+(cd ../libraries/libchip_sam9xx5/build/gcc && make CHIP=sam9g15 DYN=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+--- Cleaning sam9g15
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\libchip_sam9g15_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\libchip_sam9g15_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+--- Making libchip_sam9g15_gcc_dbg.a
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15 files debug_sam9xx5  ../../lib
+-------------------------
+*../../source/wdt.c ../../source/dmac.c ../../source/pmc.c ../../source/spi.c ../../source/async.c ../../source/pio.c ../../source/twi.c ../../source/twid.c 
+-------------------------
+*wdt.o dmac.o pmc.o spi.o async.o pio.o twi.o twid.o
+-------------------------
+*debug_sam9xx5/wdt.o debug_sam9xx5/dmac.o debug_sam9xx5/pmc.o debug_sam9xx5/spi.o debug_sam9xx5/async.o debug_sam9xx5/pio.o debug_sam9xx5/twi.o debug_sam9xx5/twid.o
+-------------------------
+*
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libchip_sam9g15_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+--- Making libchip_sam9g15_gcc_rel.a
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15 files release_sam9xx5  ../../lib
+-------------------------
+*../../source/wdt.c ../../source/dmac.c ../../source/pmc.c ../../source/spi.c ../../source/async.c ../../source/pio.c ../../source/twi.c ../../source/twid.c 
+-------------------------
+*wdt.o dmac.o pmc.o spi.o async.o pio.o twi.o twid.o
+-------------------------
+*release_sam9xx5/wdt.o release_sam9xx5/dmac.o release_sam9xx5/pmc.o release_sam9xx5/spi.o release_sam9xx5/async.o release_sam9xx5/pio.o release_sam9xx5/twi.o release_sam9xx5/twid.o
+-------------------------
+*
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libchip_sam9g15_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libchip_sam9xx5/build/gcc'
+(cd ../libraries/libnandflash/build/gcc && make DYN=ON PMECC_ALGO_ROM=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+--- Cleaning sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\libnandflash_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\libnandflash_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+--- Making sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15_ek files debug_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/NandFlashDma.c ../../source/NandFlashModelList.c ../../source/NandFlashModel.c ../../source/NandFlashOnfi.c ../../source/NandSpareScheme.c ../../source/SkipBlockNandFlash.c ../../source/RawNandFlash.c ../../source/EccNandFlash.c
+-------------------------
+*NandFlashDma.o NandFlashModelList.o NandFlashModel.o NandFlashOnfi.o NandSpareScheme.o SkipBlockNandFlash.o RawNandFlash.o EccNandFlash.o
+-------------------------
+*debug_sam9xx5/NandFlashDma.o debug_sam9xx5/NandFlashModelList.o debug_sam9xx5/NandFlashModel.o debug_sam9xx5/NandFlashOnfi.o debug_sam9xx5/NandSpareScheme.o debug_sam9xx5/SkipBlockNandFlash.o debug_sam9xx5/RawNandFlash.o debug_sam9xx5/EccNandFlash.o
+-------------------------
+../../source/EccNandFlash.c: In function 'EccNandFlash_ReadPageWithPmecc':
+../../source/EccNandFlash.c:145:14: warning: variable 'curEccStatus' set but not used [-Wunused-but-set-variable]
+     uint32_t curEccStatus;
+              ^~~~~~~~~~~~
+arm-none-eabi-ar: creating ../../lib/libnandflash_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15_ek files release_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/NandFlashDma.c ../../source/NandFlashModelList.c ../../source/NandFlashModel.c ../../source/NandFlashOnfi.c ../../source/NandSpareScheme.c ../../source/SkipBlockNandFlash.c ../../source/RawNandFlash.c ../../source/EccNandFlash.c
+-------------------------
+*NandFlashDma.o NandFlashModelList.o NandFlashModel.o NandFlashOnfi.o NandSpareScheme.o SkipBlockNandFlash.o RawNandFlash.o EccNandFlash.o
+-------------------------
+*release_sam9xx5/NandFlashDma.o release_sam9xx5/NandFlashModelList.o release_sam9xx5/NandFlashModel.o release_sam9xx5/NandFlashOnfi.o release_sam9xx5/NandSpareScheme.o release_sam9xx5/SkipBlockNandFlash.o release_sam9xx5/RawNandFlash.o release_sam9xx5/EccNandFlash.o
+-------------------------
+../../source/EccNandFlash.c: In function 'EccNandFlash_ReadPageWithPmecc':
+../../source/EccNandFlash.c:145:14: warning: variable 'curEccStatus' set but not used [-Wunused-but-set-variable]
+     uint32_t curEccStatus;
+              ^~~~~~~~~~~~
+arm-none-eabi-ar: creating ../../lib/libnandflash_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libnandflash/build/gcc'
+(cd ../libraries/libpmecc/build/gcc && make DYN=ON PMECC_ALGO_ROM=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+--- Cleaning sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\libpmecc_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\libpmecc_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+--- Making sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15_ek files debug_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/pmecc.c ../../source/pmecc_gallois_field_1024.c ../../source/pmecc_gallois_field_512.c
+-------------------------
+*pmecc.o pmecc_gallois_field_1024.o pmecc_gallois_field_512.o
+-------------------------
+*debug_sam9xx5/pmecc.o debug_sam9xx5/pmecc_gallois_field_1024.o debug_sam9xx5/pmecc_gallois_field_512.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libpmecc_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15_ek files release_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/pmecc.c ../../source/pmecc_gallois_field_1024.c ../../source/pmecc_gallois_field_512.c
+-------------------------
+*pmecc.o pmecc_gallois_field_1024.o pmecc_gallois_field_512.o
+-------------------------
+*release_sam9xx5/pmecc.o release_sam9xx5/pmecc_gallois_field_1024.o release_sam9xx5/pmecc_gallois_field_512.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libpmecc_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libpmecc/build/gcc'
+(cd ../libraries/libspiflash/build/gcc && make DYN=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+--- Cleaning sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\libspiflash_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\libspiflash_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+--- Making sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15_ek files debug_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/at45_spi.c ../../source/spid_dma.c ../../source/at25d.c ../../source/at25_spi.c ../../source/at45d.c
+-------------------------
+*at45_spi.o spid_dma.o at25d.o at25_spi.o at45d.o
+-------------------------
+*debug_sam9xx5/at45_spi.o debug_sam9xx5/spid_dma.o debug_sam9xx5/at25d.o debug_sam9xx5/at25_spi.o debug_sam9xx5/at45d.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libspiflash_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15_ek files release_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/at45_spi.c ../../source/spid_dma.c ../../source/at25d.c ../../source/at25_spi.c ../../source/at45d.c
+-------------------------
+*at45_spi.o spid_dma.o at25d.o at25_spi.o at45d.o
+-------------------------
+*release_sam9xx5/at45_spi.o release_sam9xx5/spid_dma.o release_sam9xx5/at25d.o release_sam9xx5/at25_spi.o release_sam9xx5/at45d.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/libspiflash_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/libspiflash/build/gcc'
+(cd ../libraries/liboweeprom/build/gcc && make DYN=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+--- Cleaning sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+- Cleaning files [release_sam9xx5\*.o] [..\..\lib\liboweeprom_gcc_rel.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+- Cleaning files [debug_sam9xx5\*.o] [..\..\lib\liboweeprom_gcc_dbg.a]
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+--- Making sam9g15_ek
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+mkdir debug_sam9xx5
+--- Preparing sam9g15_ek files debug_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/oweeprom.c
+-------------------------
+*oweeprom.o
+-------------------------
+*debug_sam9xx5/oweeprom.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/liboweeprom_gcc_dbg.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+make[2]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+mkdir release_sam9xx5
+--- Preparing sam9g15_ek files release_sam9xx5  ../../lib Windows_NT gcc 
+-------------------------
+*../../source/oweeprom.c
+-------------------------
+*oweeprom.o
+-------------------------
+*release_sam9xx5/oweeprom.o
+-------------------------
+arm-none-eabi-ar: creating ../../lib/liboweeprom_gcc_rel.a
+make[2]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/libraries/liboweeprom/build/gcc'
+(cd lowlevelinit && make CHIP=sam9g15 DYN=ON -f Makefile clean all)
+make[1]: Entering directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/sam-ba_applets/lowlevelinit'
+rm -fR obj bin
+mkdir bin
+mkdir obj
+arm-none-eabi-gcc -Wall -g  -I../../libraries/libchip_sam9xx5 -I../../libraries/libchip_sam9xx5/include -I../../libraries/libboard_sam9xx5-ek -I../../libraries/libboard_sam9xx5-ek/include -I../../libraries -Dsam9g15 -D__ASSEMBLY__ -Dsram -c -o obj/sram_applet_cstartup.o ../common/applet_cstartup.S
+arm-none-eabi-gcc -Wall -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Werror-implicit-function-declaration -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wcast-align -ffunction-sections  -mlong-calls -g  -I../../libraries/libchip_sam9xx5 -I../../libraries/libchip_sam9xx5/include -I../../libraries/libboard_sam9xx5-ek -I../../libraries/libboard_sam9xx5-ek/include -I../../libraries -Dsam9g15 -DTRACE_LEVEL=0 -DDYN_TRACES -Dsram -c -o obj/sram_main.o main.c
+arm-none-eabi-gcc -Wall -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Werror-implicit-function-declaration -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wcast-align -ffunction-sections  -mlong-calls -g  -I../../libraries/libchip_sam9xx5 -I../../libraries/libchip_sam9xx5/include -I../../libraries/libboard_sam9xx5-ek -I../../libraries/libboard_sam9xx5-ek/include -I../../libraries -Dsam9g15 -DTRACE_LEVEL=0 -DDYN_TRACES -Dsram -c -o obj/sram_board_memories.o ../../libraries/libboard_sam9xx5-ek/source/board_memories.c
+arm-none-eabi-gcc -Wall -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Werror-implicit-function-declaration -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wcast-align -ffunction-sections  -mlong-calls -g  -I../../libraries/libchip_sam9xx5 -I../../libraries/libchip_sam9xx5/include -I../../libraries/libboard_sam9xx5-ek -I../../libraries/libboard_sam9xx5-ek/include -I../../libraries -Dsam9g15 -DTRACE_LEVEL=0 -DDYN_TRACES -Dsram -c -o obj/sram_board_lowlevel.o ../../libraries/libboard_sam9xx5-ek/source/board_lowlevel.c
+arm-none-eabi-gcc -L=/lib -L=/../lib/gcc/arm-none-eabi/4.4.1 -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=entry -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--warn-unresolved-symbols -Wl,--print-gc-sections -Wl,--stats -T"../../libraries/libboard_sam9xx5-ek/resources/gcc/sam9g15/sram_samba.ld" -Wl,-Map,bin/applet-lowlevelinit-sam9g15.map -o bin/applet-lowlevelinit-sam9g15.elf obj/sram_applet_cstartup.o obj/sram_main.o obj/sram_board_memories.o obj/sram_board_lowlevel.o -Wl,--start-group -lgcc -lc -Wl,--end-group 
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.data' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.bss' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.init_array' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.fini_array' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtbegin.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.exidx' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_line' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_info' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_abbrev' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_aranges' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_str' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/crt0.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_line' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_info' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_abbrev' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_aranges' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.debug_str' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'obj/sram_applet_cstartup.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_RemapRom' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_ConfigureVddMemSel' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_ConfigureDdram' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_ConfigureSdram' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_ConfigureNandFlash' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text.BOARD_ConfigureNorFlash' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.rodata' in file 'obj/sram_board_memories.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-exit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-exit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-exit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-fini.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-fini.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-fini.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.data' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-impure.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.rodata' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-impure.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.rodata.str1.4' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-impure.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-impure.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-impure.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-init.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-init.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-init.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-memset.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-memset.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-memset.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.text' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__call_atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__call_atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib\libc.a(lib_a-__call_atexit.o)'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.eh_frame' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtend.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.comment' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtend.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtend.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.init' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtn.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.fini' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtn.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: Removing unused section '.ARM.attributes' in file 'c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/crtn.o'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [Makefile:201: sram] Error 1
+make[1]: Leaving directory 'E:/xilinx/Zynq/bootstrap/src/sam9x5/sam-ba_applets/lowlevelinit'
+make: *** [Makefile:52: applets] Error 2
+
+16:04:03 Build Finished (took 54s.596ms)
+

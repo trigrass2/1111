@@ -1,0 +1,15 @@
+15:44:18 **** Build of configuration Debug for project PltBM ****
+make all 
+'Building file: ../src/project/plt_bm_dbgmsg.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -D_CORE_NUM_=1 -D_PLATFORM_ -Wall -O0 -g3 -I"D:\Temp\zynq7015\PltBM\src\h_config" -I"D:\Temp\zynq7015\PltBM\src\h_public" -I"D:\Temp\zynq7015\PltBM\src\h_baremetal" -I"D:\Temp\zynq7015\PltBM\src\h_Export" -c -fmessage-length=0 -MT"src/project/plt_bm_dbgmsg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"D:\Temp\zynq7015\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/project/plt_bm_dbgmsg.d" -MT"src/project/plt_bm_dbgmsg.o" -o "src/project/plt_bm_dbgmsg.o" "../src/project/plt_bm_dbgmsg.c"
+'Finished building: ../src/project/plt_bm_dbgmsg.c'
+' '
+'Building target: libPltBM.a'
+'Invoking: ARM v7 archiver'
+arm-none-eabi-ar -r  "libPltBM.a"  ./src/public/base64.o ./src/public/plt_Func.o ./src/public/plt_Func_Crc32.o ./src/public/plt_Time.o ./src/public/plt_calc.o ./src/public/plt_command.o ./src/public/plt_command_exec.o ./src/public/plt_func_register.o ./src/public/plt_inner_data.o ./src/public/plt_list.o ./src/public/plt_pointtype.o ./src/public/plt_setting.o ./src/public/plt_shared_memory.o ./src/public/plt_shell.o ./src/public/plt_string_res.o ./src/public/plt_trace.o ./src/public/plt_var_register.o ./src/public/plt_viewstring.o  ./src/project/plt_Main.o ./src/project/plt_bm_dbgmsg.o ./src/project/plt_bm_inner_data.o ./src/project/plt_bm_time.o ./src/project/plt_component.o ./src/project/plt_component_register.o ./src/project/plt_diagram.o ./src/project/plt_exception.o ./src/project/plt_exception_handler.o ./src/project/plt_init.o ./src/project/plt_interface.o ./src/project/plt_load_config.o ./src/project/plt_ram.o ./src/project/plt_register.o ./src/project/plt_signal.o ./src/project/plt_soe_handle.o ./src/project/plt_sysinfo.o ./src/project/plt_task.o ./src/project/plt_test.o  ./src/mc/plt_mc_inner_comm.o ./src/mc/plt_mc_print.o  ./src/hardware/plt_hd_driver.o ./src/hardware/plt_hd_isr.o  ./src/OS/none_os.o ./src/OS/os_cpu_a.o ./src/OS/os_memory.o   
+'Finished building target: libPltBM.a'
+' '
+
+15:44:19 Build Finished (took 637ms)
+

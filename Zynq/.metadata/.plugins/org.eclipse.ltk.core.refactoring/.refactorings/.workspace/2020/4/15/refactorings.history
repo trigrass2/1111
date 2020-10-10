@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;libdrv/src/h_drv/hd_const.h&apos;" deleteContents="false" description="Delete resource &apos;libdrv/src/h_drv/hd_const.h&apos;" element1="/libdrv/src/h_drv/hd_const.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1586051723774"/>
+</session>

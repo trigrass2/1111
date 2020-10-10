@@ -1,0 +1,205 @@
+10:37:07 **** Build of configuration Debug for project libbm ****
+make all 
+Building file: ../src/c_bm/bm_goose_rcv.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/bm_goose_rcv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/bm_goose_rcv.d" -MT"src/c_bm/bm_goose_rcv.o" -o "src/c_bm/bm_goose_rcv.o" "../src/c_bm/bm_goose_rcv.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/bm_goose_rcv.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/bm_goose_rcv.c
+ 
+Building file: ../src/c_bm/bm_io.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/bm_io.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/bm_io.d" -MT"src/c_bm/bm_io.o" -o "src/c_bm/bm_io.o" "../src/c_bm/bm_io.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/bm_io.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/bm_io.c
+ 
+Building file: ../src/c_bm/bm_sv_rcv.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/bm_sv_rcv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/bm_sv_rcv.d" -MT"src/c_bm/bm_sv_rcv.o" -o "src/c_bm/bm_sv_rcv.o" "../src/c_bm/bm_sv_rcv.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/bm_sv_rcv.c:8:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/bm_sv_rcv.c
+ 
+Building file: ../src/c_bm/icomm_base_class.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/icomm_base_class.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/icomm_base_class.d" -MT"src/c_bm/icomm_base_class.o" -o "src/c_bm/icomm_base_class.o" "../src/c_bm/icomm_base_class.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/icomm_base_class.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/icomm_base_class.c
+ 
+Building file: ../src/c_bm/icomm_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/icomm_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/icomm_config.d" -MT"src/c_bm/icomm_config.o" -o "src/c_bm/icomm_config.o" "../src/c_bm/icomm_config.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/icomm_config.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/icomm_config.c
+ 
+Building file: ../src/c_bm/icomm_port.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/icomm_port.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/icomm_port.d" -MT"src/c_bm/icomm_port.o" -o "src/c_bm/icomm_port.o" "../src/c_bm/icomm_port.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/icomm_port.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/icomm_port.c
+ 
+Building file: ../src/c_bm/plt_Main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_Main.d" -MT"src/c_bm/plt_Main.o" -o "src/c_bm/plt_Main.o" "../src/c_bm/plt_Main.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_Main.c:56:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_Main.c
+ 
+Building file: ../src/c_bm/plt_bm_time.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_bm_time.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_bm_time.d" -MT"src/c_bm/plt_bm_time.o" -o "src/c_bm/plt_bm_time.o" "../src/c_bm/plt_bm_time.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_bm_time.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_bm_time.c
+ 
+Building file: ../src/c_bm/plt_exception.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_exception.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_exception.d" -MT"src/c_bm/plt_exception.o" -o "src/c_bm/plt_exception.o" "../src/c_bm/plt_exception.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_exception.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_exception.c
+ 
+Building file: ../src/c_bm/plt_exception_handler.S
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_exception_handler.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_exception_handler.d" -MT"src/c_bm/plt_exception_handler.o" -o "src/c_bm/plt_exception_handler.o" "../src/c_bm/plt_exception_handler.S"
+Finished building: ../src/c_bm/plt_exception_handler.S
+ 
+Building file: ../src/c_bm/plt_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_init.d" -MT"src/c_bm/plt_init.o" -o "src/c_bm/plt_init.o" "../src/c_bm/plt_init.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_init.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_init.c
+ 
+Building file: ../src/c_bm/plt_mc_inner_comm.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_mc_inner_comm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_mc_inner_comm.d" -MT"src/c_bm/plt_mc_inner_comm.o" -o "src/c_bm/plt_mc_inner_comm.o" "../src/c_bm/plt_mc_inner_comm.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_mc_inner_comm.c:10:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_mc_inner_comm.c
+ 
+Building file: ../src/c_bm/plt_mc_print.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_mc_print.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_mc_print.d" -MT"src/c_bm/plt_mc_print.o" -o "src/c_bm/plt_mc_print.o" "../src/c_bm/plt_mc_print.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_mc_print.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_mc_print.c
+ 
+Building file: ../src/c_bm/plt_ram.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_ram.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_ram.d" -MT"src/c_bm/plt_ram.o" -o "src/c_bm/plt_ram.o" "../src/c_bm/plt_ram.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_ram.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_ram.c
+ 
+Building file: ../src/c_bm/plt_soe_handle.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_soe_handle.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_soe_handle.d" -MT"src/c_bm/plt_soe_handle.o" -o "src/c_bm/plt_soe_handle.o" "../src/c_bm/plt_soe_handle.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_soe_handle.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_soe_handle.c
+ 
+Building file: ../src/c_bm/plt_soe_send.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_soe_send.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_soe_send.d" -MT"src/c_bm/plt_soe_send.o" -o "src/c_bm/plt_soe_send.o" "../src/c_bm/plt_soe_send.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_soe_send.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_soe_send.c
+ 
+Building file: ../src/c_bm/plt_task.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_task.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_task.d" -MT"src/c_bm/plt_task.o" -o "src/c_bm/plt_task.o" "../src/c_bm/plt_task.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_task.c:9:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_task.c
+ 
+Building file: ../src/c_bm/plt_test.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libpub/src/h_public" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv" -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm" -c -fmessage-length=0 -MT"src/c_bm/plt_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include" -MMD -MP -MF"src/c_bm/plt_test.d" -MT"src/c_bm/plt_test.o" -o "src/c_bm/plt_test.o" "../src/c_bm/plt_test.c"
+In file included from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libdrv/src/h_drv/libdrv.h:12:0,
+                 from /work/xilinx/sd_workspace/zynq7015_20200416_sd/libbm/src/h_bm/plt_include.h:20,
+                 from ../src/c_bm/plt_test.c:8:
+/work/xilinx/sd_workspace/zynq7015_20200416_sd/zynqBM_bsp/ps7_cortexa9_1/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/c_bm/plt_test.c
+ 
+Building target: libbmD.a
+Invoking: ARM v7 archiver
+arm-none-eabi-ar -r  "libbmD.a"  ./src/c_bm/bm_goose_rcv.o ./src/c_bm/bm_io.o ./src/c_bm/bm_sv_rcv.o ./src/c_bm/icomm_base_class.o ./src/c_bm/icomm_config.o ./src/c_bm/icomm_port.o ./src/c_bm/plt_Main.o ./src/c_bm/plt_bm_dbgmsg.o ./src/c_bm/plt_bm_time.o ./src/c_bm/plt_exception.o ./src/c_bm/plt_exception_handler.o ./src/c_bm/plt_init.o ./src/c_bm/plt_mc_inner_comm.o ./src/c_bm/plt_mc_print.o ./src/c_bm/plt_ram.o ./src/c_bm/plt_soe_handle.o ./src/c_bm/plt_soe_send.o ./src/c_bm/plt_task.o ./src/c_bm/plt_test.o   
+Finished building target: libbmD.a
+ 
+make --no-print-directory post-build
+cp libbmD.a ../lib
+ 
+
+10:37:10 Build Finished (took 2s.769ms)
+

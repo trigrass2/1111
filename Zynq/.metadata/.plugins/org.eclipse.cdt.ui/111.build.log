@@ -1,0 +1,33 @@
+13:50:05 **** Auto Build of configuration Debug for project 111 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\111\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from E:\xilinx\Zynq\libbm\src\h_bm/plt_include.h:20,
+                 from ../src/main.c:56:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+Finished building: ../src/main.c
+ 
+Building target: 111.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -L"E:\xilinx\Zynq\libbm\lib" -L"E:\xilinx\Zynq\libdrv\lib" -L"E:\xilinx\Zynq\libpub\lib" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../zynqBM_bsp/ps7_cortexa9_1/lib -o "111.elf"  ./src/ipacs/src/system/os/os.o  ./src/ipacs/src/system/myio/yx/di.o ./src/ipacs/src/system/myio/yx/extyx.o ./src/ipacs/src/system/myio/yx/yx.o  ./src/ipacs/src/system/myio/yk/do.o ./src/ipacs/src/system/myio/yk/yk.o  ./src/ipacs/src/system/myio/yc/ad.o ./src/ipacs/src/system/myio/yc/ai.o ./src/ipacs/src/system/myio/yc/ft.o ./src/ipacs/src/system/myio/yc/yc.o  ./src/ipacs/src/system/myio/myio.o  ./src/ipacs/src/system/common/para.o ./src/ipacs/src/system/common/sys.o  ./src/ipacs/src/system/bsp/bsp.o  ./src/ipacs/src/protocol/maint.o ./src/ipacs/src/protocol/pcol.o  ./src/ipacs/src/product/protect/PrLib.o ./src/ipacs/src/product/protect/PrLogic.o ./src/ipacs/src/product/protect/PrLogicJd.o ./src/ipacs/src/product/protect/PrLogicPublic.o ./src/ipacs/src/product/protect/PrSet.o ./src/ipacs/src/product/protect/Prcal.o ./src/ipacs/src/product/protect/record.o  ./src/ipacs/src/bm_linux.o ./src/ipacs/src/clock.o  ./src/Export_if/plt_if_build.o  ./src/main.o ./src/platform.o   -lbmD -ldrvD -lpubD -lm -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: 111.elf
+ 
+make --no-print-directory post-build
+arm-none-eabi-objdump.exe -t 111.elf > 111_1.txt && arm-none-eabi-objdump.exe -d 111.elf > 111_2.txt && arm-none-eabi-nm -a -n 111.elf > 111_3.txt && arm-none-eabi-readelf -a 111.elf > 111_4.txt&&arm-none-eabi-objcopy -O binary -S zynqBM.elf zynqBM.bin
+make[1]: [makefile:86: post-build] Error 1 (ignored)
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size 111.elf  |tee "111.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 591300	 128912	22507000	23227212	1626b4c	111.elf
+Finished building: 111.elf.size
+ 
+
+13:50:07 Build Finished (took 2s.3ms)
+

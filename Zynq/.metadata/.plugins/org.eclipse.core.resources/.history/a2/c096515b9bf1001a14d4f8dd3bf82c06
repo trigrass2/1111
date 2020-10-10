@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../src/source/src/protocol/public/ecc/Ipsec.c \
+../src/source/src/protocol/public/ecc/SecurityProcessor.c \
+../src/source/src/protocol/public/ecc/SecurityProcessorHN.c \
+../src/source/src/protocol/public/ecc/certificate.c \
+../src/source/src/protocol/public/ecc/ecc.c \
+../src/source/src/protocol/public/ecc/md5.c \
+../src/source/src/protocol/public/ecc/sgc1126a.c 
+
+OBJS += \
+./src/source/src/protocol/public/ecc/Ipsec.o \
+./src/source/src/protocol/public/ecc/SecurityProcessor.o \
+./src/source/src/protocol/public/ecc/SecurityProcessorHN.o \
+./src/source/src/protocol/public/ecc/certificate.o \
+./src/source/src/protocol/public/ecc/ecc.o \
+./src/source/src/protocol/public/ecc/md5.o \
+./src/source/src/protocol/public/ecc/sgc1126a.o 
+
+C_DEPS += \
+./src/source/src/protocol/public/ecc/Ipsec.d \
+./src/source/src/protocol/public/ecc/SecurityProcessor.d \
+./src/source/src/protocol/public/ecc/SecurityProcessorHN.d \
+./src/source/src/protocol/public/ecc/certificate.d \
+./src/source/src/protocol/public/ecc/ecc.d \
+./src/source/src/protocol/public/ecc/md5.d \
+./src/source/src/protocol/public/ecc/sgc1126a.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+src/source/src/protocol/public/ecc/%.o: ../src/source/src/protocol/public/ecc/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM v7 Linux g++ compiler'
+	arm-linux-gnueabihf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

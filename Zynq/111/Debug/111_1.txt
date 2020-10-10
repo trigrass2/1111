@@ -1,0 +1,2465 @@
+
+111.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+38000000 l    d  .text	00000000 .text
+38073c28 l    d  .init	00000000 .init
+38073c40 l    d  .fini	00000000 .fini
+38073c58 l    d  .rodata	00000000 .rodata
+3807bad0 l    d  .ARM.extab.platform_code	00000000 .ARM.extab.platform_code
+3807bae0 l    d  .data	00000000 .data
+380951f8 l    d  .eh_frame	00000000 .eh_frame
+38098000 l    d  .mmu_tbl	00000000 .mmu_tbl
+3809c000 l    d  .ARM.exidx	00000000 .ARM.exidx
+3809c0c0 l    d  .init_array	00000000 .init_array
+3809c0c4 l    d  .fini_array	00000000 .fini_array
+3809c0c8 l    d  .ARM.attributes	00000000 .ARM.attributes
+3809c0c8 l    d  .platform_const	00000000 .platform_const
+3809cc18 l    d  .platform_data	00000000 .platform_data
+380a2140 l    d  .platform_code	00000000 .platform_code
+380b2b64 l    d  .datadef_data	00000000 .datadef_data
+380b2d64 l    d  .datadef_code	00000000 .datadef_code
+380b2f64 l    d  .dyn_memory	00000000 .dyn_memory
+384b4164 l    d  .bss	00000000 .bss
+3eb00000 l    d  .heap	00000000 .heap
+3ef03000 l    d  .stack	00000000 .stack
+3f000000 l    d  .shared_data	00000000 .shared_data
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 asm_vectors.o
+380000a0 l       .text	00000000 Undefined
+380000bc l       .text	00000000 SVCHandler
+38000100 l       .text	00000000 PrefetchAbortHandler
+380000e0 l       .text	00000000 DataAbortHandler
+38000020 l       .text	00000000 IRQHandler
+38000060 l       .text	00000000 FIQHandler
+3800007c l       .text	00000000 FIQLoop
+00000000 l    df *ABS*	00000000 boot.o
+f8f02000 l       *ABS*	00000000 PSS_L2CC_BASE_ADDR
+f8000000 l       *ABS*	00000000 PSS_SLCR_BASE_ADDR
+0fffff00 l       *ABS*	00000000 RESERVED
+fe00000f l       *ABS*	00000000 LRemap
+f8f0277c l       *ABS*	00000000 L2CCWay
+f8f02730 l       *ABS*	00000000 L2CCSync
+f8f02100 l       *ABS*	00000000 L2CCCrtl
+f8f02104 l       *ABS*	00000000 L2CCAuxCrtl
+f8f02108 l       *ABS*	00000000 L2CCTAGLatReg
+f8f0210c l       *ABS*	00000000 L2CCDataLatReg
+f8f02220 l       *ABS*	00000000 L2CCIntClear
+f8f0221c l       *ABS*	00000000 L2CCIntRaw
+f8000004 l       *ABS*	00000000 SLCRlockReg
+f8000008 l       *ABS*	00000000 SLCRUnlockReg
+f8000a1c l       *ABS*	00000000 SLCRL2cRamReg
+f8000244 l       *ABS*	00000000 SLCRCPURSTReg
+f800d010 l       *ABS*	00000000 EFUSEStaus
+00001005 l       *ABS*	00000000 CRValMmuCac
+00002000 l       *ABS*	00000000 CRValHiVectorAddr
+72360000 l       *ABS*	00000000 L2CCAuxControl
+00000001 l       *ABS*	00000000 L2CCControl
+00000111 l       *ABS*	00000000 L2CCTAGLatency
+00000121 l       *ABS*	00000000 L2CCDataLatency
+0000767b l       *ABS*	00000000 SLCRlockKey
+0000df0d l       *ABS*	00000000 SLCRUnlockKey
+00020202 l       *ABS*	00000000 SLCRL2cRamConfig
+40000000 l       *ABS*	00000000 FPEXC_EN
+38000140 l       .text	00000000 CheckEFUSE1
+38000150 l       .text	00000000 EndlessLoop1
+38000158 l       .text	00000000 OKToRun
+38000308 l       .text	00000000 invalidate_dcache
+38000384 l       .text	00000000 finished
+3800031c l       .text	00000000 loop1
+38000378 l       .text	00000000 skip
+38000358 l       .text	00000000 loop2
+3800035c l       .text	00000000 loop3
+00000000 l    df *ABS*	00000000 c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/v7-a/fpv3/hard/crti.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+380951f8 l     O .eh_frame	00000000 
+380003d4 l     F .text	00000000 deregister_tm_clones
+38000400 l     F .text	00000000 register_tm_clones
+38000438 l     F .text	00000000 __do_global_dtors_aux
+384b4164 l       .bss	00000001 completed.9765
+3809c0c4 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+3800047c l     F .text	00000000 frame_dummy
+384b4168 l       .bss	00000018 object.9770
+3809c0c0 l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 os.c
+00000000 l    df *ABS*	00000000 di.c
+3807bae4 l     O .data	00000090 PDefTVYxCfg_Public
+3807bb74 l     O .data	00000018 PDefTVYxCfg_Comm
+3807bb8c l     O .data	0000000a Di_BitMap_1
+3807bb98 l     O .data	00000024 YxNo_Dio_1
+3807bbbc l     O .data	000001b0 PDefTVYxCfg_Dio_1
+3807bd6c l     O .data	000000d8 PDefTVDYxCfg_Dio_1
+3807be44 l     O .data	00000006 Di_BitMap_8
+3807be4c l     O .data	00000012 YxNo_Dio_8
+3807be60 l     O .data	000000d8 PDefTVYxCfg_Dio_8
+3807bf38 l     O .data	00000090 PDefTVDYxCfg_Dio_8
+3807bfc8 l     O .data	00000004 Di_BitMap_10
+3807bfcc l     O .data	0000000c YxNo_Dio_10
+3807bfd8 l     O .data	00000090 PDefTVYxCfg_Dio_10
+3807c068 l     O .data	00000048 PDefTVDYxCfg_Dio_10
+3807c0b0 l     O .data	000000dc defMyDiCfg
+00000000 l    df *ABS*	00000000 extyx.c
+38000dac l     F .text	0000003c CPLD_Read
+38000de8 l     F .text	00000038 CPLD_Write
+384b4180 l       .bss	00000001 ExtYxRev
+384b4181 l       .bss	00000001 rawExtYx
+384b4182 l       .bss	00000001 rawExtDi
+384b4183 l       .bss	00000001 extYxFltflag
+384b4184 l       .bss	00000080 ExtYxChn
+384b4208 l       .bss	00000001 diflag.9995
+384b420c l       .bss	0000000c dichncnt.9996
+00000000 l    df *ABS*	00000000 yx.c
+3800180c l     F .text	0000003c CPLD_Read
+38001848 l     F .text	00000038 CPLD_Write
+38001880 l     F .text	0000004c Get_Io_Type
+384b4218 l       .bss	00000004 gYxInit
+384b421c l       .bss	00000028 g_DiValue
+384b4244 l       .bss	00000028 pDiBitMap
+384b426c l       .bss	00000004 pDiCfg
+384b4270 l       .bss	00001900 pYxChn
+384b5b70 l       .bss	00000500 pDYxChn
+384b6070 l       .bss	00000140 pYxPort
+384b61b0 l       .bss	00001004 gSoebuf
+384b71b4 l       .bss	00000004 YX_PORT_NUM
+00000000 l    df *ABS*	00000000 do.c
+3807c18c l     O .data	00000024 PDefTVYkCfg_Public2
+3807c4dc l     O .data	00000012 Do2Point_Dio_2
+3807c4f0 l     O .data	00000048 PDefTVYkCfg_Dio_2
+3807c764 l     O .data	0000000c Do2Point_Dio_9
+3807c770 l     O .data	00000030 PDefTVYkCfg_Dio_9
+3807c8cc l     O .data	00000006 Do2Point_Dio_10
+3807c8d4 l     O .data	00000018 PDefTVYkCfg_Dio_10
+3807c8ec l     O .data	000000f0 defMyDoCfg
+00000000 l    df *ABS*	00000000 yk.c
+38003754 l     F .text	00000030 Get100usCnt
+38003784 l     F .text	0000003c CPLD_Read
+380037c0 l     F .text	00000038 CPLD_Write
+380037f8 l     F .text	0000004c Get_Io_Type
+38003844 l     F .text	000000b4 PhyBit_Read
+380038f8 l     F .text	00000134 PhyBit_Set
+384b71b8 l       .bss	00000004 YK_NUM
+384b71bc l       .bss	00000004 YK_RELAY_NUM
+384b71c0 l       .bss	00000008 g_DoEnable
+384b71c8 l       .bss	00000004 g_DoSYb
+384b71cc l       .bss	00000004 pDoCfg
+384b71d0 l       .bss	00000039 pDo2Point
+384b720c l       .bss	000002ac pYkPort
+384b74b8 l       .bss	0000063c pYkRelay
+384b7af4 l       .bss	0000009c pYkPoint
+00000000 l    df *ABS*	00000000 ad.c
+384b7b98 l       .bss	00000004 cnt_2.9977
+00000000 l    df *ABS*	00000000 ai.c
+3807ca5c l     O .data	00000090 PYcCfg_Aio_Public
+3807caec l     O .data	0000003c PDefTVYcCfg_Aio_Public
+3807cb28 l     O .data	000002bc PDefTVYcCfg_Aio
+3807cde4 l     O .data	00000024 PDefTVYkCfg_Fd_Aio
+3807ce08 l     O .data	00000180 PDefTVYxCfg_Aio_Public
+3807cf88 l     O .data	00000050 PDefTVDdCfg_Aio
+3807cfd8 l     O .data	00000180 PDefTVYxCfg_Fd_Aio
+3807d158 l     O .data	000002a0 PAiCfg_Aio_0x01
+3807d3f8 l     O .data	00000540 PYcCfg_Aio_0x01
+3807d938 l     O .data	00000258 PFdCfg_Aio_0x01
+3807db90 l     O .data	00000230 PDefTVYcCfg_Aio_0x01
+3807ddc0 l     O .data	000002a0 PAiCfg_Aio_0x11
+3807e060 l     O .data	00000540 PYcCfg_Aio_0x11
+3807e5a0 l     O .data	00000258 PFdCfg_Aio_0x11
+3807e7f8 l     O .data	00000230 PDefTVYcCfg_Aio_0x11
+3807ea28 l     O .data	000002a0 PAiCfg_Aio_0x21
+3807ecc8 l     O .data	000003c0 PYcCfg_Aio_0x21
+3807f088 l     O .data	00000190 PFdCfg_Aio_0x21
+3807f218 l     O .data	00000190 PDefTVYcCfg_Aio_0x21
+3807f3a8 l     O .data	000002a0 PAiCfg_Aio_0x02
+3807f648 l     O .data	00000480 PYcCfg_Aio_0x02
+3807fac8 l     O .data	00000258 PFdCfg_Aio_0x02
+3807fd20 l     O .data	000001e0 PDefTVYcCfg_Aio_0x02
+3807ff00 l     O .data	000002a0 PAiCfg_Aio_0x12
+380801a0 l     O .data	00000480 PYcCfg_Aio_0x12
+38080620 l     O .data	00000258 PFdCfg_Aio_0x12
+38080878 l     O .data	000001e0 PDefTVYcCfg_Aio_0x12
+38080a58 l     O .data	000002a0 PAiCfg_Aio_0x22
+38080cf8 l     O .data	000003c0 PYcCfg_Aio_0x22
+380810b8 l     O .data	000001f4 PFdCfg_Aio_0x22
+380812ac l     O .data	00000190 PDefTVYcCfg_Aio_0x22
+3808143c l     O .data	000002a0 PAiCfg_Aio_0x03
+380816dc l     O .data	00000540 PYcCfg_Aio_0x03
+38081c1c l     O .data	000001f4 PFdCfg_Aio_0x03
+38081e10 l     O .data	00000230 PDefTVYcCfg_Aio_0x03
+38082040 l     O .data	000002a0 PAiCfg_Aio_0x13
+380822e0 l     O .data	00000540 PYcCfg_Aio_0x13
+38082820 l     O .data	000001f4 PFdCfg_Aio_0x13
+38082a14 l     O .data	00000230 PDefTVYcCfg_Aio_0x13
+38082c44 l     O .data	000002a0 PAiCfg_Aio_0x23
+38082ee4 l     O .data	000003c0 PYcCfg_Aio_0x23
+380832a4 l     O .data	0000012c PFdCfg_Aio_0x23
+380833d0 l     O .data	00000190 PDefTVYcCfg_Aio_0x23
+38083560 l     O .data	00000200 PAiCfg_Aio_0x42
+38083760 l     O .data	000003c0 PYcCfg_Aio_0x42
+38083b20 l     O .data	0000012c PFdCfg_Aio_0x42
+38083c4c l     O .data	00000190 PDefTVYcCfg_Aio_0x42
+38083ddc l     O .data	00000200 PAiCfg_Aio_0x52
+38083fdc l     O .data	000003c0 PYcCfg_Aio_0x52
+3808439c l     O .data	0000012c PFdCfg_Aio_0x52
+380844c8 l     O .data	00000190 PDefTVYcCfg_Aio_0x52
+38084658 l     O .data	00000200 PAiCfg_Aio_0x62
+38084858 l     O .data	00000300 PYcCfg_Aio_0x62
+38084b58 l     O .data	000000c8 PFdCfg_Aio_0x62
+38084c20 l     O .data	00000140 PDefTVYcCfg_Aio_0x62
+38084d60 l     O .data	00000200 PAiCfg_Aio_0x43
+38084f60 l     O .data	000003c0 PYcCfg_Aio_0x43
+38085320 l     O .data	000001f4 PFdCfg_Aio_0x43
+38085514 l     O .data	00000190 PDefTVYcCfg_Aio_0x43
+380856a4 l     O .data	00000200 PAiCfg_Aio_0x53
+380858a4 l     O .data	000003c0 PYcCfg_Aio_0x53
+38085c64 l     O .data	000001f4 PFdCfg_Aio_0x53
+38085e58 l     O .data	00000190 PDefTVYcCfg_Aio_0x53
+38085fe8 l     O .data	00000200 PAiCfg_Aio_0x63
+380861e8 l     O .data	00000240 PYcCfg_Aio_0x63
+38086428 l     O .data	0000012c PFdCfg_Aio_0x63
+38086554 l     O .data	000000f0 PDefTVYcCfg_Aio_0x63
+38086644 l     O .data	00000200 PAiCfg_Aio_0x65
+38086844 l     O .data	00000300 PYcCfg_Aio_0x65
+38086b44 l     O .data	00000190 PFdCfg_Aio_0x65
+38086cd4 l     O .data	00000140 PDefTVYcCfg_Aio_0x65
+38086e14 l     O .data	00000200 PAiCfg_Aio_0x44
+38087014 l     O .data	000003c0 PYcCfg_Aio_0x44
+380873d4 l     O .data	00000190 PFdCfg_Aio_0x44
+38087564 l     O .data	00000190 PDefTVYcCfg_Aio_0x44
+380876f4 l     O .data	00000200 PAiCfg_Aio_0x54
+380878f4 l     O .data	000003c0 PYcCfg_Aio_0x54
+38087cb4 l     O .data	00000190 PFdCfg_Aio_0x54
+38087e44 l     O .data	00000190 PDefTVYcCfg_Aio_0x54
+38087fd4 l     O .data	00000200 PAiCfg_Aio_0x64
+380881d4 l     O .data	00000300 PYcCfg_Aio_0x64
+380884d4 l     O .data	0000012c PFdCfg_Aio_0x64
+38088600 l     O .data	00000140 PDefTVYcCfg_Aio_0x64
+38088740 l     O .data	00000100 PAiCfg_Aio_0x45
+38088840 l     O .data	00000180 PYcCfg_Aio_0x45
+380889c0 l     O .data	00000064 PFdCfg_Aio_0x45
+38088a24 l     O .data	000000a0 PDefTVYcCfg_Aio_0x45
+38088ac4 l     O .data	00000200 PAiCfg_Aio_0x46
+38088cc4 l     O .data	000000c0 PYcCfg_Aio_0x46
+38088d84 l     O .data	00000050 PDefTVYcCfg_Aio_0x46
+38088dd4 l     O .data	00000200 PAiCfg_Aio_0x47
+38088fd4 l     O .data	000001e0 PYcCfg_Aio_0x47
+380891b4 l     O .data	000000c8 PFdCfg_Aio_0x47
+3808927c l     O .data	000000a0 PDefTVYcCfg_Aio_0x47
+3808931c l     O .data	00000200 PAiCfg_Aio_0x49
+3808951c l     O .data	000003c0 PYcCfg_Aio_0x49
+380898dc l     O .data	00000190 PFdCfg_Aio_0x49
+38089a6c l     O .data	00000190 PDefTVYcCfg_Aio_0x49
+38089bfc l     O .data	000002a0 PAiCfg_Aio_0x04
+38089e9c l     O .data	00000480 PYcCfg_Aio_0x04
+3808a31c l     O .data	000001f4 PFdCfg_Aio_0x04
+3808a510 l     O .data	000001e0 PDefTVYcCfg_Aio_0x04
+3808a6f0 l     O .data	000002a0 PAiCfg_Aio_0x05
+3808a990 l     O .data	00000480 PYcCfg_Aio_0x05
+3808ae10 l     O .data	000001f4 PFdCfg_Aio_0x05
+3808b004 l     O .data	000001e0 PDefTVYcCfg_Aio_0x05
+3808b1e4 l     O .data	000002a0 PAiCfg_Aio_0x06
+3808b484 l     O .data	00000480 PYcCfg_Aio_0x06
+3808b904 l     O .data	00000258 PFdCfg_Aio_0x06
+3808bb5c l     O .data	000001e0 PDefTVYcCfg_Aio_0x06
+3808bd3c l     O .data	00000200 PAiCfg_Aio_0x4A
+3808bf3c l     O .data	000003c0 PYcCfg_Aio_0x4A
+3808c2fc l     O .data	00000190 PFdCfg_Aio_0x4A
+3808c48c l     O .data	00000190 PDefTVYcCfg_Aio_0x4A
+3808c61c l     O .data	00000200 PAiCfg_Aio_0x4B
+3808c81c l     O .data	000003c0 PYcCfg_Aio_0x4B
+3808cbdc l     O .data	000001f4 PFdCfg_Aio_0x4B
+3808cdd0 l     O .data	00000190 PDefTVYcCfg_Aio_0x4B
+3808cf60 l     O .data	00000200 PAiCfg_Aio_0x48
+3808d160 l     O .data	000001e0 PYcCfg_Aio_0x48
+3808d340 l     O .data	00000064 PFdCfg_Aio_0x48
+3808d3a4 l     O .data	000000c8 PDefTVYcCfg_Aio_0x48
+3808d46c l     O .data	00000200 PAiCfg_Aio_0x68
+3808d66c l     O .data	000001e0 PYcCfg_Aio_0x68
+3808d84c l     O .data	00000064 PFdCfg_Aio_0x68
+3808d8b0 l     O .data	000000c8 PDefTVYcCfg_Aio_0x68
+3808d978 l     O .data	00000200 PAiCfg_Aio_0x41
+3808db78 l     O .data	000003c0 PYcCfg_Aio_0x41
+3808df38 l     O .data	00000190 PFdCfg_Aio_0x41
+3808e0c8 l     O .data	00000190 PDefTVYcCfg_Aio_0x41
+3808e258 l     O .data	00000200 PAiCfg_Aio_0x51
+3808e458 l     O .data	000003c0 PYcCfg_Aio_0x51
+3808e818 l     O .data	00000190 PFdCfg_Aio_0x51
+3808e9a8 l     O .data	00000190 PDefTVYcCfg_Aio_0x51
+3808eb38 l     O .data	00000200 PAiCfg_Aio_0x61
+3808ed38 l     O .data	00000300 PYcCfg_Aio_0x61
+3808f038 l     O .data	0000012c PFdCfg_Aio_0x61
+3808f164 l     O .data	00000140 PDefTVYcCfg_Aio_0x61
+3808f2a4 l     O .data	00000b7c defMyAiCfg
+00000000 l    df *ABS*	00000000 ft.c
+00000000 l    df *ABS*	00000000 yc.c
+384bc450 l       .bss	00000300 meaValueTmp
+384bc750 l       .bss	00000004 gainNum
+384bc754 l       .bss	00000004 aigainNum
+384bc760 l       .bss	00000004 rawPtr
+384bc764 l       .bss	00000004 rawYc
+384bc768 l       .bss	00000004 ycValue
+384bc76c l       .bss	00000004 ycValueBak
+384bc770 l       .bss	00000004 dbYcValue
+384bc774 l       .bss	00000004 harBgnNo
+384bc778 l       .bss	00000004 angleBgnNo
+384bc77c l       .bss	00000004 phBgnNo
+384bc780 l       .bss	00000004 yccfgNum
+384bc784 l       .bss	00000004 pDefTVYcCfg
+384bc788 l       .bss	00000004 gQFft
+3809181c l     O .data	0000006c mmiMeaTbl
+384bc790 l       .bss	00000004 freq_cnt.10706
+38091888 l     O .data	00000004 freq_old.10705
+384bc794 l       .bss	00000190 data.10693
+384bc924 l       .bss	00000004 ai_chn.10922
+384bc928 l       .bss	00000004 harcal.10921
+3809188c l     O .data	00000004 num.10924
+384bc92c l       .bss	00000004 yc_chn.10923
+384bc930 l       .bss	00000100 har_num.10925
+38091890 l     O .data	00000004 har_seq.10929
+384bca30 l       .bss	00000004 har_ai.10930
+384bc78c l       .bss	00000002 wChnMeaSamCnt
+00000000 l    df *ABS*	00000000 myio.c
+384bca34 l       .bss	00000004 warnStatus
+384bca44 l       .bss	00000002 light_cnt.10025
+00000000 l    df *ABS*	00000000 para.c
+380166b4 l     F .text	0000003c CPLD_Read
+380166f0 l     F .text	00000038 CPLD_Write
+38016728 l     F .text	0000004c Get_Ai_Type
+38016774 l     F .text	0000004c Get_Io_Type
+380167c0 l     F .text	00000040 Get_Power_Type
+384bca48 l       .bss	00014000 ParaFileTmpBuf
+00000000 l    df *ABS*	00000000 sys.c
+38018b5c l     F .text	0000003c CPLD_Read
+38018b98 l     F .text	00000038 CPLD_Write
+38018bd0 l     F .text	0000004c Get_Ai_Type
+38018c1c l     F .text	0000004c Get_Io_Type
+384d0a4c l       .bss	00014000 ParaFileBuf
+00000000 l    df *ABS*	00000000 bsp.c
+3801b974 l     F .text	00000038 CPLD_Write
+38091af8 l     O .data	00000004 devLight
+38091afc l     O .data	00000004 old_DevLight
+00000000 l    df *ABS*	00000000 maint.c
+3801bf00 l     F .text	0000017c SearchOneFrame
+3801c07c l     F .text	000000a4 SendFrameHead
+3801c120 l     F .text	0000009c SendWordLH
+3801c1bc l     F .text	00000110 SendDWordLH
+3801c2cc l     F .text	00000154 SendFrameTail
+3801c420 l     F .text	00000030 SendACK
+3801c450 l     F .text	00000064 SendNACK
+3801f134 l     F .text	00000370 ProcFrm
+00000000 l    df *ABS*	00000000 pcol.c
+00000000 l    df *ABS*	00000000 PrLib.c
+3801fa88 l     F .text	00000054 SIG
+3801fadc l     F .text	00000068 SUB
+3801fb44 l     F .text	00000030 Get100usCnt
+38020260 l     F .text	00000038 INVR_Init
+38020298 l     F .text	00000038 INVR_Reset
+380202d0 l     F .text	00000034 INVR_Setup
+38020304 l     F .text	00000218 INVR_Run
+380218e4 l     F .text	000000a4 fallinto_zone
+38021988 l     F .text	00000334 phase_dir
+38021cbc l     F .text	00000104 zero_dir
+38023150 l     F .text	00000a54 PRLIB_26_SCAN
+38023d14 l     F .text	000002e4 PRLIB_27_SCAN
+380240c0 l     F .text	000004a4 PRLIB_28_SCAN
+38024618 l     F .text	0000017c PRLIB_29_SCAN
+00000000 l    df *ABS*	00000000 PrLogic.c
+38027580 l     F .text	00000030 Get100usCnt
+38092208 l     O .data	000002d8 tLogicTable
+380924e0 l     O .data	0000019e tEventTable
+38092680 l     O .data	000000a2 tEventPubTable
+384e4a68 l       .bss	00000001 first.10283
+384e4a6c l       .bss	00000004 lightTime.10284
+384e4a70 l       .bss	00000004 light.10282
+384e4a74 l       .bss	00000004 light_state.10278
+00000000 l    df *ABS*	00000000 PrLogicJd.c
+38037250 l     F .text	00000030 Get100usCnt
+00000000 l    df *ABS*	00000000 PrLogicPublic.c
+38092730 l     O .data	0000016c tLogicPublicTable
+3803a484 l     F .text	0000004c SLWYLogic_Init
+3803a4d0 l     F .text	000005a4 SLWYLogic
+3803ad60 l     F .text	00000034 FZBSLogic_Init
+3803ad94 l     F .text	00000424 FZBSLogic
+3803b1b8 l     F .text	00000044 OPTBSLogic_Init
+3803b1fc l     F .text	0000128c OPTBSLogic
+3803d6c0 l     F .text	0000002c SYBSLogic_Init
+3803d6ec l     F .text	000007c4 SYBSLogic
+3803c488 l     F .text	00000098 SUDYLogic_Init
+3803c520 l     F .text	00000ba0 SUDYLogic
+3803d0c0 l     F .text	00000050 SUSYLogic_Init
+3803d110 l     F .text	000005b0 SUSYLogic
+3803deb0 l     F .text	0000004c U0Logic_Init
+3803defc l     F .text	00000130 U0Logic
+3803e02c l     F .text	0000002c UDiffLogic_Init
+3803e058 l     F .text	00000298 UDiffLogic
+3803e2f0 l     F .text	00000070 ICntLogic_Init
+3803e360 l     F .text	00000368 ICntLogic
+3803f13c l     F .text	00000034 LocalYxLogic_Init
+3803f170 l     F .text	00000728 LocalYxLogic
+3803aa74 l     F .text	0000004c JDLogic_Init
+3803aac0 l     F .text	000002a0 JDLogic
+3803e70c l     F .text	00000084 HwSYLogic_Init
+3803e790 l     F .text	0000069c HwSYLogic
+3803ee2c l     F .text	0000004c LXFZLogic_Init
+3803ee78 l     F .text	000002c4 LXFZLogic
+3803a408 l     F .text	0000007c prSKgDo
+384e4a84 l       .bss	00000004 hw_cnt
+00000000 l    df *ABS*	00000000 PrSet.c
+384e4a88 l       .bss	0000041c prSetTmp
+00000000 l    df *ABS*	00000000 Prcal.c
+38048dcc l     F .text	00000068 ADD
+38048e34 l     F .text	00000068 SUB
+384e4ea8 l       .bss	00000200 arlFt0
+384e50a8 l       .bss	00000200 arlFt10
+00000000 l    df *ABS*	00000000 record.c
+384e52ac l       .bss	00000004 recordLine
+3804d320 l     F .text	0000041c recordFileWrite
+3804d1a4 l     F .text	0000017c recordclear
+00000000 l    df *ABS*	00000000 bm_linux.c
+384e52b0 l       .bss	00000200 logmsg
+384e54b0 l       .bss	00000200 shellbuf
+00000000 l    df *ABS*	00000000 clock.c
+38093fd0 l     O .data	00000030 montomin
+00000000 l    df *ABS*	00000000 plt_if_build.c
+3809c2c8 l     O .platform_const	00000004 _ZL11szBuildDate
+3809c2cc l     O .platform_const	00000004 _ZL11szBuildTime
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 platform.c
+00000000 l    df *ABS*	00000000 bm_xuartns550.c
+38050e74 l     F .text	00000028 Xil_In32
+38050e9c l     F .text	00000038 Xil_Out32
+384e56b0 l       .bss	0000000c TotalReceivedCount
+384e56bc l       .bss	0000000c TotalSentCount
+384e56c8 l       .bss	0000000c TotalErrorCount
+384e56d4 l       .bss	00000004 cycle
+00000000 l    df *ABS*	00000000 plt_Main.c
+00000000 l    df *ABS*	00000000 plt_bm_time.c
+00000000 l    df *ABS*	00000000 plt_init.c
+00000000 l    df *ABS*	00000000 plt_mc_inner_comm.c
+00000000 l    df *ABS*	00000000 plt_mc_print.c
+00000000 l    df *ABS*	00000000 plt_ram.c
+00000000 l    df *ABS*	00000000 plt_soe_handle.c
+3809d1c4 l     O .platform_data	00000004 g_ptr_ActionSoeBuf
+3809d1c8 l     O .platform_data	00000004 g_ptr_RSignalSoeBuf
+3809d1cc l     O .platform_data	00000004 g_ptr_TraceSoeBuf
+3809d1d0 l     O .platform_data	00000004 g_ptr_MeasureChgSoeBuf
+380517c0 l     F .text	00000120 _InitSoeBuffer
+00000000 l    df *ABS*	00000000 plt_task.c
+384e56e8 l       .bss	00000004 us.10491
+384e56ec l       .bss	00000004 ms.10553
+384e56f0 l       .bss	00000004 bInit.10552
+00000000 l    df *ABS*	00000000 bm_goose_rcv.c
+00000000 l    df *ABS*	00000000 bm_sv_rcv.c
+00000000 l    df *ABS*	00000000 icomm_port.c
+00000000 l    df *ABS*	00000000 plt_bm_dbgmsg.c
+00000000 l    df *ABS*	00000000 plt_exception.c
+00000000 l    df *ABS*	00000000 plt_exception_handler.o
+00000000 l    df *ABS*	00000000 hd_driver.c
+38051f9c l     F .text	00000028 Xil_In32
+38051fc4 l     F .text	00000038 Xil_Out32
+384e56f6 l       .bss	00000001 last.10251
+00000000 l    df *ABS*	00000000 hd_fpga.c
+38051ffc l     F .text	00000028 Xil_In32
+38052024 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 hd_fpga_deal.c
+3805205c l     F .text	00000028 Xil_In32
+00000000 l    df *ABS*	00000000 hd_fpga_msg.c
+3809e088 l     O .platform_data	00000040 _fpga_msg_statistic
+3809e0c8 l     O .platform_data	00000010 _fpga_msg_register
+00000000 l    df *ABS*	00000000 hd_fpga_test.c
+00000000 l    df *ABS*	00000000 hd_isr.c
+38052120 l     F .text	00000028 Xil_In32
+38052148 l     F .text	00000038 Xil_Out32
+3809c2fc l     O .platform_const	000000e0 irq_config
+380a07f0 l     O .platform_data	00000010 xPtivateTimer
+384e56fc l       .bss	00000010 TtcPsInst
+00000000 l    df *ABS*	00000000 os_memory.c
+380a0800 l     O .platform_data	0000003c mem_Manager
+380b4164 l     O .dyn_memory	00400000 _DynMemory
+00000000 l    df *ABS*	00000000 os_none.c
+00000000 l    df *ABS*	00000000 plt_Func_Crc32.c
+3809c3dc l     O .platform_const	00000400 crctab
+00000000 l    df *ABS*	00000000 plt_Time.c
+380a0fe8 l     O .platform_data	0000001a _MonthDays
+380ae4a0 l     F .platform_code	000001c0 _SecondsFromTime
+380ae660 l     F .platform_code	0000030c _TimeFromSeconds
+00000000 l    df *ABS*	00000000 plt_shared_memory.c
+00000000 l    df *ABS*	00000000 plt_string_res.c
+380a1004 l     O .platform_data	0000002c _RegisterString
+00000000 l    df *ABS*	00000000 plt_trace.c
+380a1074 l     O .platform_data	00000081 _last_assert_filename
+380a10f8 l     O .platform_data	00000004 _last_assert_line
+380a10fc l     O .platform_data	00000e08 _logmsg_struct
+00000000 l    df *ABS*	00000000 plt_viewstring.c
+3809c7dc l     O .platform_const	000002a0 _si_unit
+3809ca7c l     O .platform_const	00000004 _si_unit_count
+3809ca80 l     O .platform_const	00000004 _si_unit_ptr_0
+3809ca84 l     O .platform_const	00000188 _si_multiple
+3809cc0c l     O .platform_const	00000004 _si_multiple_count
+3809cc10 l     O .platform_const	00000004 _si_multiple_ptr_0
+00000000 l    df *ABS*	00000000 plt_Func.c
+00000000 l    df *ABS*	00000000 plt_list.c
+38052aa8 l     F .text	0000007c new_node
+38052b24 l     F .text	00000068 get_index_by_node
+384e5710 l       .bss	00000004 p.9116
+00000000 l    df *ABS*	00000000 xgpiops.c
+380531dc l     F .text	00000028 Xil_In32
+38053204 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xgpiops_sinit.c
+00000000 l    df *ABS*	00000000 xgpiops_intr.c
+3805472c l     F .text	00000028 Xil_In32
+38054754 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xgpiops_g.c
+00000000 l    df *ABS*	00000000 xscugic_intr.c
+38056074 l     F .text	00000028 Xil_In32
+3805609c l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xscugic.c
+380561cc l     F .text	00000028 Xil_In32
+380561f4 l     F .text	00000038 Xil_Out32
+380942c0 l     O .data	00000004 CpuId
+3805622c l     F .text	000001bc DoDistributorInit
+380563e8 l     F .text	0000002c DistributorInit
+38056414 l     F .text	00000050 CPUInitialize
+38056d70 l     F .text	00000070 StubHandler
+00000000 l    df *ABS*	00000000 xscugic_sinit.c
+00000000 l    df *ABS*	00000000 xscutimer.c
+380578ec l     F .text	00000028 Xil_In32
+38057914 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xscutimer_selftest.c
+38057e3c l     F .text	00000028 Xil_In32
+38057e64 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xscutimer_sinit.c
+00000000 l    df *ABS*	00000000 xscutimer_g.c
+00000000 l    df *ABS*	00000000 print.c
+00000000 l    df *ABS*	00000000 translation_table.o
+00000000 l       *ABS*	00000000 SECT
+00100000 l       *ABS*	00000000 DDR_START
+3fffffff l       *ABS*	00000000 DDR_END
+3ff00000 l       *ABS*	00000000 DDR_SIZE
+000003ff l       *ABS*	00000000 DDR_REG
+00000000 l       *ABS*	00000000 UNDEF_REG
+00000000 l    df *ABS*	00000000 vectors.c
+00000000 l    df *ABS*	00000000 xil-crt0.S
+00000000 l    df *ABS*	00000000 xil_assert.c
+384e5714 l       .bss	00000004 Xil_AssertCallbackRoutine
+00000000 l    df *ABS*	00000000 xil_exception.c
+38058350 l     F .text	00000014 Xil_ExceptionNullHandler
+00000000 l    df *ABS*	00000000 xil_mmu.c
+00000000 l    df *ABS*	00000000 xil_sleepcommon.c
+00000000 l    df *ABS*	00000000 xplatform_info.c
+00000000 l    df *ABS*	00000000 xtime_l.c
+380586e0 l     F .text	00000028 Xil_In32
+38058708 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xttcps.c
+38058848 l     F .text	00000028 Xil_In32
+38058870 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xttcps_sinit.c
+00000000 l    df *ABS*	00000000 xttcps_g.c
+00000000 l    df *ABS*	00000000 xttcps_options.c
+380591b8 l     F .text	00000028 Xil_In32
+380591e0 l     F .text	00000038 Xil_Out32
+3809432c l     O .data	00000054 TmrCtrOptionsTable
+00000000 l    df *ABS*	00000000 xuartns550.c
+380596b0 l     F .text	00000028 Xil_In32
+380596d8 l     F .text	00000038 Xil_Out32
+3805a33c l     F .text	00000044 XUartNs550_StubHandler
+00000000 l    df *ABS*	00000000 xuartns550_format.c
+3805a380 l     F .text	00000028 Xil_In32
+3805a3a8 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xuartns550_intr.c
+3805a7bc l     F .text	00000028 Xil_In32
+3805a7e4 l     F .text	00000038 Xil_Out32
+38094380 l     O .data	00000034 HandlerTable
+3805ae80 l     F .text	00000070 ModemHandler
+3805aa18 l     F .text	0000010c NoInterruptHandler
+3805adc4 l     F .text	000000bc SendDataHandler
+3805ad28 l     F .text	0000009c ReceiveDataHandler
+3805ab24 l     F .text	00000168 ReceiveStatusHandler
+3805ac8c l     F .text	0000009c ReceiveTimeoutHandler
+00000000 l    df *ABS*	00000000 xuartns550_options.c
+3805aef0 l     F .text	00000028 Xil_In32
+3805af18 l     F .text	00000038 Xil_Out32
+380943b4 l     O .data	00000048 OptionsTable
+3805b794 l     F .text	000000d0 ReadFcrRegister
+00000000 l    df *ABS*	00000000 xuartns550_sinit.c
+00000000 l    df *ABS*	00000000 xuartns550_stats.c
+00000000 l    df *ABS*	00000000 xuartps_sinit.c
+00000000 l    df *ABS*	00000000 xuartps_hw.c
+3805bcfc l     F .text	00000028 Xil_In32
+3805bd24 l     F .text	00000038 Xil_Out32
+00000000 l    df *ABS*	00000000 xuartps.c
+3805bef8 l     F .text	00000028 Xil_In32
+3805bf20 l     F .text	00000038 Xil_Out32
+3805ca78 l     F .text	00000044 XUartPs_StubHandler
+00000000 l    df *ABS*	00000000 xuartps_g.c
+00000000 l    df *ABS*	00000000 xscugic_g.c
+00000000 l    df *ABS*	00000000 cpu_init.o
+00000000 l    df *ABS*	00000000 outbyte.c
+00000000 l    df *ABS*	00000000 sleep.c
+00000000 l    df *ABS*	00000000 usleep.c
+00000000 l    df *ABS*	00000000 xil_cache.c
+00000000 l    df *ABS*	00000000 xuartns550_g.c
+00000000 l    df *ABS*	00000000 _udivsi3.o
+3805d970 l       .text	00000000 .udivsi3_skip_div0_test
+00000000 l       *ABS*	00000000 shift
+00000000 l    df *ABS*	00000000 _divsi3.o
+3805db84 l       .text	00000000 .divsi3_skip_div0_test
+00000000 l       *ABS*	00000000 shift
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
+00000000 l    df *ABS*	00000000 _aeabi_ldivmod.o
+00000000 l    df *ABS*	00000000 _aeabi_uldivmod.o
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 unwind-arm.c
+3805e3b4 l     F .text	00000018 selfrel_offset31
+3805e3cc l     F .text	0000008c search_EIT_table
+3805e458 l     F .text	0000003c __gnu_unwind_get_pr_addr
+3805e494 l     F .text	00000110 get_eit_entry
+3805e5a4 l     F .text	00000088 restore_non_core_regs
+3805e62c l     F .text	00000014 _Unwind_decode_typeinfo_ptr.isra.0
+3805e640 l     F .text	00000008 __gnu_unwind_24bit.isra.1
+3805e648 l     F .text	00000004 _Unwind_DebugHook
+3805e64c l     F .text	00000068 unwind_phase2
+3805e6b4 l     F .text	0000013c unwind_phase2_forced
+3805e9dc l     F .text	0000002c _Unwind_GetGR
+3805ea70 l     F .text	0000002c _Unwind_SetGR
+3805eb5c l     F .text	00000460 __gnu_unwind_pr_common
+00000000 l    df *ABS*	00000000 libunwind.o
+00000000 l    df *ABS*	00000000 pr-support.c
+3805f58c l     F .text	00000064 next_unwind_byte
+3805f5f0 l     F .text	0000002c _Unwind_GetGR.constprop.0
+3805f61c l     F .text	00000004 unwind_UCB_from_context
+00000000 l    df *ABS*	00000000 abort.c
+00000000 l    df *ABS*	00000000 atoi.c
+00000000 l    df *ABS*	00000000 calloc.c
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 fini.c
+00000000 l    df *ABS*	00000000 impure.c
+380947e8 l     O .data	00000428 impure_data
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 lcltime.c
+00000000 l    df *ABS*	00000000 lcltime_r.c
+00000000 l    df *ABS*	00000000 malloc.c
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 memcmp.c
+00000000 l    df *ABS*	00000000 lib_a-memcpy.o
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 mktime.c
+38060f70 l     F .text	00000338 validate_structure
+38077fec l     O .rodata	00000030 DAYS_IN_MONTH
+3807801c l     O .rodata	00000030 _DAYS_BEFORE_MONTH
+00000000 l    df *ABS*	00000000 mlock.c
+00000000 l    df *ABS*	00000000 month_lengths.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 sbrkr.c
+00000000 l    df *ABS*	00000000 signal.c
+38061880 l     F .text	00000044 _init_signal_r.part.0
+00000000 l    df *ABS*	00000000 signalr.c
+00000000 l    df *ABS*	00000000 snprintf.c
+00000000 l    df *ABS*	00000000 sprintf.c
+00000000 l    df *ABS*	00000000 lib_a-strcmp.o
+00000000 l    df *ABS*	00000000 strcpy.c
+00000000 l    df *ABS*	00000000 lib_a-strlen.o
+00000000 l    df *ABS*	00000000 strncpy.c
+00000000 l    df *ABS*	00000000 strtok.c
+00000000 l    df *ABS*	00000000 strtok_r.c
+00000000 l    df *ABS*	00000000 strtol.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+380780ac l     O .rodata	00000010 blanks.8337
+380780bc l     O .rodata	00000010 zeroes.8338
+00000000 l    df *ABS*	00000000 tzcalc_limits.c
+00000000 l    df *ABS*	00000000 tzlock.c
+00000000 l    df *ABS*	00000000 tzset.c
+00000000 l    df *ABS*	00000000 tzset_r.c
+384e574c l     O .bss	00000004 prev_tzenv
+384e5750 l     O .bss	0000000b __tzname_std
+384e575c l     O .bss	0000000b __tzname_dst
+00000000 l    df *ABS*	00000000 tzvars.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+38067f30 l     F .text	000000ac __sbprintf
+380780cc l     O .rodata	00000010 blanks.8352
+380780dc l     O .rodata	00000010 zeroes.8353
+00000000 l    df *ABS*	00000000 vsnprintf.c
+00000000 l    df *ABS*	00000000 vsprintf.c
+00000000 l    df *ABS*	00000000 wcrtomb.c
+00000000 l    df *ABS*	00000000 wcsrtombs.c
+00000000 l    df *ABS*	00000000 wctomb_r.c
+00000000 l    df *ABS*	00000000 wsetup.c
+00000000 l    df *ABS*	00000000 __call_atexit.c
+00000000 l    df *ABS*	00000000 ctype_.c
+00000000 l    df *ABS*	00000000 div.c
+00000000 l    df *ABS*	00000000 dtoa.c
+38068908 l     F .text	000001c4 quorem
+00000000 l    df *ABS*	00000000 fflush.c
+00000000 l    df *ABS*	00000000 findfp.c
+38069fa4 l     F .text	00000008 __fp_lock
+38069fb8 l     F .text	00000144 __sinit.part.1
+3806a0fc l     F .text	00000008 __fp_unlock
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 fwalk.c
+00000000 l    df *ABS*	00000000 getenv_r.c
+00000000 l    df *ABS*	00000000 gettzinfo.c
+38095030 l     O .data	00000040 tzinfo
+00000000 l    df *ABS*	00000000 gmtime_r.c
+00000000 l    df *ABS*	00000000 locale.c
+3806aaa0 l     F .text	00000090 __get_locale_env
+3806ab30 l     F .text	000008f4 loadlocale
+3806b424 l     F .text	0000008c currentlocale
+380781f0 l     O .rodata	0000001c categories
+38095090 l     O .data	000000e0 current_categories
+38095170 l     O .data	00000020 lc_ctype_charset
+38095194 l     O .data	00000020 lc_message_charset
+380951b4 l     O .data	00000038 lconv
+384e5770 l     O .bss	000000e0 new_categories
+384e5850 l     O .bss	00000004 lc_ctype_cjk_lang
+384e5854 l     O .bss	000000e7 current_locale_string
+384e593c l     O .bss	000000e0 saved_categories
+00000000 l    df *ABS*	00000000 makebuf.c
+00000000 l    df *ABS*	00000000 mbtowc_r.c
+3807820c l     O .rodata	00000048 JIS_state_table
+38078254 l     O .rodata	00000048 JIS_action_table
+00000000 l    df *ABS*	00000000 lib_a-memchr.o
+00000000 l    df *ABS*	00000000 mprec.c
+380782a0 l     O .rodata	0000000c p05.6591
+00000000 l    df *ABS*	00000000 reent.c
+00000000 l    df *ABS*	00000000 s_frexp.c
+00000000 l    df *ABS*	00000000 siscanf.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 strcasecmp.c
+00000000 l    df *ABS*	00000000 strcat.c
+00000000 l    df *ABS*	00000000 strchr.c
+00000000 l    df *ABS*	00000000 strlcpy.c
+00000000 l    df *ABS*	00000000 strncasecmp.c
+00000000 l    df *ABS*	00000000 strncmp.c
+00000000 l    df *ABS*	00000000 strtoul.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+380783c8 l     O .rodata	00000010 blanks.8316
+380783d8 l     O .rodata	00000010 zeroes.8317
+00000000 l    df *ABS*	00000000 vfscanf.c
+380783e8 l     O .rodata	00000022 basefix.7748
+00000000 l    df *ABS*	00000000 ungetc.c
+00000000 l    df *ABS*	00000000 vfprintf.c
+38070284 l     F .text	000000a8 __sprint_r.part.0
+38071a04 l     F .text	000000ac __sbprintf
+3807840c l     O .rodata	00000010 blanks.8330
+3807841c l     O .rodata	00000010 zeroes.8331
+00000000 l    df *ABS*	00000000 wcsnrtombs.c
+00000000 l    df *ABS*	00000000 writer.c
+00000000 l    df *ABS*	00000000 closer.c
+00000000 l    df *ABS*	00000000 environ.c
+384e5a28 l     O .bss	00000004 initial_env
+00000000 l    df *ABS*	00000000 envlock.c
+00000000 l    df *ABS*	00000000 fclose.c
+00000000 l    df *ABS*	00000000 fputwc.c
+00000000 l    df *ABS*	00000000 fstatr.c
+00000000 l    df *ABS*	00000000 fvwrite.c
+00000000 l    df *ABS*	00000000 isattyr.c
+00000000 l    df *ABS*	00000000 iswspace.c
+00000000 l    df *ABS*	00000000 jp2uc.c
+38072528 l     F .text	000001e4 __jp2uc
+38078754 l     O .rodata	00001a7c d02f4
+3807a1d0 l     O .rodata	0000172a b02cf
+3807842c l     O .rodata	000000bc a1
+380784e8 l     O .rodata	000000bc a2
+380785a4 l     O .rodata	0000005b a3
+38078600 l     O .rodata	00000070 a6
+38078670 l     O .rodata	000000a2 a7
+38078714 l     O .rodata	00000040 a8
+00000000 l    df *ABS*	00000000 lseekr.c
+00000000 l    df *ABS*	00000000 mbrtowc.c
+00000000 l    df *ABS*	00000000 memmove.c
+00000000 l    df *ABS*	00000000 readr.c
+00000000 l    df *ABS*	00000000 mallocr.c
+00000000 l    df *ABS*	00000000 sccl.c
+00000000 l    df *ABS*	00000000 strtoll_r.c
+00000000 l    df *ABS*	00000000 strtoull_r.c
+00000000 l    df *ABS*	00000000 wbuf.c
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 _sbrk.c
+384e5a2c l       .bss	00000004 heap.5541
+380951f4 l     O .data	00000004 HeapEndPtr.5543
+00000000 l    df *ABS*	00000000 close.c
+00000000 l    df *ABS*	00000000 fstat.c
+00000000 l    df *ABS*	00000000 getpid.c
+00000000 l    df *ABS*	00000000 isatty.c
+00000000 l    df *ABS*	00000000 kill.c
+00000000 l    df *ABS*	00000000 lseek.c
+00000000 l    df *ABS*	00000000 read.c
+00000000 l    df *ABS*	00000000 write.c
+00000000 l    df *ABS*	00000000 errno.c
+00000000 l    df *ABS*	00000000 inbyte.c
+00000000 l    df *ABS*	00000000 crtstuff.c
+380951f8 l     O .eh_frame	00000000 __FRAME_END__
+00000000 l    df *ABS*	00000000 c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/v7-a/fpv3/hard/crtn.o
+38044d38 g     F .text	000000e0 prFdSetDef
+380470a0 g     F .text	000002a4 ReadSetLen
+38012acc g     F .text	00000058 gainclear
+380b02bc g     F .platform_code	0000021c get_RegStringResource
+38014d24 g     F .text	00000a74 UICheckInit
+3805f544 g     F .text	00000024 .hidden ___Unwind_ForcedUnwind
+3805e7f8 g     F .text	000000a8 .hidden __gnu_Unwind_RaiseException
+380a4754 g     F .platform_code	00000028 tskFast
+380af9a8 g     F .platform_code	00000100 SetBaremetalResetFlag
+380a7dc4 g     F .platform_code	00000088 axi_hp_get_goose_storm_threshold
+38094010 g     O .data	00000092 goose_send
+380274dc g     F .text	000000a0 PRLIB_124
+38019afc g     F .text	00000f04 GetSysConfig
+3806cd58 g     F .text	00000034 _mprec_log10
+3ef0d000 g       .stack	00000000 _supervisor_stack_end
+380b26b8 g     F .platform_code	0000006c str_IsStringEmpty
+390253d0 g     O .bss	00000004 pRunSet
+3804a784 g     F .text	00000604 createProtFdGain
+38047344 g     F .text	0000018c WriteSetLen
+380a87f0 g     F .platform_code	00000368 axi_hp_poll_msg
+39031ef0 g     O .bss	00001800 goosesendbuftemp
+3806cdf8 g     F .text	00000078 __any_on
+38072484 g     F .text	00000038 _isatty_r
+38078378 g     O .rodata	00000028 __mprec_tinytens
+3805d8a8 g     F .text	000000c8 Xil_L1ICacheInvalidateRange
+38034e60 g     F .text	00000034 HHLogic_Init
+380afe60 g     F .platform_code	00000070 GetLinuxInnerCommVerion
+3806205c g     F .text	000000f8 strcpy
+3806ce70 g     F .text	0000003c cleanup_glue
+38041b0c g     F .text	00000090 prGetUpValRet
+3805c190 g     F .text	00000150 XUartPs_Send
+3809327c g     O .data	00000008 bsJS
+38073794  w    F .text	0000001c _getpid
+3809ce18 g     O .platform_data	0000000c g_SystemTime
+38047f68 g     F .text	0000035c WritePrParaFile
+380b087c g     F .platform_code	00000094 _fileshortname
+380411d0 g     F .text	000002a0 CvtU
+380b2ac0 g     F .platform_code	00000058 i_MakeGin
+380351d0 g     F .text	00000f38 YxLogic
+380a5b08 g     F .platform_code	000000bc exp_SaveIrqSP
+3807278c g     F .text	00000044 _lseek_r
+380aee78 g     F .platform_code	000000a4 str_GetFullDateTimeWithUsString
+3804af44 g     F .text	00000448 protValtoFd
+3807270c g     F .text	00000080 _jp2uc
+38004a58 g     F .text	00000064 ykInit
+38000000 g       .text	00000000 _vector_table
+380a4c80 g     F .platform_code	00000018 OnLeave_tskOSTick
+01000000 g       *ABS*	00000000 _CORE1_DDR_SHARE_LENGTH
+3805109c g     F .text	000003a4 UartNs550IntrHandler
+380951fc g       .eh_frame	00000000 __eh_framehdr_start
+3803a1a0 g     F .text	000001a0 prLowDrv
+380951f8 g       .data	00000000 ___CTORS_LIST___
+380a2508 g     F .platform_code	0000006c GetSystemFullTime
+38006d18 g     F .text	00000078 UIAngpb
+380adc68 g     F .platform_code	00000054 OSTimeSet
+380a4c68 g     F .platform_code	00000018 OnEnter_tskOSTick
+380004c8 g     F .text	00000080 tInit
+3800e6a4 g     F .text	00000034 doreadchnbuf
+3805d0d8 g     F .text	000000d4 Xil_ICacheInvalidateRange
+3800d01c g     F .text	0000028c meaDataLoad_ft
+38051d44 g     F .text	00000090 goose_set_rcv
+380a8b98 g     F .platform_code	00000084 FPGA_CPLD_READ
+3805d1f8 g     F .text	0000003c Xil_L1DCacheDisable
+00001000 g       *ABS*	00000000 _ABORT_STACK_SIZE
+380b1a5c g     F .platform_code	000000e0 str_GetTVAR_DATAViewStringEx
+3804864c g     F .text	000000c8 WriteI0LB
+380580bc g     F .text	0000004c print
+380a4d58 g     F .platform_code	00000018 OnEnter_tskIdel
+380a2574 g     F .platform_code	00000090 SetBMSharedDateTime
+38074fc0 g     O .rodata	00000006 sRelayName
+38058584 g     F .text	00000064 Xil_DisableMMU
+38036400 g     F .text	00000034 GPLogic_Init
+3806240c g     F .text	00000008 strtok_r
+384e4a54 g     O .bss	00000004 g_prSem
+38052de4 g     F .text	00000084 list_extend
+3805e120 g     F .text	00000060 .hidden __floatdidf
+38033914 g     F .text	00000380 BhqdLogic
+3f1a0800 g     O .shared_data	00040800 axiRxMsgBuf
+380b17c8 g     F .platform_code	0000003c str_GetHex32ViewString
+38005cd4 g     F .text	0000005c prOutput
+380a47e0 g     F .platform_code	0000002c tskUser
+38061ac4 g     F .text	00000040 _kill_r
+380b1478 g     F .platform_code	000000c4 str_GetSIMultiple_String
+38051f7c g       .text	00000000 _GetIrqModeLr
+38061808 g     F .text	00000040 printf
+380680f4 g     F .text	0000001c vsprintf
+3801ef4c g     F .text	0000008c WriteRunParaMaint
+380a4c50 g     F .platform_code	00000018 OnLeave_tskADSimple
+380add54 g     F .platform_code	000001ac OSIntEnter
+38068110 g     F .text	00000088 _wcrtomb_r
+3804f348 g     F .text	0000007c rtcSetTime
+38091a94 g     O .data	00000064 Task_list
+3802f82c g     F .text	00000080 I01Logic_Init
+38037e3c g     F .text	00000aec GetMutation
+380618dc g     F .text	00000058 _signal_r
+38010938 g     F .text	00000028 ddInit
+380a477c g     F .platform_code	00000038 tskSlow
+3801f4a4 g     F .text	000000a0 maint
+3801f860 g     F .text	0000019c SearchFrame
+38018388 g     F .text	00000084 WriteFzT
+38047034 g     F .text	0000006c prFdSetNoSwitch
+380b1788 g     F .platform_code	00000040 str_GetUint64ViewString
+3805262c g     F .text	00000170 _isrTimeRun
+380a41b4 g     F .platform_code	00000068 soe_AddNewActionSoe
+380368a8 g     F .text	000000a4 prGetBhqd
+3806d1cc g     F .text	0000002c __sseek
+3806a250 g     F .text	00000010 __sinit
+384e62b8 g     O .bss	0000b200 nFtSam
+38004530 g     F .text	00000528 relayOutput
+38073508 g     F .text	00000128 __swbuf_r
+380485a4 g     F .text	000000a8 ReadI0LB
+384e576c g     O .bss	00000004 _daylight
+39024e60 g     O .bss	00000004 pCheckCtrl
+380af710 g     F .platform_code	0000014c CheckSharedLinuxMemory
+38031c84 g     F .text	000001a0 PTLogic
+3805a81c g     F .text	00000110 XUartNs550_SetHandler
+38058478 g     F .text	00000014 Xil_PrefetchAbortHandler
+39021cd8 g     O .bss	00000300 meaValue
+380b1888 g     F .platform_code	00000064 str_Getfp32ViewStringEx
+38053560 g     F .text	00000150 XGpioPs_ReadPin
+384e4ea4 g     O .bss	00000001 FileSetNum
+3806b4b0 g     F .text	00000318 _setlocale_r
+380b0910 g     F .platform_code	0000011c x_assert
+380a36a8 g     F .platform_code	000000e0 PowerOn_InitSoeBuffer
+3802d488 g     F .text	00000044 I1Logic_Init
+3806a104 g     F .text	00000048 __sfmoreglue
+3801c570 g     F .text	00000074 WriteYxTime_BM
+3801c4b4 g     F .text	000000bc WriteYkT_Bm
+38000610 g     F .text	0000007c evSend
+3807026c g     F .text	00000018 ungetc
+380655bc g     F .text	0000001c _tzset_r
+380617d0 g     F .text	00000004 __malloc_unlock
+380a3a50 g     F .platform_code	00000150 soe_GetOneSoe
+3801ada0 g     F .text	0000002c PublicInit
+38054240 g     F .text	00000130 XGpioPs_GetOutputEnable
+384e570c g     O .bss	00000004 g_DEBUG_MESSAGE_str
+38031e50 g     F .text	00000220 IDirLogic
+3801fc88 g     F .text	00000090 SetTRHold
+38051f3c g       .text	00000000 _GetSysModeLr
+38057c54 g     F .text	00000104 XScuTimer_SetPrescaler
+380163e4 g     F .text	000002a8 GetMyIoNo
+38039610 g     F .text	0000018c CreateLogicLow
+00001000 g       *ABS*	00000000 _CORE1_HEAP_RESERVE_STACK_SIZE
+3801bd44 g     F .text	00000090 runLight_turn
+380aa40c g     F .platform_code	0000017c fpga_msg_on_rcv_goose
+384e4ea5 g     O .bss	00000001 b_YB_CHN
+380abca0 g     F .platform_code	00000054 hd_SGI_cur_cpu_rasie
+38022de4 g     F .text	000002d0 PRLIB_25_SCAN
+38045168 g     F .text	0000006c prSetTypeJudgy
+3805829c g     F .text	00000064 Xil_Assert
+380a4d40 g     F .platform_code	00000018 OnLeave_tskUser
+380a09e4 g     O .platform_data	00000001 OSRunning
+3804d0b8 g     F .text	00000050 recordWrite
+384bca38 g     O .bss	00000004 myCellId
+3809e080 g     O .platform_data	00000004 _goose_rcv_filter_idx
+380a2900 g     F .platform_code	0000006c PowerOn_Initial_Hardware
+390315e8 g     O .bss	000000d8 XUartNs550Instance
+3804f944 g     F .text	00000198 WriteSSOE
+380a413c g     F .platform_code	0000002c soe_GetTraceSoe
+384bc430 g     O .bss	00000004 aiNUM
+380577c0 g     F .text	0000006c XScuGic_SetCpuID
+38056464 g     F .text	0000020c XScuGic_CfgInitialize
+390336f0 g     O .bss	00001800 goosesendbuf
+38018f38 g     F .text	000000bc WriteDoEvent
+390114cc g     O .bss	00000001 byCorrectChn
+380b0cc8 g     F .platform_code	00000058 x_printf_with_log
+3806ef18 g     F .text	000000cc _sfread_r
+380688a0 g     F .text	00000018 __set_ctype
+3805b5f8 g     F .text	00000084 XUartNs550_GetLastErrors
+380a1f3c g     O .platform_data	00000200 crc16_xtab
+3807290c g     F .text	0000013c memmove
+3801d57c g     F .text	00000360 SendYC1
+38018728 g     F .text	00000128 WritePLP
+38012b40 g     F .text	00000384 meaGainValGet
+380b0648 g     F .platform_code	000000bc AssertEnable_Set
+380316ec g     F .text	0000005c UDyLogic_Init
+3805f400 g     F .text	00000000 .hidden __gnu_Unwind_Save_VFP
+38005838 g     F .text	000002ac ykCancel
+3806a238 g     F .text	00000018 _cleanup
+3805f520 g     F .text	00000024 .hidden _Unwind_Resume_or_Rethrow
+3ef0e000 g       .stack	00000000 __supervisor_stack
+38091814 g     O .data	00000004 ggainver
+38061bc8 g     F .text	000000d0 snprintf
+380477ac g     F .text	000001f0 WritePubSet
+3806c170 g     F .text	00000088 _Balloc
+3809c0c0 g       .ARM.exidx	00000000 __exidx_end
+380004b0 g     F .text	00000018 task_null
+3806234c g     F .text	000000c0 __strtok_r
+380ae2ec g     F .platform_code	00000064 OS_ClearUsage
+38053ab8 g     F .text	000001f0 XGpioPs_SetDirectionPin
+380530b8 g     F .text	00000080 list_index
+3800ceb0 g     F .text	0000016c meaWrite_DbValue
+3805bd5c g     F .text	00000060 XUartPs_SendByte
+38019648 g     F .text	0000005c WriteRunPara
+384d0a48 g     O .bss	00000004 g_init
+3804f528 g     F .text	000000b8 ReadRangeYCF_L
+3800ed70 g     F .text	000002d8 ReadYcPtCt
+380570b8 g     F .text	00000230 XScuGic_GetPriorityTriggerType
+390306ac g     O .bss	00000004 pVal
+380a92d4 g     F .platform_code	000002d4 fpga_gps_time_decode
+38094168 g     O .data	00000150 pkt1
+3ef11000 g       .stack	00000000 _undef_stack_end
+38058d80 g     F .text	0000015c XTtcPs_SetPrescaler
+384e4a64 g     O .bss	00000004 prGzEvtOpt
+3800656c g     F .text	00000074 GetDefPYcCfg
+380a45dc g     F .platform_code	00000178 tskOSTick
+3801f9fc g     F .text	0000008c DoSend
+38051f1c g       .text	00000000 _GetSysModeSp
+380a7f14 g     F .platform_code	000000b0 axi_hp_get_goose_storm_control_status
+380161cc g     F .text	00000074 dio
+3805b12c g     F .text	00000260 XUartNs550_SetOptions
+3805efbc g     F .text	00000008 .hidden __aeabi_unwind_cpp_pr0
+380b15bc g     F .platform_code	00000040 str_GetTestQualityString
+380b153c g     F .platform_code	00000040 str_GetGinString
+380900f0 g     O .data	000002d0 laFAFim
+38073be8  w    F .text	00000024 __errno
+390253cc g     O .bss	00000004 pMaint
+38058364 g     F .text	00000018 Xil_ExceptionInit
+3801df90 g     F .text	0000023c set_baohudingzhi
+38093f18 g     O .data	00000010 faWorkMode
+38093f38 g     O .data	00000008 pt_SUSYMode
+3800e418 g     F .text	0000028c meaRead_YcChnBuf
+380b1cd4 g     F .platform_code	000000d8 str_UInt32FloatToString
+38005ee4 g     F .text	00000030 BMSetYkYb
+380a1054 g     O .platform_data	00000004 LOGMSG_L1_ENABLE
+3805fa64 g     F .text	00000010 .hidden _Unwind_GetRegionStart
+3809d1d4 g     O .platform_data	00000e50 g_CpuException
+3805014c g     F .text	00000094 ReadLinuxLed
+380aef1c g     F .platform_code	00000094 str_GetFullDateTimeWithoutMsString
+380683e8 g     F .text	0000008c __sjis_wctomb
+3805f520 g     F .text	00000024 .hidden ___Unwind_Resume_or_Rethrow
+38037648 g     F .text	0000007c FilterLow
+380b1b3c g     F .platform_code	00000198 str_Int32FloatToString
+3809c0c8 g       .ARM.attributes	00000000 __sbss_start
+3809e024 g     O .platform_data	0000003c g_StackDef
+380a42b0 g     F .platform_code	00000068 soe_AddNewRSignalSoe
+38071fa4 g     F .text	00000040 _fstat_r
+38012988 g     F .text	00000100 GainRead
+380a96e4 g     F .platform_code	00000194 fpga_add_one_goose_rcv
+38052a48 g     F .text	00000060 list_len
+38050e30 g     F .text	00000018 _Z9init_uartv
+380a3ba0 g     F .platform_code	000000c0 soe_GetOneSoeEx
+380a7a14 g     F .platform_code	000000c8 axi_hp_set_analog_sampling_calibration
+38012a88 g     F .text	00000044 gainread
+39037958 g     O .bss	00000004 errno
+38015d8c g     F .text	00000220 miscInit
+3801840c g     F .text	00000084 WriteHzT
+3805af50 g     F .text	000001dc XUartNs550_GetOptions
+3806d170 g     F .text	00000008 __seofread
+380581f8 g     F .text	00000030 PrefetchAbortInterrupt
+38093264 g     O .data	00000008 szQd
+3805bdbc g     F .text	0000005c XUartPs_RecvByte
+3804de8c g     F .text	00000484 StartWavRecord
+380b2210 g     F .platform_code	0000009c str_MatrixToString
+3803676c g     F .text	0000013c YxTzLogic
+380ab6e4 g     F .platform_code	000001d8 hd_InitIsr_Fpga
+38051e0c g     F .text	00000110 test_goose_rcv
+3805f568 g     F .text	00000024 .hidden _Unwind_Backtrace
+380b2b18 g     F .platform_code	0000004c f_malloc
+380aae40 g     F .platform_code	00000018 axi_hp_goose_sv_test_init
+38050e48 g     F .text	00000018 _Z13init_platformv
+384bc440 g     O .bss	00000004 SignalVal
+380b1698 g     F .platform_code	00000038 str_GetDualPtViewString
+3805bc68 g     F .text	00000094 XUartPs_LookupConfig
+380586a0 g     F .text	00000024 usleep
+384e5b00 g     O .bss	00000780 g_YxNo2Port
+380a8310 g     F .platform_code	000000e8 axi_hp_fill_goose_msg_head
+384e6280 g     O .bss	00000004 DYX_NUM
+38031c38 g     F .text	00000020 UMXQYLogic
+3809c2c8 g       .platform_const	00000000 __platform_const_start
+39025594 g     O .bss	00000008 prSetPublic
+380951f8 g       .data	00000000 __fixup_start
+380a1044 g     O .platform_data	00000004 ASSERT_L1_ENABLE
+380484dc g     F .text	000000c8 WriteWYLB
+3804769c g     F .text	00000110 ReadPubSet
+380a30d0 g     F .platform_code	000000d0 mc_GetLinuxCommandLine
+380a2cb8 g     F .platform_code	0000004c mc_inner_send_buf_is_empty
+38073778  w    F .text	0000001c getpid
+38018618 g     F .text	00000110 WriteILP
+38040970 g     F .text	000001e4 CvtK
+3805f3e4 g     F .text	00000014 .hidden __restore_core_regs
+3805f420 g     F .text	00000000 .hidden __gnu_Unwind_Save_VFP_D_16_to_31
+380b16d0 g     F .platform_code	0000003c str_GetInt32ViewString
+380586c4 g     F .text	0000001c XGetPlatform_Info
+38018e80 g     F .text	000000b8 WriteWarnEvent
+3805ce64 g     F .text	00000048 Xil_DCacheFlush
+380a4b64 g     F .platform_code	00000070 othertsk_run
+3805cc90 g     F .text	00000048 Xil_DCacheInvalidate
+3800012c g       .text	00000000 _boot
+380a4af4 g     F .platform_code	00000070 Print_AllTaskDetail
+380aa194 g     F .platform_code	00000278 fpga_msg_callback
+38056de0 g     F .text	000002d8 XScuGic_SetPriorityTriggerType
+380a60b0 g     F .platform_code	0000002c hd_get_cycles
+38010ce4 g     F .text	000002b0 createGainNo2YcRef
+3809e064 g     O .platform_data	00000004 hd_fpga_debug
+380935f4 g     O .data	00000008 szSignMode
+38000cc4 g     F .text	00000064 GetDefTVYxCfg_Public
+380a6a48 g     F .platform_code	0000009c axi_hp_get_eth_status
+38054f14 g     F .text	00000130 XGpioPs_IntrGetStatus
+380a63f0 g     F .platform_code	00000044 hd_gpio_SetDirectionIn
+380ae154 g     F .platform_code	0000006c OS_Signal_Create
+38006fa8 g     F .text	00000224 protectCal_ft
+384bc43c g     O .bss	00000004 ddNum
+38002cbc g     F .text	00000498 yxFilter
+3802d4cc g     F .text	00000b4c I1Logic
+38068474 g     F .text	000000b8 __eucjp_wctomb
+3804cea8 g     F .text	00000210 recordInit
+380af85c g     F .platform_code	0000014c CheckSharedMemory
+380942c4 g     O .data	00000008 XScuTimer_ConfigTable
+380951f8 g       .data	00000000 __fixup_end
+3802eb50 g     F .text	000008c8 I3Logic
+380066c0 g     F .text	00000064 GetDefTVYcCfg
+38033c94 g     F .text	0000004c RelayLogic_Init
+3802e018 g     F .text	00000038 I2Logic_Init
+384f14b8 g     O .bss	00000004 adMask
+3805e7f0 g     F .text	00000008 .hidden _Unwind_GetCFA
+38060880 g     F .text	000005e0 memcpy
+38053430 g     F .text	00000130 XGpioPs_Read
+3804f694 g     F .text	000000b4 ReadSYX
+380951f8 g     O .data	00000000 .hidden __TMC_END__
+38093d58 g     O .data	00000008 szPubLine
+380ae0e4 g     F .platform_code	00000030 OSIntRegGet
+3805ea08 g     F .text	00000068 .hidden _Unwind_VRS_Set
+384bc438 g     O .bss	00000004 fdNum
+38069fac g     F .text	0000000c _cleanup_r
+380625f0 g     F .text	000028c4 _svfprintf_r
+380b1224 g     F .platform_code	000000bc DebugMessageHelp
+3805e09c g     F .text	00000028 .hidden __floatsidf
+3805848c g     F .text	00000014 Xil_UndefinedExceptionHandler
+380932b8 g     O .data	0000000c szReport
+384e5af8 g     O .bss	00000004 pExtYx
+38030cac g     F .text	000006bc I03Logic
+380140a4 g     F .text	0000070c meaGainSetGet
+38098000 g       .mmu_tbl	00000000 __mmu_tbl_start
+3809c0c8 g       .ARM.attributes	00000000 __sdata_start
+380a80e4 g     F .platform_code	00000068 regist_axi_hp_msg_callback
+3803979c g     F .text	00000438 prRunInfoPublicInit
+38091810 g     O .data	00000004 SignalNo
+380365d0 g     F .text	00000168 DPLogic
+38009ef0 g     F .text	00000060 rawValue
+3801d8dc g     F .text	00000354 SendYCfloat
+380951f8 g       .data	00000000 __DTOR_END__
+380a0860 g     O .platform_data	00000004 OS_IdleCnt
+38091818 g     O .data	00000004 g_wFreq
+3804ea20 g     F .text	0000044c ReadParaFile
+3801f658 g     F .text	00000104 NeatenCommBuf
+3802ca8c g     F .text	000009dc prWriteGzEvent
+3805e254 g     F .text	00000000 .hidden __aeabi_uldivmod
+380a53a8 g     F .platform_code	00000164 PowerOn_InitException
+3805d040 g     F .text	00000048 Xil_ICacheInvalidate
+380275b0 g     F .text	00000188 prLogicPre
+380a4ce0 g     F .platform_code	00000018 OnLeave_tskSlow
+3802ab64 g     F .text	000002f4 prVyxHandle
+3ef0f000 g       .stack	00000000 __abort_stack
+380afed0 g     F .platform_code	00000068 PowerOn_InitStringResource
+380a4490 g     F .platform_code	0000002c soe_GetMeasureChgSoe
+38039ddc g     F .text	0000010c prLogicPublicPre
+380a7844 g     F .platform_code	000000d4 axi_hp_set_mac_addr_replace_enable
+38003154 g     F .text	0000026c yxWrite
+380af494 g     F .platform_code	0000006c To_Time_t
+3807286c g     F .text	000000a0 mbrtowc
+3809c0c8 g       .fini_array	00000000 __fini_array_end
+3805210c g     F .text	00000014 axi_sv_init
+3807bad0 g       .rodata	00000000 __rodata_end
+380a105c g     O .platform_data	00000004 LOGMSG_L3_ENABLE
+380588a8 g     F .text	00000268 XTtcPs_CfgInitialize
+380a7b40 g     F .platform_code	00000064 axi_hp_set_sampling_msg1_control
+3806ccd8 g     F .text	00000080 __ratio
+380adf00 g     F .platform_code	00000188 OSIntExit
+38020128 g     F .text	00000090 InverseVery
+38044fe4 g     F .text	000000ec prPubSetPartDef
+38033ce0 g     F .text	00001180 RelayLogic
+39025560 g     O .bss	00000004 prYxPubOpt
+38048714 g     F .text	000000a8 ReadU0LB
+3805ffd8 g     F .text	00000014 malloc
+380617d4 g     F .text	00000034 _printf_r
+38093f08 g     O .data	00000010 szWorkMode
+3803fc78 g     F .text	000005e4 SetToFloat
+3805d970 g     F .text	000001ec .hidden __udivsi3
+3801cad4 g     F .text	00000148 SetClock
+380737b0  w    F .text	00000024 isatty
+38061934 g     F .text	00000098 _raise_r
+38073744  w    F .text	00000034 _fstat
+380724bc g     F .text	0000006c iswspace
+380a4508 g     F .platform_code	00000038 tskTime500us
+380951f8 g       .data	00000000 __data1_start
+38037280 g     F .text	00000110 StartWavJdRcd
+3ef03000 g       *ABS*	00000000 _CORE1_STACK_START_ADDR
+380a1030 g     O .platform_data	00000004 TRACE_L1_ENABLE
+380782b0 g     O .rodata	000000c8 __mprec_tens
+3801d128 g     F .text	00000454 read_youxiaozhi
+38009f50 g     F .text	00000094 sumValue
+380005cc g     F .text	00000044 tSleep
+380a6434 g     F .platform_code	00000034 hd_gpio_SetOut
+3805867c g     F .text	00000024 sleep
+3804fd2c g     F .text	00000250 WriteBmRecord
+3807badc g       .data	00000000 __sbss2_end
+3800d534 g     F .text	00000270 meaWrite_DbAngle
+38003514 g     F .text	00000178 GetDefPDoCfg
+390114d0 g     O .bss	00010000 lFt
+380a1034 g     O .platform_data	00000004 TRACE_L2_ENABLE
+38092724 g     O .data	00000004 g_prDisable
+3806b7c8 g     F .text	0000000c __locale_charset
+38068078 g     F .text	00000034 vsnprintf
+380b2b64 g       .platform_code	00000000 __platform_code_end
+3809e0ec g     O .platform_data	00000004 UndefinedExceptionAddr
+3805279c g     F .text	00000240 Time_AddSecond
+3800368c g     F .text	00000064 GetDefTVYkCfg_Do
+390253d4 g     O .bss	00000004 fdProtVal
+380a75ec g     F .platform_code	00000120 axi_hp_set_eth_mac_addr
+384e56d8 g     O .bss	00000004 cnt
+384b4204 g     O .bss	00000004 extyx_init
+380935ec g     O .data	00000008 szSgzYxMode
+38018850 g     F .text	00000104 WriteFLP
+380a6a00 g     F .platform_code	00000024 axi_hp_get_timer_period
+384e5718 g     O .bss	00000004 __malloc_top_pad
+380ae3d8 g     F .platform_code	0000007c crc32_calc
+3806eeac g     F .text	0000006c __ssrefill_r
+38061b04 g     F .text	00000004 _getpid_r
+380ae454 g     F .platform_code	0000004c f_crc32
+3805ea9c g     F .text	000000c0 .hidden __gnu_Unwind_Backtrace
+3806d818 g     F .text	0000001c strtoul
+38052180 g     F .text	00000100 hd_GetIrqConfig
+3807bae0 g     O .data	00000000 .hidden __dso_handle
+38095190 g     O .data	00000004 __mb_cur_max
+3805e078 g     F .text	00000024 .hidden __aeabi_ui2d
+3ef0d000 g       .stack	00000000 __irq_stack
+380a26ec g     F .platform_code	00000074 SetSystemFullTime
+3806b800 g     F .text	0000000c _localeconv_r
+38073290 g     F .text	00000278 _strtoull_r
+38093294 g     O .data	00000008 szPMx
+380a7338 g     F .platform_code	0000012c axi_hp_set_sv_send_channel_config
+38016240 g     F .text	00000078 mea
+38071fe4 g     F .text	000004a0 __sfvwrite_r
+3806c4b4 g     F .text	00000020 __i2b
+380619cc g     F .text	00000094 __sigtramp_r
+38027904 g     F .text	0000018c CreateLogicElem
+39024e6c g     O .bss	00000004 g_pParafile
+3805ceac g     F .text	00000050 Xil_DCacheFlushLine
+3802d468 g     F .text	00000020 AiCalcLogic
+3808fe20 g     O .data	000002d0 laFAFre
+3805e290 g     F .text	00000124 .hidden __udivmoddi4
+3805ddc0 g     F .text	00000000 .hidden __aeabi_drsub
+380b2724 g     F .platform_code	00000194 str_strip
+380162b8 g     F .text	000000c8 mywatchdog
+38061848 g     F .text	00000038 _sbrk_r
+38056030 g     F .text	00000044 StubHandler
+38022d48 g     F .text	0000009c PRLIB_24
+380a9080 g     F .platform_code	0000017c Print_fpga_backplane_info
+38093254 g     O .data	00000001 YB_NUMBER
+380930ec g     O .data	00000168 tYbTable
+380036f0 g     F .text	00000064 GetDefTVYkCfg_Public
+380b2454 g     F .platform_code	000000a8 str_GetMacAddrString
+380af194 g     F .platform_code	00000028 i_GetCurrentTime
+3804f2bc g     F .text	0000008c rtcGetTime
+3805cabc g       .text	00000000 __cpu_init
+380a5c98 g     F .platform_code	0000036c Print_StackInfo
+3809441c g     O .data	00000304 XScuGic_ConfigTable
+38052c0c g     F .text	0000003c list_iter_head
+3805f410 g     F .text	00000000 .hidden __gnu_Unwind_Save_VFP_D
+380a8b58 g     F .platform_code	00000020 axi_get_fpga_version
+3f000000 g       .shared_data	00000000 __shared_data_start
+3807c7a0 g     O .data	00000054 YkPort_Dio_10
+3801668c g     F .text	00000028 GetTripOnInput
+38093274 g     O .data	00000008 szBS
+3803fb90 g     F .text	000000e8 IsBcdSet
+38072a48 g     F .text	00000044 _read_r
+380a770c g     F .platform_code	00000138 axi_hp_get_eth_mac_addr
+380a52ec g     F .platform_code	00000020 get_version_libbm
+380a296c g     F .platform_code	000000a8 WaitForLinux
+380376c4 g     F .text	00000778 PrJdJudgeInit
+380014dc g     F .text	000001f8 extDiFilter
+380331dc g     F .text	000002dc JSLogic
+38091b00 g     O .data	000003e8 FsxBuf1
+380a6554 g     F .platform_code	000000d4 Print_libdrv
+3805efd4 g     F .text	00000410 .hidden _Unwind_VRS_Pop
+38071d08 g     F .text	000000f8 _fclose_r
+3805efcc  w    F .text	00000008 .hidden __aeabi_unwind_cpp_pr2
+380a6c3c g     F .platform_code	000000c4 axi_hp_get_sv_receive_control
+38009fe4 g     F .text	00000094 avgValue
+38069f74 g     F .text	00000030 fflush
+384e4a4c g     O .bss	00000004 MaintInit
+384e5744 g     O .bss	00000004 __malloc_max_sbrked_mem
+38036fe4 g     F .text	00000160 prValue_float
+3809289c g     O .data	0000084c tSetTable
+380a40f8 g     F .platform_code	00000028 soe_AddNewTraceSoe
+3805c590 g     F .text	0000016c XUartPs_ReceiveBuffer
+3805f568 g     F .text	00000024 .hidden ___Unwind_Backtrace
+380a4d28 g     F .platform_code	00000018 OnEnter_tskUser
+380018cc g     F .text	00000040 YX_INPUT
+3805782c g     F .text	00000024 XScuGic_GetCpuID
+38051f5c g       .text	00000000 _GetIrqModeSp
+3805e0c4 g     F .text	00000048 .hidden __extendsfdf2
+380b15fc g     F .platform_code	00000040 str_GetOverQualityString
+380a530c g     F .platform_code	00000038 get_buildtime_libbm
+380007d4 g     F .text	000000a0 tmEvCancle
+380461e8 g     F .text	000002e4 TestPrSet
+3805b464 g     F .text	00000194 XUartNs550_SetFifoThreshold
+390370f0 g     O .bss	00000020 Gpio
+380a4cc8 g     F .platform_code	00000018 OnEnter_tskSlow
+380a7e4c g     F .platform_code	000000c8 axi_hp_enable_goose_storm_control
+3805ddcc g     F .text	000002ac .hidden __adddf3
+380a4298 g     F .platform_code	00000018 soe_ClrActionSoe
+38011c6c g     F .text	000000d8 meaGainVerRead
+3805cbbc g     F .text	000000ac usleep_A9
+380a4c98 g     F .platform_code	00000018 OnEnter_tskFast
+380073b8 g     F .text	00001548 createYcRef
+39024e70 g     O .bss	0000055c g_Sys
+38094000 g     O .data	00000004 UartNs550InstancePtr
+380a7464 g     F .platform_code	00000104 axi_hp_get_sv_send_channel_config
+38012ec4 g     F .text	000011e0 meaGainValSet
+380a62b0 g     F .platform_code	00000054 SHELL_inchar
+3803a340 g     F .text	00000054 prLowInit
+384bca3c g     O .bss	00000004 myprResetId
+3803fb40 g     F .text	00000050 IsBcd
+38000b58 g     F .text	00000108 GetDefPDiCfg
+00001000 g       *ABS*	00000000 _SUPERVISOR_STACK_SIZE
+3ef02000 g       .heap	00000000 _heap_end
+39025564 g     O .bss	00000004 prRunPublic
+380a9a18 g     F .platform_code	000004f0 Print_fpga_sv_cfg
+3806caf8 g     F .text	000000e0 __b2d
+38036434 g     F .text	00000168 GPLogic
+38010960 g     F .text	00000018 SetRangeYccfg
+3809c000 g       .ARM.exidx	00000000 __exidx_start
+38073868  w    F .text	00000038 lseek
+3804f248 g     F .text	00000074 rtcInit
+380737d4  w    F .text	00000024 _isatty
+3804569c g     F .text	0000045c prPubSetTableWrite
+38024794 g     F .text	00000088 PRLIB_29
+380a4264 g     F .platform_code	00000034 soe_GetActionSoeEx
+38058138 g     F .text	00000030 IRQInterrupt
+39025568 g     O .bss	00000004 pValSL
+38006f14 g     F .text	00000034 protectCal_Correct
+38015798 g     F .text	000005f4 UICheck
+380011f0 g     F .text	000002ec extYxFilter
+380a4168 g     F .platform_code	00000034 soe_GetTraceSoeEx
+38059a70 g     F .text	000001d4 XUartNs550_Recv
+38012b24 g     F .text	0000001c ddreset
+38077fe8 g     O .rodata	00000004 _global_impure_ptr
+380af150 g     F .platform_code	00000044 str_GetDateTimeShortYearString
+3803fae0 g     F .text	00000030 GetSetOpt
+380320d8 g     F .text	000007f4 WLLogic
+38072a8c g     F .text	000004e0 _realloc_r
+380a4bd4 g     F .platform_code	00000034 tskIdle
+380474d0 g     F .text	00000108 ReadSetName
+3806d4b8 g     F .text	00000090 strncasecmp
+3805fbe8 g     F .text	00000074 __libc_init_array
+38016800 g     F .text	000000cc GetParaCrc16
+3903795c g       .bss	00000000 __bss_end
+38006788 g     F .text	0000005c GetDefTVDdCfg
+3800dc34 g     F .text	00000728 measure
+38071c48 g     F .text	0000003c wcsnrtombs
+380af1bc g     F .platform_code	0000003c i_GetCurrentShortTime
+3807badc g       .data	00000000 __rodata1_start
+380536b0 g     F .text	00000128 XGpioPs_Write
+3805f4d8 g     F .text	00000024 .hidden ___Unwind_RaiseException
+380b22ac g     F .platform_code	00000070 str_GetIPString
+38018954 g     F .text	00000104 WriteZLLP
+38001bbc g     F .text	00000388 yxRefresh
+38071f1c g     F .text	00000020 _fputwc_r
+380a480c g     F .platform_code	000000dc Print_TaskUsageInfo
+3809f0a5 g       .ARM.attributes	00000000 __ARM.attributes_end
+380783a0 g     O .rodata	00000028 __mprec_bigtens
+3806c2e4 g     F .text	000000e0 __s2b
+38058198 g     F .text	00000030 SWInterrupt
+3805faa0 g     F .text	00000014 abort
+3805f4fc g     F .text	00000024 .hidden ___Unwind_Resume
+390366f0 g     O .bss	00000a00 nSamBuf
+3805e078 g     F .text	00000024 .hidden __floatunsidf
+384e4a58 g     O .bss	00000004 g_prCalTime
+380261a4 g     F .text	00000140 PRLIB_122
+3807365c  w    F .text	000000c4 _sbrk
+3806c8bc g     F .text	0000005c __mcmp
+3809c0c8 g       .ARM.attributes	00000000 __tbss_start
+38050c98 g     F .text	000000b0 CheckAndVerify
+3806a854 g     F .text	0000024c gmtime_r
+3802481c g     F .text	00000d64 PRLIB_121_SCAN
+38014c78 g     F .text	000000ac gainsetadtype
+380451d4 g     F .text	00000094 prSetTableRead
+38006654 g     F .text	0000006c GetDefPFdCfg
+38045af8 g     F .text	00000038 prTableFileJudgy
+39024e64 g     O .bss	00000004 pChecktime
+38000874 g     F .text	0000019c tRunCnt
+380a1040 g     O .platform_data	00000004 bShellTrace
+3801c5e4 g     F .text	00000104 WriteYcZero
+3806a270 g     F .text	00000018 __fp_lock_all
+38092728 g     O .data	00000004 g_prRunning
+380502a4 g     F .text	00000058 BmWriteLinux
+38057850 g     F .text	0000009c XScuGic_LookupConfig
+38073c28 g     F .init	00000000 _init
+380932d4 g     O .data	00000008 szXDLJr
+38027738 g     F .text	000001cc prDrv
+380a6728 g     F .platform_code	0000007c crc32_bit_reverse
+380a60dc g     F .platform_code	0000002c hd_get_cycles64
+3805a0e8 g     F .text	00000254 XUartNs550_SetBaudRate
+380a69cc g     F .platform_code	00000034 axi_hp_set_timer_period
+380ac998 g     F .platform_code	00000248 xSgiIntrCommuHandler
+3800eb3c g     F .text	00000234 meaRead_FdChnBuf1
+380903c0 g     O .data	00000820 laFAFre2
+3f000000 g       *ABS*	00000000 _CORE1_DDR_SHART_START_ADDR
+380201b8 g     F .text	000000a8 InverseExtreme
+380b2538 g     F .platform_code	00000040 str_GetAppIdString
+380b2a88 g     F .platform_code	00000038 i_GetGinItemNo
+384bc75c g     O .bss	00000004 gycInit
+380625d4 g     F .text	0000001c strtol
+390253d8 g     O .bss	00000004 prLogicElem
+380522b4 g     F .text	00000034 xPrefetchAbortHandler
+380a4120 g     F .platform_code	0000001c soe_GetTraceSoeCount
+3805cefc g     F .text	000000cc Xil_DCacheFlushRange
+38018ff4 g     F .text	000000b8 WriteActEvent
+380930e8 g     O .data	00000001 SET_NUMBER
+380305c8 g     F .text	000006ac I02Logic
+38040b54 g     F .text	000001f8 CvtF
+380a103c g     O .platform_data	00000004 TRACE_L4_ENABLE
+380b10e4 g     F .platform_code	000000b0 SetDebugMessage
+38001a28 g     F .text	00000194 yxGet
+3805f428 g     F .text	00000000 .hidden __gnu_Unwind_Restore_WMMXD
+380b3164 g       .dyn_memory	00000000 __dyn_memory_start
+3801adcc g     F .text	0000026c InitMyFdNo
+3802eb18 g     F .text	00000038 I3Logic_Init
+390253dc g     O .bss	00000004 prEvtOpt
+3805fba8 g     F .text	00000040 __libc_fini_array
+390253e0 g     O .bss	00000004 prYxOpt
+3806852c g     F .text	000000d0 __jis_wctomb
+380aed80 g     F .platform_code	00000044 CheckTime
+380adb8c g     F .platform_code	00000024 OSIsRuning
+380a0848 g     O .platform_data	00000001 OS_Event_Count
+380016d4 g     F .text	00000138 extYxInit
+380a6024 g     F .platform_code	00000038 get_buildtime_libdrv
+3805543c g     F .text	00000174 XGpioPs_SetIntrType
+38091400 g     O .data	00000410 ASin
+380575d4 g     F .text	000001ec XScuGic_Stop
+380573bc g     F .text	000000f8 XScuGic_InterruptUnmapFromCpu
+3804ff7c g     F .text	0000013c WriteBmEvent
+3804b4b8 g     F .text	0000019c protCal_Hw2
+380a284c g     F .platform_code	00000064 SetTime
+3807c538 g     O .data	0000009c YkPort_Dio_9
+3807c9dc g     O .data	00000080 svindex
+380a419c g     F .platform_code	00000018 soe_ClrTraceSoe
+380ae088 g     F .platform_code	00000034 OSGetIntCount
+3806ceac g     F .text	000000f0 _reclaim_reent
+3801f5a8 g     F .text	000000b0 PcolInit
+3ef11000 g       .stack	00000000 __fiq_stack
+380650ec g     F .text	00000004 __tz_unlock
+3801aa60 g     F .text	00000190 SetDefSysExtConfig
+380503b8 g     F .text	000001c0 CalendarClock
+380a1058 g     O .platform_data	00000004 LOGMSG_L2_ENABLE
+380ad324 g     F .platform_code	00000314 mem_AddMemBlock
+380afd4c g     F .platform_code	000000ac ClrBaremetalWaitFlag
+380a83f8 g     F .platform_code	000001b0 axi_hp_send_msg
+3806c3c4 g     F .text	00000058 __hi0bits
+3805837c g     F .text	00000058 Xil_ExceptionRegisterHandler
+380a27e8 g     F .platform_code	00000064 SetDate
+380b170c g     F .platform_code	0000003c str_GetUint32ViewString
+380482c4 g     F .text	000000a8 ReadGLLB
+3800068c g     F .text	000000c4 evReceive
+3802f8ac g     F .text	00000ce4 I01Logic
+380940a4 g     O .data	000000c1 goose_send1
+3805facc g     F .text	00000018 calloc
+3800e6d8 g     F .text	00000288 meaRead_YcChnBuf1
+380942cc g     O .data	00000004 Xil_AssertWait
+3eb00000 g       .heap	00000000 _heap_start
+380aa9e8 g     F .platform_code	00000458 axi_hp_sv_send_test_init
+38036108 g     F .text	00000034 IRcdLogic_Init
+3804e8f0 g     F .text	00000130 WAV_Record_Scan
+38054050 g     F .text	000001f0 XGpioPs_SetOutputEnablePin
+38041470 g     F .text	00000234 CvtT
+38011d44 g     F .text	00000138 meaGainEERead
+380a2428 g     F .platform_code	00000024 PowerOn_InitClock
+00002000 g       *ABS*	00000000 _IRQ_STACK_SIZE
+3804b38c g     F .text	0000012c RD_Last_P
+38027c5c g     F .text	00000040 prTick
+380ad85c g     F .platform_code	00000100 Print_Mem_Malloc
+380b0fac g     F .platform_code	00000030 SetDebugMessageStr
+3805168c g     F .text	0000011c Uart_SendTest
+380a394c g     F .platform_code	00000104 soe_GetSoeBufferMaxCount
+380a6d00 g     F .platform_code	00000180 axi_hp_set_sv_receive_filter
+3902556c g     O .bss	00000004 prEvtPubOpt
+380ae278 g     F .platform_code	00000074 OS_Signal_Accept
+380b1748 g     F .platform_code	00000040 str_GetInt64ViewString
+3809c0c8 g       .ARM.attributes	00000000 __sbss_end
+3805d400 g     F .text	00000038 Xil_L1DCacheInvalidateLine
+380ad070 g     F .platform_code	00000220 xIdelTaskHandler
+380063fc g     F .text	00000084 GetDefAiCfg
+3802b5f0 g     F .text	0000149c prWriteEvent
+380a9fec g     F .platform_code	000000a8 fpgs_msg_register_OnRcvSv
+3801929c g     F .text	00000094 GetAiType
+38054b28 g     F .text	0000014c XGpioPs_IntrDisablePin
+38036d34 g     F .text	000002b0 prValue_long
+380acbe0 g     F .platform_code	00000248 xSgiIntrUserHandler
+3805d670 g     F .text	00000038 Xil_L1DCacheFlushLine
+00002000 g       *ABS*	00000000 _FIQ_STACK_SIZE
+380450d0 g     F .text	00000098 prFillTableType
+380abfac g     F .platform_code	000002a0 xPrivateTimerIntrHandler
+3807c4a8 g     O .data	00000034 YkPoint_Dio_2
+380a6860 g     F .platform_code	00000070 axi_hp_get_gps_time
+38073a58  w    F .text	000000c8 write
+3800012c g       .text	00000000 _prestart
+380b198c g     F .platform_code	000000d0 str_GetTVAR_DATAViewString
+3800d7a4 g     F .text	0000019c meaWrite_DbHar
+38095020 g     O .data	00000008 _tzname
+3805519c g     F .text	00000128 XGpioPs_IntrClear
+38012034 g     F .text	00000384 meaGainZero
+380a7adc g     F .platform_code	00000064 axi_hp_set_sampling_msg0_control
+380951f0 g     O .data	00000004 environ
+3801aa00 g     F .text	00000060 SetDefSysConfig
+380050c0 g     F .text	00000778 ykOperate
+380a23a0 g     F .platform_code	00000088 plt_main
+38000e20 g     F .text	00000128 EXTYX_INPUT
+3805ddcc g     F .text	000002ac .hidden __aeabi_dadd
+38058330 g     F .text	00000020 XNullHandler
+380737f8  w    F .text	00000038 kill
+380b2a58 g     F .platform_code	00000030 i_GetGinGrpNo
+380584a0 g     F .text	00000090 Xil_SetTlbAttributes
+3805b38c g     F .text	000000d8 XUartNs550_GetFifoThreshold
+380a617c g     F .platform_code	00000024 hd_sleep_seconds
+380502fc g     F .text	00000068 myprintf
+38006848 g     F .text	00000064 GetDefTVYxCfg_Fd
+38059e28 g     F .text	000002c0 XUartNs550_ReceiveBuffer
+380a2c48 g     F .platform_code	00000070 mc_inner_send_buf_is_full
+3806d26c g     F .text	00000070 strcat
+38006910 g     F .text	00000168 AmXY
+380aff38 g     F .platform_code	000001e4 RegisterStringResource
+3f160000 g     O .shared_data	00040800 axiTxMsgBuf
+380932dc g     O .data	00000310 tKG1Table
+3806c6cc g     F .text	000000f8 __pow5mult
+38050e60 g     F .text	00000014 _Z16cleanup_platformv
+384e56dc g     O .bss	00000004 sendtick
+3805e10c g     F .text	00000074 .hidden __aeabi_ul2d
+384e5a24 g     O .bss	00000004 __nlocale_changed
+380a3788 g     F .platform_code	00000024 soe_IsSoeBufferInitialed
+3ef12000 g       .stack	00000000 __undef_stack
+3805f3f8 g     F .text	00000000 .hidden __gnu_Unwind_Restore_VFP
+3805a3e0 g     F .text	000001f0 XUartNs550_SetDataFormat
+38006f84 g     F .text	00000024 protectCal_CorrectAi
+380a31a0 g     F .platform_code	00000034 PowerOn_Init_PrintToLinux
+380a7fc4 g     F .platform_code	00000088 axi_hp_set_goose_filter
+380ae96c g     F .platform_code	0000005c ToFullDateTime
+380ad2b4 g     F .platform_code	00000024 mem_GetTotalMemory
+3801eda8 g     F .text	000001a4 ykTypeSaveMaint
+3805bb44 g     F .text	00000124 XUartNs550_ClearStats
+39037110 g     O .bss	00000044 Uart_Ps
+38000750 g     F .text	00000084 tmEvEvery
+380a244c g     F .platform_code	000000bc ClockRun
+39025570 g     O .bss	00000004 pValTq
+38040608 g     F .text	000001d4 CvtYb
+3805db7c g     F .text	00000000 .hidden __aeabi_idiv
+3804f858 g     F .text	000000ec WriteDYX
+380ad290 g     F .platform_code	00000024 mem_GetAllocedMemory
+380b0a2c g     F .platform_code	00000138 x_assert_bool
+38050944 g     F .text	00000094 CalClockTo
+38000d48 g     F .text	00000064 GetDefTVDYxCfg
+3806d0c0 g     F .text	00000080 _siscanf_r
+3801c6e8 g     F .text	000003ec yk_BM
+3805b67c g     F .text	00000084 XUartNs550_GetModemStatus
+38057b60 g     F .text	000000f4 XScuTimer_Stop
+384bc448 g     O .bss	00000004 pYcCfg
+380a5a58 g     F .platform_code	000000b0 exp_SaveUndSP
+380b0d20 g     F .platform_code	00000024 init_logmsg
+38037144 g     F .text	0000010c prSetting
+3805f4fc g     F .text	00000024 .hidden _Unwind_Resume
+3805fac0 g     F .text	0000000c _atoi_r
+380aaf40 g     F .platform_code	00000058 hd_GetIrqStatus
+38048434 g     F .text	000000a8 ReadWYLB
+3805e95c g     F .text	00000018 .hidden _Unwind_DeleteException
+3805e958 g     F .text	00000004 .hidden _Unwind_Complete
+38055b14 g     F .text	000002c0 XGpioPs_GetIntrTypePin
+38057e9c g     F .text	0000018c XScuTimer_SelfTest
+390316c0 g     O .bss	00000800 tickcnt
+3803e6c8 g     F .text	0000002c GetHWYx
+380a35ec g     F .platform_code	000000bc PowerOn_Init_SharedMemory
+380a4d88 g     F .platform_code	000001c8 tsk_CalcCpuUsage
+380b1dac g     F .platform_code	000001dc str_Int64FloatToString
+380b13ac g     F .platform_code	000000cc str_GetSIUnit_String
+3809e0e8 g     O .platform_data	00000004 PrefetchAbortAddr
+380a550c g     F .platform_code	000003e4 exp_OnException
+38010978 g     F .text	0000036c ycInit
+380a6334 g     F .platform_code	0000004c hd_gpio_initial
+38056804 g     F .text	00000178 XScuGic_Disconnect
+380a61f4 g     F .platform_code	000000bc hd_Uart0PsInit
+380a48e8 g     F .platform_code	0000020c Print_TaskDetail
+380951f8 g       .data	00000000 __CTOR_LIST__
+38058c44 g     F .text	0000013c XTtcPs_GetMatchValue
+380497d8 g     F .text	00000530 createProtFdUxx
+38098000 g       .mmu_tbl	00000000 MMUTable
+380a4318 g     F .platform_code	0000001c soe_GetRSignalSoeCount
+380a1050 g     O .platform_data	00000004 ASSERT_L4_ENABLE
+38093604 g     O .data	00000214 tKG2Table
+38061b08 g     F .text	000000c0 _snprintf_r
+3800608c g     F .text	00000370 adInt
+3807badc g       .data	00000000 __sbss2_start
+380a6978 g     F .platform_code	00000034 axi_hp_get_1pps_x3
+3805d870 g     F .text	00000038 Xil_L1ICacheInvalidateLine
+3806a260 g     F .text	00000004 __sfp_lock_acquire
+3806c0d0 g     F .text	00000000 memchr
+38061c98 g     F .text	00000064 _sprintf_r
+38093d44 g     O .data	00000001 YB_PUB_NUMBER
+39037154 g     O .bss	00000800 hpmsg
+3806a39c g     F .text	000002e4 _free_r
+384b7b94 g     O .bss	00000004 gUsCnt
+38021dc0 g     F .text	000008bc PRLIB_23_SCAN
+380aedc4 g     F .platform_code	000000b4 str_GetFullDateTimeString
+390306b0 g     O .bss	0000012c BusVal
+3806b7d4 g     F .text	00000010 __locale_mb_cur_max
+38068228 g     F .text	00000024 _wcsrtombs_r
+3805d7a8 g     F .text	00000054 Xil_L1ICacheEnable
+38041b9c g     F .text	0000009c prGetLowValRet
+380a6304 g     F .platform_code	00000030 SHELL_outchar
+3806873c g     F .text	00000164 __call_exitprocs
+384e52a8 g     O .bss	00000001 g_record
+380a6ff8 g     F .platform_code	000000f8 axi_hp_set_sv_send_control
+380a71c0 g     F .platform_code	000000c4 axi_hp_set_sv_send_addressing_reg
+3806edd8 g     F .text	000000d4 _sungetc_r
+384e5a20 g     O .bss	00000004 __mlocale_changed
+3805ddc8 g     F .text	000002b0 .hidden __aeabi_dsub
+3800ab50 g     F .text	00002360 meaCal_Yc
+380612a8 g     F .text	00000524 mktime
+384bc444 g     O .bss	00000004 pAiCfg
+3801fc14 g     F .text	00000074 ResetTR
+38095070 g     O .data	00000020 __default_locale
+38039bd4 g     F .text	00000208 prVyxPubHandle
+38095018 g     O .data	00000004 __malloc_sbrk_base
+3805cd28 g     F .text	0000013c Xil_DCacheInvalidateRange
+3805823c g       .text	00000060 _start
+380a7284 g     F .platform_code	000000b4 axi_hp_get_sv_send_addressing_reg
+380af558 g     F .platform_code	00000064 Print_libpub
+38018508 g     F .text	00000110 WriteULP
+380419e4 g     F .text	00000128 prNbSetDef
+38073034 g     F .text	00000258 _strtoll_r
+39025574 g     O .bss	00000004 pubProtVal
+3801fb74 g     F .text	000000a0 InitTR
+380a4540 g     F .platform_code	0000009c tskADSimple
+38041c38 g     F .text	00000098 prCheckConflict
+380a7d64 g     F .platform_code	00000060 axi_hp_set_goose_storm_threshold
+380adcbc g     F .platform_code	00000098 OSTimeDly
+38093f04 g     O .data	00000001 KG1_PUB_NUMBER
+3805e10c g     F .text	00000074 .hidden __floatundidf
+380738a0  w    F .text	00000038 _lseek
+380518e0 g     F .text	000000b4 soe_ClrSoeBuffer
+3802f418 g     F .text	0000002c IGfhLogic_Init
+38073c58 g       .rodata	00000000 __rodata_start
+3805d7fc g     F .text	00000048 Xil_L1ICacheDisable
+380b0550 g     F .platform_code	0000003c get_InnerStringResourceLocal
+3806c7c4 g     F .text	000000f8 __lshift
+380ab2c8 g     F .platform_code	00000164 hd_SetScuPrivateTimer
+3902559c g     O .bss	00009000 prSetBuf
+38061a74 g     F .text	00000018 signal
+380738d8  w    F .text	000000c0 read
+380a61d0 g     F .platform_code	00000024 hd_sleep_useconds
+380afaa8 g     F .platform_code	00000090 GetBaremetalResetFlag
+38054370 g     F .text	00000150 XGpioPs_GetOutputEnablePin
+380b0d44 g     F .platform_code	000000e4 x_logmsg
+38023ba4 g     F .text	00000170 PRLIB_26
+380ac24c g     F .platform_code	000002bc xTtcTimerHandler
+3802b468 g     F .text	00000188 prValue_l2f
+38002ac4 g     F .text	000001f8 yxInit
+3806d834 g     F .text	00000188 __ssprint_r
+38093258 g     O .data	0000000c szFsxCuv
+38019218 g     F .text	00000084 GetIoType
+3805f620 g     F .text	00000404 .hidden __gnu_unwind_execute
+380a2340 g       .platform_code	00000000 __platform_code_start
+3803659c g     F .text	00000034 DPLogic_Init
+380a68d0 g     F .platform_code	00000054 axi_hp_get_1pps_x1
+380a6108 g     F .platform_code	00000074 hd_sleep_cycles
+380a4c38 g     F .platform_code	00000018 OnEnter_tskADSimple
+38004abc g     F .text	0000007c ykScanOnTimer
+380aa7cc g     F .platform_code	0000021c axi_hp_sv_receive_test_init
+3801dc30 g     F .text	00000360 SendYC2
+3809c0c8 g       *ABS*	00000000 _SDA_BASE_
+38019330 g     F .text	00000318 GetRunParaConfig
+380068ac g     F .text	00000064 GetDefTVYkCfg_Fd
+380071cc g     F .text	000001e8 InitGenFlags
+3806bd34 g     F .text	000000cc __sjis_mbtowc
+3806d464 g     F .text	00000054 strlcpy
+380a4d70 g     F .platform_code	00000018 OnLeave_tskIdel
+380b0e28 g     F .platform_code	00000184 logmsg_tsk_handle
+3806d548 g     F .text	000000f8 strncmp
+3805f408 g     F .text	00000000 .hidden __gnu_Unwind_Restore_VFP_D
+3801b038 g     F .text	0000086c SetIoNo
+07000000 g       *ABS*	00000000 _CORE1_DDR_LENGTH
+3805d088 g     F .text	00000050 Xil_ICacheInvalidateLine
+3806824c g     F .text	00000038 wcsrtombs
+380951f8 g       .data	00000000 __data_end
+3f152790 g       .shared_data	00000000 __shared_data_end
+3803e6f4 g     F .text	00000018 ResetHwSY
+380555b0 g     F .text	0000018c XGpioPs_GetIntrType
+38053990 g     F .text	00000128 XGpioPs_SetDirection
+380b2578 g     F .platform_code	0000009c crc16
+38044e18 g     F .text	000000e0 prPubSetDef
+3806c4d4 g     F .text	000001f8 __multiply
+380544c0 g     F .text	000001d8 XGpioPs_GetBankPin
+3eb00000 g       .heap	00000000 HeapBase
+38052c48 g     F .text	00000080 list_iter_next
+3807804c g     O .rodata	00000060 __month_lengths
+3806225c g     F .text	000000d8 strncpy
+384e571c g     O .bss	00000028 __malloc_current_mallinfo
+38050d48 g     F .text	00000058 ClockInit
+3806cbd8 g     F .text	00000100 __d2b
+38018c68 g     F .text	000000b4 Task_Setup
+3806d200 g     F .text	0000006c strcasecmp
+380b011c g     F .platform_code	00000048 RegisterStringResourceStr
+38051ab4 g     F .text	00000290 goosesend
+38050e18 g     F .text	00000018 _Z14disable_cachesv
+3801bd20 g     F .text	00000024 getLight
+380af10c g     F .platform_code	00000044 str_GetDateTimeWithoutMsString
+380ac508 g     F .platform_code	00000248 xSgiIntrFastHandler
+380a4474 g     F .platform_code	0000001c soe_GetMeasureChgSoeCount
+38056ab0 g     F .text	00000134 XScuGic_Disable
+3800440c g     F .text	00000124 relayDisable
+380b12e0 g     F .platform_code	00000048 str_IsStringResEmpty
+38045fb0 g     F .text	00000238 prFdSetRead
+3802a368 g     F .text	000007c8 prLightHandle
+38032984 g     F .text	00000068 CHLogic_Init
+38091ee8 g     O .data	00000258 FsxBuf2
+38042b2c g     F .text	0000220c prFdSetConv
+3802e050 g     F .text	00000ac8 I2Logic
+38022764 g     F .text	000005e4 PRLIB_24_SCAN
+380a6e80 g     F .platform_code	00000178 axi_hp_get_sv_receive_filter
+3804f474 g     F .text	000000b4 WriteRangeYCF_L
+3804025c g     F .text	00000214 FloatToSet
+3806d640 g     F .text	000001d8 _strtoul_r
+38093f28 g     O .data	00000008 ptFaTripMode
+3805e8c4 g     F .text	00000074 .hidden __gnu_Unwind_Resume
+38058edc g     F .text	00000100 XTtcPs_GetPrescaler
+38026dac g     F .text	000000f8 PRLIB_123
+380b163c g     F .platform_code	0000005c str_GetBoolViewString
+380b2614 g     F .platform_code	000000a4 crc16_ex
+38071cc8 g     F .text	00000038 _close_r
+38094308 g     O .data	00000024 XTtcPs_ConfigTable
+38058168 g     F .text	00000030 UndefinedException
+380a104c g     O .platform_data	00000004 ASSERT_L3_ENABLE
+38031748 g     F .text	000004a4 UDyLogic
+3802000c g     F .text	0000011c InverseNormal
+3809e0e4 g     O .platform_data	00000004 DataAbortAddr
+3805e09c g     F .text	00000028 .hidden __aeabi_i2d
+38052280 g     F .text	00000034 xDataAbortHandler
+38008900 g     F .text	000015f0 meaPtCtSet
+38031bec g     F .text	0000004c UMXQYLogic_Init
+3902e59c g     O .bss	00002000 prTableBuf
+3805f418 g     F .text	00000000 .hidden __gnu_Unwind_Restore_VFP_D_16_to_31
+380b231c g     F .platform_code	00000138 str_to_ip
+39025578 g     O .bss	00000004 pCfgTq
+380a6498 g     F .platform_code	0000006c hd_do_stall_flush
+38062334 g     F .text	00000018 strtok
+3805c6fc g     F .text	0000037c XUartPs_SetBaudRate
+3805b864 g     F .text	00000094 XUartNs550_LookupConfig
+380a4394 g     F .platform_code	00000018 soe_ClrRSignalSoe
+390315e0 g     O .bss	00000004 FdSamRecordIndex
+3800e960 g     F .text	000001dc meaRead_FdChnBuf
+38060774 g     F .text	000000fc memcmp
+38093fcc g     O .data	00000001 KG2_PUB_NUMBER
+3801b8a4 g     F .text	000000d0 ApplicationInit
+38050b94 g     F .text	00000104 sys_get_time
+380196a4 g     F .text	0000005c SetRunParaConfig
+38050858 g     F .text	00000074 SetSysClock
+38093d60 g     O .data	000001a4 tKG1PubTable
+3805d02c g     F .text	00000014 Xil_ICacheDisable
+3805cc7c g     F .text	00000014 Xil_DCacheDisable
+3ef0b000 g       .stack	00000000 _irq_stack_end
+380475d8 g     F .text	000000c4 ReadSetNum
+390214d0 g     O .bss	00000002 wFtPtr
+380a2340 g     F .platform_code	00000020 _Z12getBuildDatev
+380b28b8 g     F .platform_code	000000f8 f_sqrt_fast
+380a09e8 g     O .platform_data	00000600 os_analyze
+38047b1c g     F .text	00000208 WriteSet
+380685fc g     F .text	00000140 __swsetup_r
+384e4a78 g     O .bss	00000004 pWaveJd
+3805f4d8 g     F .text	00000024 .hidden _Unwind_RaiseException
+3805ddbc  w    F .text	00000004 .hidden __aeabi_ldiv0
+380147b0 g     F .text	00000400 meaGainSetSet
+380168cc g     F .text	00000030 SysParaInit
+38093f30 g     O .data	00000008 ptDLXBSMode
+390214d2 g     O .bss	00000002 wFtFacCnt
+3806a14c g     F .text	000000ec __sfp
+380b192c g     F .platform_code	00000060 str_Getfp64ViewStringEx
+3806cd8c g     F .text	0000006c __copybits
+38048e9c g     F .text	0000093c createProtFdU
+38048884 g     F .text	00000548 ReadIVIT
+38000c60 g     F .text	00000064 GetDefTVYxCfg_Di
+3801e1cc g     F .text	000001e0 Get_baohudingzhi
+380b2f64 g       .datadef_code	00000000 __datadef_code_start
+38094c10 g     O .data	00000408 __malloc_av_
+380a213c g       .platform_data	00000000 __platform_data_end
+3806a26c g     F .text	00000004 __sinit_lock_release
+384e5a30 g     O .bss	000000c8 g_Task
+38067fdc g     F .text	0000009c _vsnprintf_r
+380951fc g       .eh_frame	00000000 __eh_framehdr_end
+38003a2c g     F .text	00000904 DoCfgSet
+380256ac g     F .text	00000af8 PRLIB_122_SCAN
+3800d940 g     F .text	000002f4 meaCal_Thd
+380a67a4 g     F .platform_code	00000050 fpga_calc_crc32
+38030590 g     F .text	00000038 I02Logic_Init
+3806d140 g     F .text	00000030 __sread
+3805caf8 g     F .text	00000030 outbyte
+3801e94c g     F .text	00000144 Do_Lubo
+3805c460 g     F .text	00000130 XUartPs_SendBuffer
+38050ed4 g     F .text	000001c8 XUartNs550_RecvBuf
+3802181c g     F .text	000000c8 PRLIB_22
+38010f94 g     F .text	00000764 setDefGainValue
+3801f080 g     F .text	000000b4 Set_ERR_CODE
+3801ecec g     F .text	000000bc ResetProtectMaint
+380617cc g     F .text	00000004 __malloc_lock
+380a95f4 g     F .platform_code	000000f0 fpga_calc_goose_rcv_crc32
+38049d08 g     F .text	00000a7c createProtFdRef
+3804f41c g     F .text	00000058 extNvRamSet
+3805c2e0 g     F .text	00000180 XUartPs_Recv
+3809c0c4 g       .fini_array	00000000 __fini_array_start
+380ae350 g     F .platform_code	00000088 OS_GetIVGUsage
+3f160000 g       .shared_data	00000000 __no_cache_start
+380b0c70 g     F .platform_code	00000058 x_printf
+38069f1c g     F .text	00000058 _fflush_r
+3806ba38 g     F .text	000002fc __utf8_mbtowc
+380af084 g     F .platform_code	00000044 str_GetDateTimeString
+380af3d4 g     F .platform_code	000000c0 From_time_t
+38047d24 g     F .text	000001b0 WritePrFile
+3805fae4 g     F .text	00000090 _calloc_r
+38059c44 g     F .text	000001e4 XUartNs550_SendBuffer
+38052cc8 g     F .text	00000090 list_get
+38017350 g     F .text	00000aa0 CreateSysConfig
+3805d1ac g     F .text	0000004c Xil_L1DCacheEnable
+38018a58 g     F .text	00000104 WriteCosLP
+380338d4 g     F .text	00000040 BhqdLogic_Init
+3801ebc4 g     F .text	000000d8 WritePrParaMaint
+380a6380 g     F .platform_code	00000070 hd_gpio_SetDirectionOut
+3802051c g     F .text	00000b7c PRLIB_21_SCAN
+380ab42c g     F .platform_code	000001e8 hd_InitIsr_PrivateTimer
+380a33d4 g     F .platform_code	00000218 PowerOn_Init_MMU
+380650e8 g     F .text	00000004 __tz_lock
+380a1060 g     O .platform_data	00000004 LOGMSG_L4_ENABLE
+380aebc0 g     F .platform_code	000001c0 CheckFullTime
+38000f48 g     F .text	00000104 extYxRefresh
+3903059c g     O .bss	00000038 prNbSet
+384b4164 g       .dyn_memory	00000000 __dyn_memory_end
+384b4164 g       .bss	00000000 __bss_start
+00008000 g       *ABS*	00000000 _STACK_SIZE
+380ad95c g     F .platform_code	00000104 Print_MMUTable
+3809c0c8 g       .ARM.attributes	00000000 __tdata_start
+3809c0c8 g       .ARM.attributes	00000000 __tdata_end
+3805fc5c g     F .text	00000014 localtime
+38060e60 g     F .text	00000110 memset
+380af1f8 g     F .platform_code	000001dc ParseDateTimeString
+380ac750 g     F .platform_code	00000248 xSgiIntrSlowHandler
+384e6284 g     O .bss	00000004 YX_NUM
+380a2380 g     F .platform_code	00000020 main
+38045d30 g     F .text	00000280 prPubOtherSetRead
+380508cc g     F .text	00000078 ToCalClock
+384e5748 g     O .bss	00000004 __malloc_max_total_mem
+00402000 g       *ABS*	00000000 _HEAP_SIZE
+380a51c8 g     F .platform_code	00000074 on_bm_sv_rcv
+38073630 g     F .text	00000018 __swbuf
+380500b8 g     F .text	00000094 WriteMyioType
+3806be00 g     F .text	0000012c __eucjp_mbtowc
+380aae58 g     F .platform_code	000000e8 hd_ResigterIrqTsk
+380230b4 g     F .text	0000009c PRLIB_25
+3805a92c g     F .text	000000ec XUartNs550_InterruptHandler
+38014c10 g     F .text	00000028 gainget
+38058530 g     F .text	00000054 Xil_EnableMMU
+384e56f8 g     O .bss	00000004 backplane_check_cnt
+3805d970 g     F .text	00000000 .hidden __aeabi_uidiv
+380afdf8 g     F .platform_code	00000068 GetBaremetalInnerCommVerion
+384bc42c g     O .bss	00000004 diNUM
+3805794c g     F .text	0000011c XScuTimer_CfgInitialize
+38003490 g     F .text	00000084 GetDefDoCfg
+3806d1f8 g     F .text	00000008 __sclose
+38057a68 g     F .text	000000f8 XScuTimer_Start
+3801efd8 g     F .text	000000a8 yk_YB
+384e56e4 g     O .bss	00000004 sendtick2
+38071e00 g     F .text	00000014 fclose
+3805cb28 g     F .text	00000094 sleep_A9
+38062414 g     F .text	000001c0 _strtol_r
+3806a768 g     F .text	000000c8 _findenv_r
+3809c0c4 g       .init_array	00000000 __init_array_end
+38026ea4 g     F .text	00000638 PRLIB_124_SCAN
+38068acc g     F .text	00001228 _dtoa_r
+38060000 g     F .text	00000774 _malloc_r
+3805d234 g     F .text	000001cc Xil_L1DCacheInvalidate
+38018d1c g     F .text	00000164 WriteSysEvent
+38068284 g     F .text	00000028 __ascii_wctomb
+38059524 g     F .text	0000018c XTtcPs_GetOptions
+380abeb0 g     F .platform_code	000000fc hd_InitIsr_IdleTsk
+3809e060 g     O .platform_data	00000004 g_HdDrvDebug
+380a1064 g     O .platform_data	00000004 PRINTF_L1_ENABLE
+3805e120 g     F .text	00000060 .hidden __aeabi_l2d
+380a1038 g     O .platform_data	00000004 TRACE_L3_ENABLE
+390307dc g     O .bss	00000e00 aiProtCal
+380adb64 g     F .platform_code	00000028 OSStart
+380682f4 g     F .text	000000f4 __utf8_wctomb
+380548b4 g     F .text	0000014c XGpioPs_IntrEnablePin
+380537d8 g     F .text	000001b8 XGpioPs_WritePin
+38014be8 g     F .text	00000028 gainvalget
+38054a00 g     F .text	00000128 XGpioPs_IntrDisable
+38070064 g     F .text	000000a4 __submore
+3809272c g     O .data	00000004 pubfdNum
+38061a8c g     F .text	00000024 _init_signal
+38058fdc g     F .text	00000130 XTtcPs_CalcIntervalFromFreq
+380aa13c g     F .platform_code	00000058 fpga_msg_handle_inInt
+38071d04 g     F .text	00000004 __env_unlock
+380b04d8 g     F .platform_code	00000034 get_RegStringResourceStrLocal
+380a1068 g     O .platform_data	00000004 PRINTF_L2_ENABLE
+390214d4 g     O .bss	00000600 nFtBus
+3806a680 g     F .text	00000070 _fwalk
+3803fa7c g     F .text	00000064 GetHzbsYx
+3ef03000 g       .stack	00000000 _stack_end
+380529dc g     F .text	00000040 get_RegStringResourceLocal
+39037954 g     O .bss	00000004 Xil_AssertStatus
+384e56e0 g     O .bss	00000004 sendtick1
+384e5afc g     O .bss	00000002 pannelYx
+380328cc g     F .text	0000002c DjqdLogic_Init
+380a106c g     O .platform_data	00000004 PRINTF_L3_ENABLE
+3806b9ec g     F .text	0000004c _mbtowc_r
+38044ef8 g     F .text	000000ec prFdSetPartDef
+38027a90 g     F .text	000001a0 prInit
+3803a188 g     F .text	00000018 prBusDrv
+38005ae4 g     F .text	0000018c ykSelectGet
+3809381c g     O .data	0000045c tSetPubTable
+38047f34 g     F .text	00000034 WritePrPara
+380951f8 g       .data	00000000 ___DTORS_END___
+380ab9d0 g     F .platform_code	00000104 hd_setInterInt
+3805db7c g     F .text	00000220 .hidden __divsi3
+3805d6a8 g     F .text	000000c8 Xil_L1DCacheFlushRange
+384e56f4 g     O .bss	00000002 nSamCnt
+380af500 g     F .platform_code	00000020 get_version_libpub
+38058740 g     F .text	00000078 XTime_SetTime
+380ad638 g     F .platform_code	00000224 mem_Malloc
+38038928 g     F .text	00000ce8 PrJdJudge
+3809c0c8 g       .ARM.attributes	00000000 __sdata_end
+380a4fe0 g     F .platform_code	000001e8 on_bm_goose_rcv
+3806a2a0 g     F .text	000000fc _malloc_trim_r
+38031e24 g     F .text	0000002c IDirLogic_Init
+3805e8a0 g     F .text	00000024 .hidden __gnu_Unwind_ForcedUnwind
+38041cf0 g     F .text	00000e3c prPubSetConv
+3807badc g       .data	00000000 __sdata2_start
+380a5344 g     F .platform_code	00000064 Print_libbm
+384e4a50 g     O .bss	00000004 g_prInit
+3801be7c g     F .text	00000084 CheckSum
+380951f8 g       .data	00000000 __CTOR_END__
+384bc44c g     O .bss	00000004 pFdCfg
+390315dc g     O .bss	00000004 pCfg
+390253e4 g     O .bss	00000004 prRunInfo
+380065e0 g     F .text	00000074 GetDefPYcCfg_Public
+380951f8 g       .data	00000000 ___DTORS_LIST___
+380a4238 g     F .platform_code	0000002c soe_GetActionSoe
+3801ba8c g     F .text	00000294 turnLight
+380a85a8 g     F .platform_code	00000248 axi_goose_send_msg
+380650f0 g     F .text	00000010 _tzset_unlocked
+380b24fc g     F .platform_code	0000003c str_ToSettingGroupString
+38061d88 g     F .text	000002dc strcmp
+380ae114 g     F .platform_code	00000040 OSIsIntEnter
+3805d770 g     F .text	00000038 Xil_L1DCacheStoreLine
+38031c58 g     F .text	0000002c PTLogic_Init
+3806d040 g     F .text	00000080 siscanf
+38058028 g     F .text	00000094 XScuTimer_LookupConfig
+380168fc g     F .text	0000003c WriteParaFile
+38041898 g     F .text	000000e0 ReverseKSet
+380adbb0 g     F .platform_code	00000060 OSTimeTick
+380951f8 g       .data	00000000 __DTOR_LIST__
+380a92b0 g     F .platform_code	00000024 fpga_gps_time_odd_chk
+38000ad4 g     F .text	00000084 GetDefDiCfg
+380719e8 g     F .text	0000001c vfiprintf
+38030c74 g     F .text	00000038 I03Logic_Init
+38006f48 g     F .text	00000024 protectCal_CorrectBus
+3805e938 g     F .text	00000020 .hidden __gnu_Unwind_Resume_or_Rethrow
+380a2fec g     F .platform_code	000000e4 mc_inner_rcv_from_linux
+38093d50 g     O .data	00000008 szPower
+380a0864 g     O .platform_data	00000180 OS_IntCount
+380a6ae4 g     F .platform_code	000000dc axi_hp_set_sv_receive_control
+3809ce18 g       .platform_data	00000000 __platform_data_start
+380a6504 g     F .platform_code	00000050 hd_bsp_initial
+3902557c g     O .bss	00000004 prLogicPublic
+38052a1c g     F .text	0000002c list_init
+380a814c g     F .platform_code	000001c4 axi_hp_sys_init
+380aaf98 g     F .platform_code	00000330 hd_SetupInterruptSystem
+384f14bc g     O .bss	00000002 wFtSamCnt
+384bc758 g     O .bss	00000004 gainValid
+38073c40 g     F .fini	00000000 _fini
+3805f3e4 g     F .text	00000014 .hidden restore_core_regs
+380a8c80 g     F .platform_code	000001e4 Print_fpga_common_cfg
+38093f40 g     O .data	0000008c tKG2PubTable
+380a7ba4 g     F .platform_code	000000e0 axi_hp_set_sampling_msg0_interval_config
+3802ae58 g     F .text	000001f4 prSKgDo
+38018490 g     F .text	00000078 WriteYxFdT
+384e4ea6 g     O .bss	00000002 w_JD_MODE
+380a2b88 g     F .platform_code	000000c0 mc_inner_ClearSendBuf
+3805f4c4 g     F .text	00000000 .hidden __gnu_Unwind_Save_WMMXC
+380a4c20 g     F .platform_code	00000018 OnLeave_tsk500us
+384e4a5c g     O .bss	00000004 g_prlubo
+380ae21c g     F .platform_code	0000005c OS_Signal_Post
+380517a8 g     F .text	00000018 Uart_recv
+3803fb10 g     F .text	00000030 GetSetType
+380afb38 g     F .platform_code	000000a4 ClrBaremetalResetFlag
+3800a078 g     F .text	00000274 meaDataLoad_Yc
+380ae1c0 g     F .platform_code	0000005c OS_Signal_Pend
+3805b700 g     F .text	00000094 XUartNs550_IsSending
+3805d018 g     F .text	00000014 Xil_ICacheEnable
+380b2d64 g       .datadef_data	00000000 __datadef_data_start
+38061cfc g     F .text	00000070 sprintf
+38014bb0 g     F .text	00000038 gainvalset
+380b07c0 g     F .platform_code	000000bc PrintfEnable_Set
+38047ed4 g     F .text	00000034 ReadPrPara
+384e5a1c g     O .bss	00000004 _PathLocale
+380a91fc g     F .platform_code	000000b4 Print_fpga_eth_info
+38031368 g     F .text	00000044 UGyLogic_Init
+38041978 g     F .text	0000006c prGetRunSet
+38051478 g     F .text	00000180 uartns550_int
+380328f8 g     F .text	0000008c DjqdLogic
+38059710 g     F .text	000001a0 XUartNs550_CfgInitialize
+380a9878 g     F .platform_code	000001a0 Print_fpga_goose_rcv_cfg
+3ef0e000 g       .stack	00000000 _abort_stack_end
+380416a4 g     F .text	000001f4 CvtAng
+38005f14 g     F .text	00000144 adInit
+38053138 g     F .text	000000a4 list_cycle
+380a6628 g     F .platform_code	00000100 Print_gpio
+39021fd8 g     O .bss	00000004 pMeaGain
+380a6004 g     F .platform_code	00000020 get_version_libdrv
+390305d4 g     O .bss	0000003a tSetType
+38071ab0 g     F .text	00000198 _wcsnrtombs_r
+38000a10 g     F .text	000000c4 tRun
+38071c84 g     F .text	00000044 _write_r
+3809e0d8 g     O .platform_data	0000000c InterruptController
+3800f500 g     F .text	000002c8 meaRead_Yc1
+380b0704 g     F .platform_code	000000bc LogmsgEnable_Set
+384bc39c g     O .bss	00000090 lFtBus0
+380680ac g     F .text	00000048 _vsprintf_r
+380a47b4 g     F .platform_code	0000002c tskCommu
+3806b80c g     F .text	00000018 setlocale
+38074ead g     O .rodata	00000001 KG1_NUMBER
+380ae0bc g     F .platform_code	00000028 OSGetCurIVG
+380487bc g     F .text	000000c8 WriteU0LB
+3805fa98 g     F .text	00000008 .hidden _Unwind_GetTextRelBase
+38021098 g     F .text	00000134 PRLIB_21
+38040d4c g     F .text	000001f8 CvtHz
+380abcf4 g     F .platform_code	000001bc hd_InitIsr_TtcTimer
+380a7918 g     F .platform_code	000000c4 axi_hp_get_mac_addr_replace_enable
+3809e0f0 g     O .platform_data	00002700 irq_status
+380329ec g     F .text	00000798 CHLogic
+384f14c0 g     O .bss	00000004 adErr
+380b050c g     F .platform_code	00000044 get_RegStringResourceCount
+38093c78 g     O .data	00000001 SET_PUB_NUMBER
+38050364 g     F .text	00000054 shellprintf
+380947e0 g     O .data	00000004 _impure_ptr
+38006480 g     F .text	00000084 GetAdCfg
+380a9f08 g     F .platform_code	000000e4 Print_FpgaMsgStatistic
+390253e8 g     O .bss	00000004 pLogicElem
+38051dd4 g     F .text	00000038 goose_send_test
+38069cf4 g     F .text	00000228 __sflush_r
+380727d0 g     F .text	0000009c _mbrtowc_r
+380585e8 g     F .text	00000094 Xil_MemMap
+384f14c4 g     O .bss	00000004 aiChnNum
+3801ea90 g     F .text	00000134 ReadPrParaMaint
+3806b7f0 g     F .text	00000010 __locale_cjk_lang
+38092140 g     O .data	000000c8 FsxBuf3
+384e62b0 g     O .bss	00000008 g_DoState
+380522e8 g     F .text	00000034 xUndefinedExceptionHandler
+38000000 g       *ABS*	00000000 _CORE1_DDR_START_ADDR
+3809c0c0 g       .init_array	00000000 __preinit_array_end
+39025580 g     O .bss	00000004 pPublicSet
+3800f7c8 g     F .text	000005b4 meaRead_Mmi
+38025580 g     F .text	0000012c PRLIB_121
+3806d9bc g     F .text	0000141c _svfiprintf_r
+380aa588 g     F .platform_code	00000244 fpga_msg_on_rcv_sv
+38051440 g     F .text	00000038 UartNs550_InterruptHandler
+3801e3ac g     F .text	00000368 read_dzdef
+38039ee8 g     F .text	000002a0 prWritePubEvent
+38094004 g     O .data	0000000c buf
+3801f808 g     F .text	00000058 ProcData
+3804d73c g     F .text	00000750 InitFdSamRecordIndex
+3807badc g       .data	00000000 __sdata2_end
+38052b8c g     F .text	00000080 list_append
+390253ec g     O .bss	00000004 pRunInfo
+380b0b64 g     F .platform_code	0000010c x_trace
+39021fdc g     O .bss	00000004 pYcGain
+380026c0 g     F .text	00000404 WriteYxChnTime
+380a3c60 g     F .platform_code	00000244 soe_GetRawSoe
+3806b9a8 g     F .text	00000044 __ascii_mbtowc
+380a95a8 g     F .platform_code	0000004c fpga_gps_time_ns_decode
+380b058c g     F .platform_code	000000bc TraceEnable_Set
+380aa094 g     F .platform_code	000000a8 fpgs_msg_register_OnRcvGoose
+3806ca80 g     F .text	00000078 __ulp
+380a59a8 g     F .platform_code	000000b0 exp_SaveAbtSP
+3806a288 g     F .text	00000018 __fp_unlock_all
+3801cc1c g     F .text	0000011c write_ycgain
+380a5bc4 g     F .platform_code	000000d4 exp_get_stack_used
+38053f28 g     F .text	00000128 XGpioPs_SetOutputEnable
+380515f8 g     F .text	00000094 Uart_Send
+380033c0 g     F .text	000000d0 GetMyDiValue
+38001124 g     F .text	000000cc extYxGet
+380a6bc0 g     F .platform_code	0000007c axi_hp_set_sv_sampling_delay
+380ab614 g     F .platform_code	000000d0 hd_SetFpgaInt0
+380b2d64 g       .datadef_data	00000000 __datadef_data_end
+380b157c g     F .platform_code	00000040 str_GetCommQualityString
+3801e714 g     F .text	00000238 Senddotdef
+3807c7f4 g     O .data	000000c4 YkRelay_Dio_10
+38073c0c g     F .text	0000001c inbyte
+38014c38 g     F .text	00000028 gainset
+3801abf0 g     F .text	000001b0 SysConfigInit
+38051994 g     F .text	0000008c soe_GenRSignalSoe
+380932a4 g     O .data	00000014 szTrip
+380ae9c8 g     F .platform_code	00000050 ToDateTime
+380a1f14 g     O .platform_data	00000028 TenMultiple
+3805fa74 g     F .text	0000001c .hidden _Unwind_GetLanguageSpecificData
+38040470 g     F .text	00000198 FloatSetRange
+380932c4 g     O .data	00000008 szKgMd
+3800fd7c g     F .text	00000bbc createMeaFdRef
+3804f748 g     F .text	00000094 WriteMyDiValue
+38006058 g     F .text	00000034 scantime500us
+3809328c g     O .data	00000008 szJr
+3805697c g     F .text	00000134 XScuGic_Enable
+38050578 g     F .text	0000028c SystemClock
+3800a820 g     F .text	00000330 meaCalc_freqChanel
+380942d0 g     O .data	00000038 XExc_VectorTable
+38093c7c g     O .data	000000c8 tYbPubTable
+384e5768 g     O .bss	00000004 _timezone
+3805fc70 g     F .text	00000368 localtime_r
+3801b9ac g     F .text	000000e0 BSP_IO_Init
+3f000000 g     O .shared_data	00152790 g_SharedMemory
+39024e68 g     O .bss	00000004 g_pParafileTmp
+380afcb4 g     F .platform_code	00000098 GetBaremetalWaitFlag
+3804836c g     F .text	000000c8 WriteGLLB
+3806efe4 g     F .text	00001080 __ssvfiscanf_r
+38054698 g     F .text	00000094 XGpioPs_LookupConfig
+380313ac g     F .text	00000340 UGyLogic
+380a804c g     F .platform_code	00000098 axi_hp_get_goose_filter
+380211cc g     F .text	00000650 PRLIB_22_SCAN
+38015fac g     F .text	00000220 ioWarn
+3806b824 g     F .text	0000000c localeconv
+380a523c g     F .platform_code	00000090 PowerOn_Initial_Inner_Comm
+3804ad88 g     F .text	000001bc protValtoPub
+3805e974 g     F .text	00000068 .hidden _Unwind_VRS_Get
+384b7b9c g     O .bss	00004800 lFtBus
+380951f8 g       .data	00000000 ___CTORS_END___
+3806b830 g     F .text	00000094 __swhatbuf_r
+3804f5e0 g     F .text	000000b4 WriteSYX
+3ef0b000 g       .stack	00000000 __stack
+3805f4b0 g     F .text	00000000 .hidden __gnu_Unwind_Restore_WMMXC
+38052084 g     F .text	00000088 goose_recv_test
+384e4a60 g     O .bss	00000004 Val0
+38050804 g     F .text	00000054 GetSysClock
+3805db5c g     F .text	00000020 .hidden __aeabi_uidivmod
+38033184 g     F .text	00000058 JSLogic_Init
+3804f7dc g     F .text	0000007c WriteMyMyExtDiValue
+38000548 g     F .text	00000084 tCreate
+38006d90 g     F .text	00000184 Sqrt_Dword
+3ef02000 g       .heap	00000000 HeapLimit
+38058434 g     F .text	00000030 Xil_ExceptionRemoveHandler
+3809ce24 g     O .platform_data	000003a0 g_SoeBufferSave
+38036b78 g     F .text	00000054 GetFaultYx
+3804f3c4 g     F .text	00000058 extNvRamGet
+38073b20  w    F .text	000000c8 _write
+38019160 g     F .text	000000b8 WriteUlogEvent
+3805fa24 g     F .text	00000040 .hidden __gnu_unwind_frame
+380a31d4 g     F .platform_code	00000200 Print_To_Linux
+3805f544 g     F .text	00000024 .hidden _Unwind_ForcedUnwind
+3801ec9c g     F .text	00000050 WritePrParaFileMaint
+3801ffa0 g     F .text	00000030 SetTR_TRTT
+38014c60 g     F .text	00000018 gainzero
+384f14c8 g     O .bss	00b20000 nMeaSam
+38045b30 g     F .text	00000200 prPubSetRead
+384e4a80 g     O .bss	00000004 g_prPubInit
+3f1e1000 g       .shared_data	00000000 _end
+38019700 g     F .text	000003fc GetSysExtConfig
+38006504 g     F .text	00000068 GetDefPAiCfg
+380a085c g     O .platform_data	00000001 OSIntNesting
+380af5bc g     F .platform_code	00000154 CheckSharedBaremetalMemory
+3805be18 g     F .text	000000e0 XUartPs_ResetHw
+380942b8 g     O .data	00000008 XGpioPs_ConfigTable
+3804799c g     F .text	00000180 ReadSet
+3807badc g       .data	00000000 __rodata1_end
+38040f44 g     F .text	0000028c CvtI
+39021fe0 g     O .bss	00001580 nMeaFtBuf
+38071e14 g     F .text	00000108 __fputwc
+38055dd4 g     F .text	00000110 XGpioPs_SetCallbackHandler
+38093284 g     O .data	00000008 szTt
+38000d28 g     F .text	00000020 GetDefTVYxCfg_Comm
+380951f8 g       .data	00000000 __data1_end
+38065120 g     F .text	0000049c _tzset_unlocked_r
+38051a20 g     F .text	00000094 soe_GenActionSoe
+380a2760 g     F .platform_code	00000088 SetSystemTime2
+38006a78 g     F .text	000002a0 AngPQ
+380581c8 g     F .text	00000030 DataAbortInterrupt
+3809cc14 g       .platform_const	00000000 __platform_const_end
+3801cd38 g     F .text	00000118 write_ycgainval
+3800f048 g     F .text	000004b8 meaRead_Yc2
+380123b8 g     F .text	000005d0 meaGainGet
+3801ce50 g     F .text	000002d8 SendAC
+380a1048 g     O .platform_data	00000004 ASSERT_L2_ENABLE
+380a2f60 g     F .platform_code	0000008c mc_inner_rcv_buf_is_empty
+38050e00 g     F .text	00000018 _Z13enable_cachesv
+38027c9c g     F .text	00000110 WriteYxDelay
+38055ee4 g     F .text	0000014c XGpioPs_IntrHandler
+38053dd8 g     F .text	00000150 XGpioPs_GetDirectionPin
+3800e35c g     F .text	000000bc meaRead_DbValue
+38093818 g     O .data	00000001 KG2_NUMBER
+380a6924 g     F .platform_code	00000054 axi_hp_get_1pps_x2
+38050da0 g     F .text	00000060 GetSecond
+3806d178 g     F .text	00000054 __swrite
+38094720 g     O .data	000000c0 XUartNs550_ConfigTable
+38052d58 g     F .text	0000008c list_set
+3807c5d4 g     O .data	0000016c YkRelay_Dio_9
+380a44f0 g     F .platform_code	00000018 soe_ClrMeasureChgSoe
+3809501c g     O .data	00000004 __malloc_trim_threshold
+39021ad4 g     O .bss	00000200 lFt0
+380b0164 g     F .platform_code	00000158 RegisterStringToArray
+380a67f4 g     F .platform_code	0000006c axi_hp_swap32
+3eb00000 g       .heap	00000000 _heap
+380407dc g     F .text	00000194 CvtIp
+3806b7e4 g     F .text	0000000c __locale_msgcharset
+380a0858 g     O .platform_data	00000004 OS_ISRReg
+380afbdc g     F .platform_code	000000d8 SetBaremetalWaitFlag
+3805fb74 g     F .text	00000034 exit
+380a6468 g     F .platform_code	00000030 hd_gpio_ReadIn
+38070348 g     F .text	000016a0 _vfiprintf_r
+380b1844 g     F .platform_code	00000044 str_Getfp32ViewString
+3809329c g     O .data	00000008 szCd
+3806bf2c g     F .text	000001a4 __jis_mbtowc
+3806a6f0 g     F .text	00000078 _fwalk_reent
+3806c918 g     F .text	00000168 __mdiff
+380a084c g     O .platform_data	0000000a OS_Event
+38046964 g     F .text	000006d0 prSetInit
+38090be0 g     O .data	00000820 laFAFim2
+380552c4 g     F .text	00000178 XGpioPs_IntrClearPin
+3805f46c g     F .text	00000000 .hidden __gnu_Unwind_Save_WMMXD
+38059218 g     F .text	0000030c XTtcPs_SetOptions
+380a44bc g     F .platform_code	00000034 soe_GetMeasureChgSoeEx
+38073830  w    F .text	00000038 _kill
+38027c30 g     F .text	0000002c protect
+3807c1b0 g     O .data	000000e4 YkPort_Dio_2
+380a28b0 g     F .platform_code	00000050 PowerOn_Inital_Memory
+3809502c g     O .data	00000004 __ctype_ptr__
+380574b4 g     F .text	00000120 XScuGic_UnmapAllInterruptsFromCpu
+38035178 g     F .text	00000058 YxLogic_Init
+380aefb0 g     F .platform_code	000000d4 str_GetFullDateTimeShortYearString
+380a605c g     F .platform_code	0000002c hd_get_current_cpu_num
+38017df0 g     F .text	00000598 CreateRunParaConfig
+3805a5d0 g     F .text	000001ec XUartNs550_GetDataFormat
+38093d48 g     O .data	00000008 szUIType
+38041cd0 g     F .text	00000020 prPubSetMode
+3809c0c8 g       .ARM.attributes	00000000 __tbss_end
+3806a264 g     F .text	00000004 __sfp_lock_release
+380ada60 g     F .platform_code	00000104 OSInit
+38027dac g     F .text	000025bc prDataHandle
+39025584 g     O .bss	00000004 pCfgSL
+380ad2d8 g     F .platform_code	0000004c mem_Initial
+38005d30 g     F .text	000001b4 ykGetYb
+380abad4 g     F .platform_code	000001cc hd_InitIsr_SgiInt
+38011e7c g     F .text	000001b8 meaGainEEWrite
+380b1194 g     F .platform_code	00000090 ClrDebugMessage
+380a6a24 g     F .platform_code	00000024 axi_hp_get_timer_counter
+38072f6c g     F .text	000000c8 __sccl
+380ab8bc g     F .platform_code	00000114 hd_setSGIInt
+3805bf58 g     F .text	00000238 XUartPs_CfgInitialize
+3805fab4 g     F .text	0000000c atoi
+39025588 g     O .bss	00000004 pLogicPublic
+380a8e64 g     F .platform_code	0000021c Print_fpga_gps_info
+380a4cb0 g     F .platform_code	00000018 OnLeave_tskFast
+390315e4 g     O .bss	00000002 recordFdnum
+380780ec g     O .rodata	00000101 _ctype_
+380b3164 g     O .dyn_memory	00001000 BSP_ESRAM
+38073998  w    F .text	000000c0 _read
+380262e4 g     F .text	00000ac8 PRLIB_123_SCAN
+3809c0c0 g       .init_array	00000000 __init_array_start
+3805ddbc  w    F .text	00000004 .hidden __aeabi_idiv0
+380af0c8 g     F .platform_code	00000044 str_GetDateTimeWithUsString
+380af520 g     F .platform_code	00000038 get_buildtime_libpub
+38023ff8 g     F .text	000000c8 PRLIB_27
+3807c8b8 g     O .data	00000014 YkPoint_Dio_10
+3809e068 g     O .platform_data	00000018 gAxiHpCtrl
+3805323c g     F .text	000001f4 XGpioPs_CfgInitialize
+380a0840 g     O .platform_data	00000008 OSTime
+380951ec g     O .data	00000004 __mbtowc
+3807c740 g     O .data	00000024 YkPoint_Dio_9
+38057d58 g     F .text	000000e4 XScuTimer_GetPrescaler
+38016380 g     F .text	00000028 ioInit
+3805573c g     F .text	000003d8 XGpioPs_SetIntrTypePin
+3802b04c g     F .text	0000041c prRunInfoInit
+38073648  w    F .text	00000014 _exit
+3803694c g     F .text	000001f4 prReset
+380b1f88 g     F .platform_code	000001a8 str_Int32FloatToStringComplete
+380a7c84 g     F .platform_code	000000e0 axi_hp_set_sampling_msg1_interval_config
+39030610 g     O .bss	00000004 caSetBuf
+3805ccd8 g     F .text	00000050 Xil_DCacheInvalidateLine
+380a37ac g     F .platform_code	0000009c soe_IsSoeBufferEnabled
+38033508 g     F .text	000003cc WYFZLogic
+380adc10 g     F .platform_code	00000058 OSTimeGet
+39031ec0 g     O .bss	00000030 RXBUF
+38016938 g     F .text	00000250 FillPQConfig
+380a2d04 g     F .platform_code	0000025c mc_inner_send_to_linux
+380a2360 g     F .platform_code	00000020 _Z12getBuildTimev
+3804b654 g     F .text	00001854 protCal_AiVal
+380a4c08 g     F .platform_code	00000018 OnEnter_tsk500us
+3806b8c4 g     F .text	000000e4 __smakebuf_r
+38058108 g     F .text	00000030 FIQInterrupt
+38056be4 g     F .text	0000018c XScuGic_SoftwareIntr
+38004330 g     F .text	000000dc relayEnable
+38037390 g     F .text	000002b8 WaveJd_Interrupt
+380b18ec g     F .platform_code	00000040 str_Getfp64ViewString
+380163a8 g     F .text	0000003c GetDiValue
+38050270 g     F .text	00000034 BmReadLinux
+3809c2d0 g     O .platform_const	0000002c _DebugMessageStr
+380a421c g     F .platform_code	0000001c soe_GetActionSoeCount
+38062180 g     F .text	000000dc strlen
+380a58f0 g     F .platform_code	000000b8 exp_SaveUsrSP
+380a2604 g     F .platform_code	000000e8 GetLinuxSharedDateTime
+38053040 g     F .text	00000078 list_reverse
+380618c4 g     F .text	00000018 _init_signal_r
+3805efc4  w    F .text	00000008 .hidden __aeabi_unwind_cpp_pr1
+38047f08 g     F .text	0000002c WritePrParaYZ
+38004b38 g     F .text	000000bc ykId2Fd
+3ef0b000 g       .stack	00000000 _stack
+380a1070 g     O .platform_data	00000004 PRINTF_L4_ENABLE
+3902558c g     O .bss	00000004 pRunPublic
+39030614 g     O .bss	00000090 prSet
+380b0fdc g     F .platform_code	00000108 ShowDebugMessage
+380a70f0 g     F .platform_code	000000d0 axi_hp_get_sv_send_control
+380a61a0 g     F .platform_code	00000030 hd_sleep_mseconds
+38006724 g     F .text	00000064 GetDefTVYcCfg_Public
+38005c70 g     F .text	00000064 ykOutput
+380935fc g     O .data	00000008 sZCHZMode
+38053ca8 g     F .text	00000130 XGpioPs_GetDirection
+390306a4 g     O .bss	00000008 prRunSet
+38006f6c g     F .text	00000018 protectCal_Busft
+38095028 g     O .data	00000004 __wctomb
+38004bf4 g     F .text	000004cc ykSelect
+380688b8 g     F .text	00000050 div
+3803a394 g     F .text	00000074 protectlow
+3807032c g     F .text	0000001c __sprint_r
+380334b8 g     F .text	00000050 WYFZLogic_Init
+3805b9b0 g     F .text	00000194 XUartNs550_GetStats
+3806d2dc g     F .text	00000188 strchr
+39034ef0 g     O .bss	00001800 gooserecvbuf
+3800190c g     F .text	0000011c diCfgAddrSet
+38058300 g     F .text	00000030 Xil_AssertSetCallback
+380b2130 g     F .platform_code	000000e0 str_UInt32FloatToStringComplete
+3805b8f8 g     F .text	000000b8 XUartNs550_Initialize
+3805e0c4 g     F .text	00000048 .hidden __aeabi_f2d
+380560d4 g     F .text	000000f8 XScuGic_InterruptHandler
+384bc434 g     O .bss	00000004 ycNum
+3805fa90 g     F .text	00000008 .hidden _Unwind_GetDataRelBase
+3801f75c g     F .text	000000ac DoReceive
+3807bae0 g       .data	00000000 __data_start
+38024564 g     F .text	000000b4 PRLIB_28
+380a4f50 g     F .platform_code	00000090 PowerOn_RegisterTsk
+38056670 g     F .text	00000194 XScuGic_Connect
+38034e94 g     F .text	000002e4 HHLogic
+3800d2a8 g     F .text	0000028c meaCal_ft
+3805cfc8 g     F .text	00000050 Xil_DCacheStoreLine
+38016b88 g     F .text	000007c8 FillYcConfig
+38001f44 g     F .text	0000077c yxChnInit
+380a4cf8 g     F .platform_code	00000018 OnEnter_tskComm
+38045268 g     F .text	00000434 prSetTableWrite
+380682ac g     F .text	00000048 _wctomb_r
+38071d00 g     F .text	00000004 __env_lock
+3804e310 g     F .text	000005e0 WAV_Record_Interrupt
+380b29b0 g     F .platform_code	000000a8 f_CarmackSqrt
+3ef0f000 g       .stack	00000000 _fiq_stack_end
+39023560 g     O .bss	00001900 nMeaBuf
+380ace28 g     F .platform_code	00000248 xFpgaIntHandler
+3eb00000 g       *ABS*	00000000 _CORE1_HEAP_START_ADDR
+390253f0 g     O .bss	00000008 pU0_I0
+380598b0 g     F .text	000001c0 XUartNs550_Send
+380a4360 g     F .platform_code	00000034 soe_GetRSignalSoeEx
+3804d108 g     F .text	0000009c RecordWaitWrite
+3803613c g     F .text	000002c4 IRcdLogic
+3805ddc8 g     F .text	000002b0 .hidden __subdf3
+380655d8 g     F .text	0000293c _vfprintf_r
+38036738 g     F .text	00000034 YxTzLogic_Init
+380067e4 g     F .text	00000064 GetDefTVYxCfg_FdPublic
+3809c0c0 g       .init_array	00000000 __preinit_array_start
+3805d500 g     F .text	00000170 Xil_L1DCacheFlush
+38058b10 g     F .text	00000134 XTtcPs_SetMatchValue
+384b7b90 g     O .bss	00000001 bFK
+380a52cc g     F .platform_code	00000020 inner_comm_handle_intask
+38036b40 g     F .text	00000038 ResetProtect
+38036cd8 g     F .text	0000005c prNodeCoef
+00001000 g       *ABS*	00000000 _UNDEF_STACK_SIZE
+380464cc g     F .text	00000498 prSetJudgyNum
+380a2a14 g     F .platform_code	0000004c OS_StartToRun
+380a085d g     O .platform_data	00000001 OSCurIntIVG
+380a4334 g     F .platform_code	0000002c soe_GetRSignalSoe
+380a6088 g     F .platform_code	00000028 hd_get_current_cpu_main_id
+38055044 g     F .text	00000158 XGpioPs_IntrGetStatusPin
+39025590 g     O .bss	00000004 pLogicLow
+3805d844 g     F .text	0000002c Xil_L1ICacheInvalidate
+38065100 g     F .text	00000020 tzset
+380a8b78 g     F .platform_code	00000020 axi_get_fpga_ctrl
+3806c41c g     F .text	00000098 __lo0bits
+38064eb4 g     F .text	00000234 __tzcalc_limits
+380932cc g     O .data	00000008 szFaultDz
+380190ac g     F .text	000000b4 WriteFaEvent
+39021cd4 g     O .bss	00000001 byCorrect
+3800a2ec g     F .text	00000534 meaCalc_freq
+3805dd9c g     F .text	00000020 .hidden __aeabi_idivmod
+384bca40 g     O .bss	00000004 myfdYkId
+3800104c g     F .text	000000d8 GetMyExtDiValue
+3802f444 g     F .text	000003e8 IGfhLogic
+380a79dc g     F .platform_code	00000038 axi_hp_set_analog_sampling_filter_delay
+3805e180 g     F .text	00000000 .hidden __aeabi_ldivmod
+380572e8 g     F .text	000000d4 XScuGic_InterruptMaptoCpu
+38032070 g     F .text	00000068 WLLogic_Init
+38070108 g     F .text	00000164 _ungetc_r
+3807c294 g     O .data	00000214 YkRelay_Dio_2
+38052e68 g     F .text	000001d8 list_swap
+38061ab0 g     F .text	00000014 __sigtramp
+380b2f64 g       .datadef_code	00000000 __datadef_code_end
+3807badc g       *ABS*	00000000 _SDA2_BASE_
+38058464 g     F .text	00000014 Xil_DataAbortHandler
+380587b8 g     F .text	00000090 XTime_GetTime
+38036bcc g     F .text	0000010c prReadGzEvent
+3804ee6c g     F .text	000003dc WriteParaBmFile
+38068198 g     F .text	00000090 wcrtomb
+380a7568 g     F .platform_code	00000084 axi_hp_sv_cp_msg_to_sendbuf
+380a69ac g     F .platform_code	00000020 axi_hp_get_backplane_status
+3803f898 g     F .text	000001e4 ykTypeSave
+380583d4 g     F .text	00000060 Xil_GetExceptionRegisterHandler
+3801fd18 g     F .text	00000288 RunTR
+00000200 g       *ABS*	00000000 _CORE1_PLATFORM_RESERVE
+380b1804 g     F .platform_code	00000040 str_GetHex64ViewString
+3806cfa0 g     F .text	000000a0 frexp
+3805478c g     F .text	00000128 XGpioPs_IntrEnable
+380a1f04 g     O .platform_data	00000010 g_DEBUG_MESSAGE
+3809c000 g       .mmu_tbl	00000000 __mmu_tbl_end
+38054dac g     F .text	00000168 XGpioPs_IntrGetEnabledPin
+380a4d10 g     F .platform_code	00000018 OnLeave_tskComm
+3804fc88 g     F .text	000000a4 ReadRecordBuf
+3809326c g     O .data	00000008 szDz
+3f1e1000 g       .shared_data	00000000 __no_cache_end
+380509d8 g     F .text	000001bc ClockIsOk
+380a2a60 g     F .platform_code	00000128 PowerOn_Init_McInnerComm
+38054c74 g     F .text	00000138 XGpioPs_IntrGetEnabled
+390253f8 g     O .bss	00000168 gAiIndex
+3802267c g     F .text	000000e8 PRLIB_23
+3805231c g     F .text	00000310 hd_SetTtcTimer
+3801ffd0 g     F .text	0000003c PreSetTime
+3805910c g     F .text	000000ac XTtcPs_LookupConfig
+3805cc68 g     F .text	00000014 Xil_DCacheEnable
+380943fc g     O .data	00000020 XUartPs_ConfigTable
+3809c0c8 g       .ARM.attributes	00000000 __ARM.attributes_start
+384e4a7c g     O .bss	00000004 g_jdinit
+3802ab30 g     F .text	00000034 prWavRecord
+38067f14 g     F .text	0000001c vfprintf
+3801bdd4 g     F .text	000000a8 runlinuxled
+3805d438 g     F .text	000000c8 Xil_L1DCacheInvalidateRange
+380a3ea4 g     F .platform_code	00000254 soe_AddOneSoe
+380b1328 g     F .platform_code	00000084 str_GetSoftVersionString
+380a3848 g     F .platform_code	00000104 soe_GetSoeBufferCount
+3804fadc g     F .text	000001ac WriteDSOE
+38071f3c g     F .text	00000068 fputwc
+38073720  w    F .text	00000024 _close
+3806a848 g     F .text	0000000c __gettzinfo
+38061a60 g     F .text	00000014 raise
+380aea18 g     F .platform_code	000001a8 IRIG_to_FullDateTime
+3801f544 g     F .text	00000064 scan_maint
+38091894 g     O .data	00000200 crccode
+380116f8 g     F .text	00000574 meaGainInit
+390114c8 g     O .bss	00000002 wMeaSamCnt
+3805ffec g     F .text	00000014 free
+3806a268 g     F .text	00000004 __sinit_lock_acquire
+380a43ac g     F .platform_code	000000c8 soe_AddNewMeasureChgSoe
+380a8c1c g     F .platform_code	00000064 FPGA_CPLD_WRITE
+3806c214 g     F .text	000000d0 __multadd
+3806c1f8 g     F .text	0000001c _Bfree
+380501e0 g     F .text	00000090 DoBmUrgency
+3806a830 g     F .text	00000018 _getenv_r
+384e6288 g     O .bss	00000028 g_RawDiValue
+
+

@@ -1,0 +1,113 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include src/source/src/system/os/subdir.mk
+-include src/source/src/system/myio/yx/subdir.mk
+-include src/source/src/system/myio/yk/subdir.mk
+-include src/source/src/system/myio/yc/drv/subdir.mk
+-include src/source/src/system/myio/yc/subdir.mk
+-include src/source/src/system/myio/subdir.mk
+-include src/source/src/system/common/subdir.mk
+-include src/source/src/system/comm/serial/uart/subdir.mk
+-include src/source/src/system/comm/serial/subdir.mk
+-include src/source/src/system/comm/lan/subdir.mk
+-include src/source/src/system/comm/subdir.mk
+-include src/source/src/system/bsp/subdir.mk
+-include src/source/src/protocols/xj103/subdir.mk
+-include src/source/src/protocols/sntp/subdir.mk
+-include src/source/src/protocols/sf103netm/subdir.mk
+-include src/source/src/protocols/sac103/subdir.mk
+-include src/source/src/protocols/pn103m/subdir.mk
+-include src/source/src/protocols/modbusmNet/subdir.mk
+-include src/source/src/protocols/modbusm/subdir.mk
+-include src/source/src/protocols/mdcp/subdir.mk
+-include src/source/src/protocols/ipacs103/subdir.mk
+-include src/source/src/protocols/gz/subdir.mk
+-include src/source/src/protocols/gps/subdir.mk
+-include src/source/src/protocols/gb104sh/subdir.mk
+-include src/source/src/protocols/gb103/subdir.mk
+-include src/source/src/protocols/gb101/subdir.mk
+-include src/source/src/protocols/extdisp/subdir.mk
+-include src/source/src/protocols/dlq/subdir.mk
+-include src/source/src/protocols/cy103/subdir.mk
+-include src/source/src/protocols/cdt/subdir.mk
+-include src/source/src/protocols/NR103/subdir.mk
+-include src/source/src/protocols/Irigb/subdir.mk
+-include src/source/src/protocol/public/ecc/subdir.mk
+-include src/source/src/protocol/public/subdir.mk
+-include src/source/src/protocol/maint/subdir.mk
+-include src/source/src/protocol/gb104/subdir.mk
+-include src/source/src/protocol/commtest/subdir.mk
+-include src/source/src/product/protect/subdir.mk
+-include src/source/src/product/pb/subdir.mk
+-include src/source/src/product/mmi/extmmi/subdir.mk
+-include src/source/src/product/mmi/subdir.mk
+-include src/source/src/bmlinux/subdir.mk
+-include src/source/src/subdir.mk
+-include src/subdir.mk
+-include subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(CC_DEPS)),)
+-include $(CC_DEPS)
+endif
+ifneq ($(strip $(C_UPPER_DEPS)),)
+-include $(C_UPPER_DEPS)
+endif
+ifneq ($(strip $(CXX_DEPS)),)
+-include $(CXX_DEPS)
+endif
+ifneq ($(strip $(S_UPPER_DEPS)),)
+-include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+ifneq ($(strip $(CPP_DEPS)),)
+-include $(CPP_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ELFSIZE += \
+ipacs5612.elf.size \
+
+
+# All Target
+all: ipacs5612.elf secondary-outputs
+
+# Tool invocations
+ipacs5612.elf: $(OBJS)  $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: ARM v7 Linux g++ linker'
+	arm-linux-gnueabihf-g++  -o "ipacs5612.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+ipacs5612.elf.size: ipacs5612.elf
+	@echo 'Invoking: ARM v7 Linux Print Size'
+	arm-linux-gnueabihf-size ipacs5612.elf  |tee "ipacs5612.elf.size"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(CC_DEPS)$(EXECUTABLES)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(CPP_DEPS)$(ELFSIZE) ipacs5612.elf
+	-@echo ' '
+
+secondary-outputs: $(ELFSIZE)
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets

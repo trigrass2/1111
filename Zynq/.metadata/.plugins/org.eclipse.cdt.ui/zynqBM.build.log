@@ -1,0 +1,271 @@
+11:38:49 **** Build of configuration Debug for project zynqBM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ipacs/src/system/os/os.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/os/os.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/os/os.d" -MT"src/ipacs/src/system/os/os.o" -o "src/ipacs/src/system/os/os.o" "../src/ipacs/src/system/os/os.c"
+Finished building: ../src/ipacs/src/system/os/os.c
+ 
+Building file: ../src/ipacs/src/system/myio/yx/di.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yx/di.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yx/di.d" -MT"src/ipacs/src/system/myio/yx/di.o" -o "src/ipacs/src/system/myio/yx/di.o" "../src/ipacs/src/system/myio/yx/di.c"
+Finished building: ../src/ipacs/src/system/myio/yx/di.c
+ 
+Building file: ../src/ipacs/src/system/myio/yx/extyx.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yx/extyx.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yx/extyx.d" -MT"src/ipacs/src/system/myio/yx/extyx.o" -o "src/ipacs/src/system/myio/yx/extyx.o" "../src/ipacs/src/system/myio/yx/extyx.c"
+Finished building: ../src/ipacs/src/system/myio/yx/extyx.c
+ 
+Building file: ../src/ipacs/src/system/myio/yx/yx.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yx/yx.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yx/yx.d" -MT"src/ipacs/src/system/myio/yx/yx.o" -o "src/ipacs/src/system/myio/yx/yx.o" "../src/ipacs/src/system/myio/yx/yx.c"
+Finished building: ../src/ipacs/src/system/myio/yx/yx.c
+ 
+Building file: ../src/ipacs/src/system/myio/yk/do.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yk/do.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yk/do.d" -MT"src/ipacs/src/system/myio/yk/do.o" -o "src/ipacs/src/system/myio/yk/do.o" "../src/ipacs/src/system/myio/yk/do.c"
+Finished building: ../src/ipacs/src/system/myio/yk/do.c
+ 
+Building file: ../src/ipacs/src/system/myio/yk/yk.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yk/yk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yk/yk.d" -MT"src/ipacs/src/system/myio/yk/yk.o" -o "src/ipacs/src/system/myio/yk/yk.o" "../src/ipacs/src/system/myio/yk/yk.c"
+Finished building: ../src/ipacs/src/system/myio/yk/yk.c
+ 
+Building file: ../src/ipacs/src/system/myio/yc/ad.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yc/ad.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yc/ad.d" -MT"src/ipacs/src/system/myio/yc/ad.o" -o "src/ipacs/src/system/myio/yc/ad.o" "../src/ipacs/src/system/myio/yc/ad.c"
+Finished building: ../src/ipacs/src/system/myio/yc/ad.c
+ 
+Building file: ../src/ipacs/src/system/myio/yc/ai.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yc/ai.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yc/ai.d" -MT"src/ipacs/src/system/myio/yc/ai.o" -o "src/ipacs/src/system/myio/yc/ai.o" "../src/ipacs/src/system/myio/yc/ai.c"
+Finished building: ../src/ipacs/src/system/myio/yc/ai.c
+ 
+Building file: ../src/ipacs/src/system/myio/yc/ft.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yc/ft.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yc/ft.d" -MT"src/ipacs/src/system/myio/yc/ft.o" -o "src/ipacs/src/system/myio/yc/ft.o" "../src/ipacs/src/system/myio/yc/ft.c"
+Finished building: ../src/ipacs/src/system/myio/yc/ft.c
+ 
+Building file: ../src/ipacs/src/system/myio/yc/yc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/yc/yc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/yc/yc.d" -MT"src/ipacs/src/system/myio/yc/yc.o" -o "src/ipacs/src/system/myio/yc/yc.o" "../src/ipacs/src/system/myio/yc/yc.c"
+../src/ipacs/src/system/myio/yc/yc.c: In function 'measure':
+../src/ipacs/src/system/myio/yc/yc.c:1800:13: warning: variable 'num' set but not used [-Wunused-but-set-variable]
+  static int num = MAX_AI_NUM;
+             ^~~
+Finished building: ../src/ipacs/src/system/myio/yc/yc.c
+ 
+Building file: ../src/ipacs/src/system/myio/myio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/myio/myio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/myio/myio.d" -MT"src/ipacs/src/system/myio/myio.o" -o "src/ipacs/src/system/myio/myio.o" "../src/ipacs/src/system/myio/myio.c"
+Finished building: ../src/ipacs/src/system/myio/myio.c
+ 
+Building file: ../src/ipacs/src/system/common/para.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/common/para.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/common/para.d" -MT"src/ipacs/src/system/common/para.o" -o "src/ipacs/src/system/common/para.o" "../src/ipacs/src/system/common/para.c"
+../src/ipacs/src/system/common/para.c: In function 'FillYcConfig':
+../src/ipacs/src/system/common/para.c:116:26: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  short ua,ub,uc,ia,ib,ic,s,ainum;
+                          ^
+Finished building: ../src/ipacs/src/system/common/para.c
+ 
+Building file: ../src/ipacs/src/system/common/sys.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/common/sys.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/common/sys.d" -MT"src/ipacs/src/system/common/sys.o" -o "src/ipacs/src/system/common/sys.o" "../src/ipacs/src/system/common/sys.c"
+../src/ipacs/src/system/common/sys.c: In function 'ApplicationInit':
+../src/ipacs/src/system/common/sys.c:848:2: warning: implicit declaration of function 'Print_fpga_eth_info' [-Wimplicit-function-declaration]
+  Print_fpga_eth_info();
+  ^~~~~~~~~~~~~~~~~~~
+../src/ipacs/src/system/common/sys.c:849:2: warning: implicit declaration of function 'Print_fpga_goose_rcv_cfg' [-Wimplicit-function-declaration]
+  Print_fpga_goose_rcv_cfg();
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/ipacs/src/system/common/sys.c:851:2: warning: implicit declaration of function 'uartns550_int' [-Wimplicit-function-declaration]
+  uartns550_int(0);
+  ^~~~~~~~~~~~~
+Finished building: ../src/ipacs/src/system/common/sys.c
+ 
+Building file: ../src/ipacs/src/system/bsp/bsp.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/system/bsp/bsp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/system/bsp/bsp.d" -MT"src/ipacs/src/system/bsp/bsp.o" -o "src/ipacs/src/system/bsp/bsp.o" "../src/ipacs/src/system/bsp/bsp.c"
+Finished building: ../src/ipacs/src/system/bsp/bsp.c
+ 
+Building file: ../src/ipacs/src/protocol/maint.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/protocol/maint.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/protocol/maint.d" -MT"src/ipacs/src/protocol/maint.o" -o "src/ipacs/src/protocol/maint.o" "../src/ipacs/src/protocol/maint.c"
+Finished building: ../src/ipacs/src/protocol/maint.c
+ 
+Building file: ../src/ipacs/src/protocol/pcol.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/protocol/pcol.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/protocol/pcol.d" -MT"src/ipacs/src/protocol/pcol.o" -o "src/ipacs/src/protocol/pcol.o" "../src/ipacs/src/protocol/pcol.c"
+Finished building: ../src/ipacs/src/protocol/pcol.c
+ 
+Building file: ../src/ipacs/src/product/protect/PrLib.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/PrLib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/PrLib.d" -MT"src/ipacs/src/product/protect/PrLib.o" -o "src/ipacs/src/product/protect/PrLib.o" "../src/ipacs/src/product/protect/PrLib.c"
+Finished building: ../src/ipacs/src/product/protect/PrLib.c
+ 
+Building file: ../src/ipacs/src/product/protect/PrLogic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/PrLogic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/PrLogic.d" -MT"src/ipacs/src/product/protect/PrLogic.o" -o "src/ipacs/src/product/protect/PrLogic.o" "../src/ipacs/src/product/protect/PrLogic.c"
+../src/ipacs/src/product/protect/PrLogic.c: In function 'RelayLogic':
+../src/ipacs/src/product/protect/PrLogic.c:4076:32: warning: variable 'bNUFZ' set but not used [-Wunused-but-set-variable]
+   BOOL bFZ,bHZ,bTwj,bTwj0,bHwj,bNUFZ,bEver,bKgFZ,bSwitchTrip;
+                                ^~~~~
+../src/ipacs/src/product/protect/PrLogic.c:4076:21: warning: variable 'bTwj0' set but not used [-Wunused-but-set-variable]
+   BOOL bFZ,bHZ,bTwj,bTwj0,bHwj,bNUFZ,bEver,bKgFZ,bSwitchTrip;
+                     ^~~~~
+Finished building: ../src/ipacs/src/product/protect/PrLogic.c
+ 
+Building file: ../src/ipacs/src/product/protect/PrLogicJd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/PrLogicJd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/PrLogicJd.d" -MT"src/ipacs/src/product/protect/PrLogicJd.o" -o "src/ipacs/src/product/protect/PrLogicJd.o" "../src/ipacs/src/product/protect/PrLogicJd.c"
+Finished building: ../src/ipacs/src/product/protect/PrLogicJd.c
+ 
+Building file: ../src/ipacs/src/product/protect/PrLogicPublic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/PrLogicPublic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/PrLogicPublic.d" -MT"src/ipacs/src/product/protect/PrLogicPublic.o" -o "src/ipacs/src/product/protect/PrLogicPublic.o" "../src/ipacs/src/product/protect/PrLogicPublic.c"
+../src/ipacs/src/product/protect/PrLogicPublic.c: In function 'ResetHwSY':
+../src/ipacs/src/product/protect/PrLogicPublic.c:2047:9: warning: unused variable 'ret' [-Wunused-variable]
+     int ret;
+         ^~~
+Finished building: ../src/ipacs/src/product/protect/PrLogicPublic.c
+ 
+Building file: ../src/ipacs/src/product/protect/PrSet.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/PrSet.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/PrSet.d" -MT"src/ipacs/src/product/protect/PrSet.o" -o "src/ipacs/src/product/protect/PrSet.o" "../src/ipacs/src/product/protect/PrSet.c"
+Finished building: ../src/ipacs/src/product/protect/PrSet.c
+ 
+Building file: ../src/ipacs/src/product/protect/Prcal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/Prcal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/Prcal.d" -MT"src/ipacs/src/product/protect/Prcal.o" -o "src/ipacs/src/product/protect/Prcal.o" "../src/ipacs/src/product/protect/Prcal.c"
+../src/ipacs/src/product/protect/Prcal.c: In function 'createProtFdRef':
+../src/ipacs/src/product/protect/Prcal.c:178:25: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+   memset(pFdCfg[i].pdI, NULL, 4*sizeof(DWORD *));
+                         ^~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common/sys.h:19,
+                 from ../src/ipacs/src/product/protect/Prcal.c:5:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\string.h:25:7: note: expected 'int' but argument is of type 'void *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+../src/ipacs/src/product/protect/Prcal.c:179:25: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+   memset(pFdCfg[i].pdU, NULL, 4*sizeof(DWORD *));
+                         ^~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common/sys.h:19,
+                 from ../src/ipacs/src/product/protect/Prcal.c:5:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\string.h:25:7: note: expected 'int' but argument is of type 'void *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+../src/ipacs/src/product/protect/Prcal.c:180:27: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+   memset(pFdCfg[i].pdUxx, NULL, 3*sizeof(DWORD *));
+                           ^~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common/sys.h:19,
+                 from ../src/ipacs/src/product/protect/Prcal.c:5:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\string.h:25:7: note: expected 'int' but argument is of type 'void *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+../src/ipacs/src/product/protect/Prcal.c:181:29: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+   memset(pFdCfg[i].pdI_Hw2, NULL, 4*sizeof(DWORD *));
+                             ^~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common/sys.h:19,
+                 from ../src/ipacs/src/product/protect/Prcal.c:5:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\string.h:25:7: note: expected 'int' but argument is of type 'void *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+../src/ipacs/src/product/protect/Prcal.c:182:29: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+   memset(pFdCfg[i].pdUSlip, NULL, 3*sizeof(DWORD *));
+                             ^~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common/sys.h:19,
+                 from ../src/ipacs/src/product/protect/Prcal.c:5:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\string.h:25:7: note: expected 'int' but argument is of type 'void *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+Finished building: ../src/ipacs/src/product/protect/Prcal.c
+ 
+Building file: ../src/ipacs/src/product/protect/record.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/product/protect/record.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/product/protect/record.d" -MT"src/ipacs/src/product/protect/record.o" -o "src/ipacs/src/product/protect/record.o" "../src/ipacs/src/product/protect/record.c"
+Finished building: ../src/ipacs/src/product/protect/record.c
+ 
+Building file: ../src/ipacs/src/bm_linux.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/bm_linux.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/bm_linux.d" -MT"src/ipacs/src/bm_linux.o" -o "src/ipacs/src/bm_linux.o" "../src/ipacs/src/bm_linux.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from E:\xilinx\Zynq\libbm\src\h_bm/plt_include.h:20,
+                 from ../src/ipacs/src/bm_linux.c:1:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from E:\xilinx\Zynq\libpub\src\h_public/plt_inc_c.h:32:0,
+                 from E:\xilinx\Zynq\libbm\src\h_bm/plt_include.h:19,
+                 from ../src/ipacs/src/bm_linux.c:1:
+../src/ipacs/src/bm_linux.c: In function 'DoBmUrgency':
+E:\xilinx\Zynq\libpub\src\h_public/plt_BaseType.h:284:19: warning: 'return' with a value, in function returning void
+ #define ERROR     -1
+                   ^
+../src/ipacs/src/bm_linux.c:460:10: note: in expansion of macro 'ERROR'
+   return ERROR;
+          ^~~~~
+../src/ipacs/src/bm_linux.c:456:6: note: declared here
+ void DoBmUrgency(void)
+      ^~~~~~~~~~~
+../src/ipacs/src/bm_linux.c:464:3: warning: implicit declaration of function 'doreadchnbuf' [-Wimplicit-function-declaration]
+   doreadchnbuf();
+   ^~~~~~~~~~~~
+Finished building: ../src/ipacs/src/bm_linux.c
+ 
+Building file: ../src/ipacs/src/clock.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yc" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\common" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yk" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\myio\yx" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\product\protect" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\os" -I"E:\xilinx\Zynq\zynqBM\src\ipacs\h\system\bsp" -c -fmessage-length=0 -MT"src/ipacs/src/clock.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ipacs/src/clock.d" -MT"src/ipacs/src/clock.o" -o "src/ipacs/src/clock.o" "../src/ipacs/src/clock.c"
+Finished building: ../src/ipacs/src/clock.c
+ 
+Building file: ../src/Export_if/plt_if_build.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -c -fmessage-length=0 -MT"src/Export_if/plt_if_build.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/Export_if/plt_if_build.d" -MT"src/Export_if/plt_if_build.o" -o "src/Export_if/plt_if_build.o" "../src/Export_if/plt_if_build.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from E:\xilinx\Zynq\libbm\src\h_bm/plt_include.h:20,
+                 from E:\xilinx\Zynq\libpub\src\h_public/Export_Inc.h:15,
+                 from ../src/Export_if/plt_if_build.c:13:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/Export_if/plt_if_build.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from E:\xilinx\Zynq\libdrv\src\h_drv/libdrv.h:12:0,
+                 from E:\xilinx\Zynq\libbm\src\h_bm/plt_include.h:20,
+                 from ../src/main.c:56:
+E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -D_DEBUG -D_PROT_UNIT_ -Wall -O0 -g3 -I"E:\xilinx\Zynq\libpub\src\h_public" -I"E:\xilinx\Zynq\libdrv\src\h_drv" -I"E:\xilinx\Zynq\libbm\src\h_bm" -I"E:\xilinx\Zynq\zynqBM\src" -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I"E:\xilinx\Zynq\zynqBM_bsp\ps7_cortexa9_1\include" -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: zynqBM.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -L"E:\xilinx\Zynq\libbm\lib" -L"E:\xilinx\Zynq\libpub\lib" -L"E:\xilinx\Zynq\libdrv\lib" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../zynqBM_bsp/ps7_cortexa9_1/lib -o "zynqBM.elf"  ./src/ipacs/src/system/os/os.o  ./src/ipacs/src/system/myio/yx/di.o ./src/ipacs/src/system/myio/yx/extyx.o ./src/ipacs/src/system/myio/yx/yx.o  ./src/ipacs/src/system/myio/yk/do.o ./src/ipacs/src/system/myio/yk/yk.o  ./src/ipacs/src/system/myio/yc/ad.o ./src/ipacs/src/system/myio/yc/ai.o ./src/ipacs/src/system/myio/yc/ft.o ./src/ipacs/src/system/myio/yc/yc.o  ./src/ipacs/src/system/myio/myio.o  ./src/ipacs/src/system/common/para.o ./src/ipacs/src/system/common/sys.o  ./src/ipacs/src/system/bsp/bsp.o  ./src/ipacs/src/protocol/maint.o ./src/ipacs/src/protocol/pcol.o  ./src/ipacs/src/product/protect/PrLib.o ./src/ipacs/src/product/protect/PrLogic.o ./src/ipacs/src/product/protect/PrLogicJd.o ./src/ipacs/src/product/protect/PrLogicPublic.o ./src/ipacs/src/product/protect/PrSet.o ./src/ipacs/src/product/protect/Prcal.o ./src/ipacs/src/product/protect/record.o  ./src/ipacs/src/bm_linux.o ./src/ipacs/src/clock.o  ./src/Export_if/plt_if_build.o  ./src/main.o ./src/platform.o   -lbmD -ldrvD -lpubD -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynqBM.elf
+ 
+make --no-print-directory post-build
+arm-none-eabi-objdump.exe -t zynqBM.elf > zynqBM_1.txt && arm-none-eabi-objdump.exe -d zynqBM.elf > zynqBM_2.txt && arm-none-eabi-nm -a -n zynqBM.elf > zynqBM_3.txt && arm-none-eabi-readelf -a zynqBM.elf > zynqBM_4.txt&&arm-none-eabi-objcopy -O binary -S zynqBM.elf zynqBM.bin
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size zynqBM.elf  |tee "zynqBM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 584408	 128912	22507000	23220320	1625060	zynqBM.elf
+Finished building: zynqBM.elf.size
+ 
+
+11:39:35 Build Finished (took 45s.398ms)
+
